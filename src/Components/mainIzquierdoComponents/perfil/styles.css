@@ -44,19 +44,19 @@
     }
 
     .perfil-titulo {
-        font-size: 9px;
+        font-size: 8px;
         padding: 0.2rem;
     }
 
     .perfil-parrafo-container {
-        width: 6rem;
-        line-height: 7px;
-        gap: 0.8rem;
+        width: 5.5rem;
+        line-height: 5.5px;
+        gap: 0.6rem;
     }
 
     .perfil-titulo-descripcion-parrafo-container {
         gap: 0.2rem;
-        font-size: 6.5px;
+        font-size: 6px;
     }
 
 
