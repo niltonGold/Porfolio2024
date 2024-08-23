@@ -55,11 +55,11 @@ return (
                             width: '100%', 
                             fontWeight: 'bold',
                 
-                            '@media (max-width: 480px)': {
-                                fontSize: '14px',
+                            '@media (min-width: 350px) and (max-width: 480px)': {
+                                fontSize: '11px',
                             },
                             '@media (min-width: 481px) and (max-width: 767px)': {
-                                fontSize: '10px',
+                                fontSize: '11px',
                             },
                             '@media (min-width: 768px) and (max-width: 1024px)': {
                                 fontSize: '14px',
@@ -85,8 +85,8 @@ return (
                     <Typography sx={{
                         width: '100%',
 
-                        '@media (max-width: 480px)': {
-                            fontSize: '14px',
+                        '@media (min-width: 350px) and (max-width: 480px)': {
+                            fontSize: '11px',
                         },
                         '@media (min-width: 481px) and (max-width: 767px)': {
                             fontSize: '11px',
@@ -140,8 +140,8 @@ return (
                     <Typography sx={{
                             fontWeight: 900,
                         
-                            '@media (max-width: 480px)': {
-                                fontSize: '14px',
+                            '@media (min-width: 350px) and (max-width: 480px)': {
+                                fontSize: '9px',
                             },
                             '@media (min-width: 481px) and (max-width: 767px)': {
                                 fontSize: '9px',
@@ -177,8 +177,8 @@ return (
                             textOverflow: 'ellipsis',
                             wordWrap: 'break-word',
                             whiteSpace: 'normal',
-                            '@media (max-width: 480px)': {
-                            fontSize: '14px',
+                            '@media (min-width: 350px) and (max-width: 480px)': {
+                            fontSize: '8px',
                             },
                             '@media (min-width: 481px) and (max-width: 767px)': {
                             fontSize: '8px',
@@ -224,8 +224,8 @@ return (
                                             backgroundColor: '#ADD8E6',
                                             boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)'
                                             },
-                                        '@media (max-width: 480px)': {
-                                            
+                                        '@media (min-width: 350px) and (max-width: 480px)': {
+                                            fontSize: '8px',
                                         },
                                         '@media (min-width: 481px) and (max-width: 767px)': {
                                             fontSize: '10px',
@@ -249,8 +249,8 @@ return (
                                         
                                     <GitHubIcon sx={{
                                         fontSize: '22px', color: 'inherit',
-                                        '@media (max-width: 480px)': {
-                                                        
+                                        '@media (min-width: 350px) and (max-width: 480px)': {
+                                            fontSize: '14px',           
                                         },
                                         '@media (min-width: 481px) and (max-width: 767px)': {
                                             fontSize: '18px',
@@ -291,8 +291,8 @@ return (
                                                 backgroundColor: '#ADD8E6',
                                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)'
                                                 },
-                                            '@media (max-width: 480px)': {
-                                                
+                                            '@media (min-width: 350px) and (max-width: 480px)': {
+                                                fontSize: '8px',
                                             },
                                             '@media (min-width: 481px) and (max-width: 767px)': {
                                                fontSize: '10px',
@@ -314,8 +314,8 @@ return (
                                 
                                     <TravelExploreIcon sx={{
                                         fontSize: '22px', color: 'inherit',
-                                         '@media (max-width: 480px)': {
-                                                
+                                        '@media (min-width: 350px) and (max-width: 480px)': {
+                                            fontSize: '14px',
                                         },
                                         '@media (min-width: 481px) and (max-width: 767px)': {
                                             fontSize: '18px',
