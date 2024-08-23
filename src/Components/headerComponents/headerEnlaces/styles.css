@@ -3,3 +3,53 @@
     /* display: flex;
     align-items: center; */
 }
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+
+        .HeaderEnlaces-container{
+            background-color: rgb(236, 233, 233);
+            font-size: 8px;
+            text-decoration: underline;
+            color: blue;
+        }
+
+}
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+ 
+
+}
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+
+
+}
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+ 
+
+}
