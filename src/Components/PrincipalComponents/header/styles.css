@@ -32,16 +32,16 @@
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) { /* el medio es 450 */
+@media only screen and (min-width: 350px) and (max-width: 480px) {
 
     .headerBanner-imagen {
-        height: 80px;
+        height: 70px;
     }
 
 }
 
 /* Móviles Medianos a Grandes */
-@media only screen and (min-width: 481px) and (max-width: 767px) { /* el medio es 624 */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
 
     .headerBanner-imagen {
         height: 95px;
@@ -51,7 +51,7 @@
 }
 
 /* Tabletas Pequeñas */
-@media only screen and (min-width: 768px) and (max-width: 1024px) { /* el medio es 896 */
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
 
     .headerBanner-imagen {
         height: 160px;
@@ -60,7 +60,7 @@
 }
 
 /* Tabletas Grandes */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) { /* el medio es 1152 */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
     .headerBanner-imagen {
         height: 200px;

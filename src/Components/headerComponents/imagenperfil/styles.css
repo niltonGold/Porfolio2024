@@ -16,12 +16,12 @@
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
     /* el medio es 450 */
 
     .ImagenPerfil-container {
             top: 1.9rem;
-            width: 7rem;
+            width: 6rem;
         }
     
         .imagenperfil-imagen {

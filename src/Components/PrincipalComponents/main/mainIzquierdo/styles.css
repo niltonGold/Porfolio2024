@@ -9,12 +9,12 @@
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
 
     .MainIzquierdo-container {
         padding-top: 3.5rem;
         padding-bottom: 8rem;
-        width: 7rem;
+        width: 6rem;
         gap: 2rem;
     }
 

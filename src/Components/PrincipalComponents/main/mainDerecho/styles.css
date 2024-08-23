@@ -9,11 +9,11 @@
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
     
     .MainDerecho-container {
         background-color: rgb(216, 132, 22);
-        width: 16rem;
+        width: 13rem;
         padding-top: 0.5rem;
     }
 

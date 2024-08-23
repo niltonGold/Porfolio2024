@@ -25,7 +25,7 @@ body {
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
   
     .App {
         padding-top: 1.5rem;
@@ -34,9 +34,9 @@ body {
     }
 
     .App-container {
-        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 8px 15px 5px rgba(0, 0, 0, 0.3);
         border: 2px solid rgba(55, 55, 65);
-        width: 23rem;
+        width: 19rem;
     }
 
 }
