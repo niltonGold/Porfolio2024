@@ -1,0 +1,105 @@
+.MainDerecho-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 480px) {
+    
+    .MainDerecho-container {
+        background-color: rgb(216, 132, 22);
+        width: 16rem;
+        padding-top: 0.5rem;
+    }
+
+}
+
+
+
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    
+
+    .MainDerecho-container {
+        background-color: rgb(216, 132, 22);
+        width: 16rem;
+        padding-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .MainDerecho-container {
+        background-color: rgb(216, 132, 22);
+        width: 28rem;
+        padding-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .MainDerecho-container {
+        background-color: rgb(216, 132, 22);
+        width: 42rem;
+        padding-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+
+    .MainDerecho-container {
+        background-color: rgb(216, 132, 22);
+        width: 54rem;
+        padding-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+
+    .MainDerecho-container {
+        /* background-color: rgb(216, 132, 22); */
+        width: 59rem;
+        padding-top: 1rem;
+    }
+
+
+}

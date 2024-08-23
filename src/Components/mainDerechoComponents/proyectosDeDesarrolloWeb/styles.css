@@ -1,0 +1,162 @@
+.ProyectosDeDesarrolloWeb-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.proyectosdedesarrolloweb-titulo {
+    background-color: rgb(55, 55, 65);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+
+.proyectosdedesarrolloweb-lista-carrusel{
+}
+
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 480px) {
+ 
+    .ProyectosDeDesarrolloWeb-container {
+            width: 15rem;
+            height: 414px;
+        }
+    
+        .proyectosdedesarrolloweb-titulo {
+            font-size: 12px;
+            padding: 0.1rem;
+        }
+    
+        .proyectosdedesarrolloweb-lista-carrusel {
+            width: 15rem;
+        }
+
+
+}
+
+
+
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+    .ProyectosDeDesarrolloWeb-container {
+        width: 14rem;
+        height: 414px;
+    }
+
+    .proyectosdedesarrolloweb-titulo {
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+
+    .proyectosdedesarrolloweb-lista-carrusel {
+        width: 14rem;
+    }
+
+    
+}
+
+
+
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .ProyectosDeDesarrolloWeb-container {
+        width: 26rem;
+        height: 550px;
+    }
+
+    .proyectosdedesarrolloweb-titulo {
+        font-size: 15px;
+        padding: 0.4rem;
+    }
+
+    .proyectosdedesarrolloweb-lista-carrusel {
+        width: 26rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    
+    .ProyectosDeDesarrolloWeb-container {
+        width: 40rem;
+        height: 581px;
+    }
+
+    .proyectosdedesarrolloweb-titulo {
+        font-size: 16px;
+        padding: 0.4rem;
+    }
+
+    .proyectosdedesarrolloweb-lista-carrusel {
+        width: 40rem;
+    }
+
+
+}
+
+
+
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+
+    .ProyectosDeDesarrolloWeb-container {
+        width: 52rem;
+        height: 581px;
+    }
+
+    .proyectosdedesarrolloweb-titulo {
+        font-size: 20px;
+        padding: 0.4rem;
+    }
+
+    .proyectosdedesarrolloweb-lista-carrusel {
+        width: 52rem;
+    }
+
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+    .ProyectosDeDesarrolloWeb-container {
+        width: 57rem;
+        height: 601px;
+    }
+
+    .proyectosdedesarrolloweb-titulo {
+        font-size: 22px;
+        padding: 0.5rem;
+    }
+
+    .proyectosdedesarrolloweb-lista-carrusel {
+        width: 57rem;
+    }
+
+
+}

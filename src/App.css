@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main-container{
+    display: flex;
+    flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-container{
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 480px) {
+  
+    .App {
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        background-color: rgb(186, 105, 87);
+    }
+
+    .App-container {
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(55, 55, 65);
+        width: 23rem;
+    }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+    .App {
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        background-color: rgb(31, 183, 117);
+    }
+
+    .App-container {
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(55, 55, 65);
+        width: 26rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .App {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: rgb(12, 41, 137);
+    }
+
+    .App-container {
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(55, 55, 65);
+        width: 44rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .App {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: rgb(174, 0, 255);
+    }
+
+    .App-container {
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(55, 55, 65);
+        width: 60rem;
+    }
+
+    
+}
+
+
+
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    
+    .App {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: rgb(255, 242, 0);
+    }
+
+    .App-container {
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(55, 55, 65);
+        width: 75rem;
+    }
+
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+
+    .App {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: rgb(193, 213, 213); */
+    }
+
+    .App-container {
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(55, 55, 65);
+        width: 85rem;
+    }
+
+
 }

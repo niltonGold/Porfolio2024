@@ -1,0 +1,144 @@
+.ExperienciaProfesional-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(241, 220, 211); */
+}
+
+.experienciaprofesional-titulo {
+    background-color: rgb(55, 55, 65);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+
+.experienciaprofesional-lista-carrusel {
+}
+
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 480px) {
+
+}
+
+
+
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+    .ExperienciaProfesional-container {
+        width: 14rem;
+    }
+
+    .experienciaprofesional-titulo {
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+
+    .experienciaprofesional-lista-carrusel {
+        width: 14rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .ExperienciaProfesional-container {
+        width: 26rem;
+    }
+
+    .experienciaprofesional-titulo {
+        font-size: 15px;
+        padding: 0.4rem;
+    }
+
+    .experienciaprofesional-lista-carrusel {
+        width: 26rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .ExperienciaProfesional-container {
+        width: 40rem;
+    }
+
+    .experienciaprofesional-titulo {
+        font-size: 16px;
+        padding: 0.4rem;
+    }
+
+    .experienciaprofesional-lista-carrusel {
+        width: 40rem;
+    }
+
+
+}
+
+
+
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+
+    .ExperienciaProfesional-container {
+        width: 52rem;
+    }
+
+    .experienciaprofesional-titulo {
+        font-size: 20px;
+        padding: 0.4rem;
+    }
+
+    .experienciaprofesional-lista-carrusel {
+        width: 52rem;
+    }
+
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+
+    .ExperienciaProfesional-container {
+        width: 57rem;
+    }
+
+    .experienciaprofesional-titulo {
+        font-size: 22px;
+        padding: 0.5rem;
+    }
+
+    .experienciaprofesional-lista-carrusel {
+        width: 57rem;
+    }
+
+
+}

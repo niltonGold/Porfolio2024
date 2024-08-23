@@ -1,0 +1,122 @@
+.ImagenPerfil-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: beige; */
+}
+
+.imagenperfil-imagen {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('../../../images/header/foto_de_perfil.png');
+}
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 480px) {
+    /* el medio es 450 */
+
+    .ImagenPerfil-container {
+            top: 1.9rem;
+            width: 7rem;
+        }
+    
+        .imagenperfil-imagen {
+            width: 60px;
+            height: 60px;
+        }
+
+}
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* el medio es 624 */
+    .ImagenPerfil-container {
+            top: 3rem;
+            width: 10rem;
+        }
+    
+        .imagenperfil-imagen {
+            width: 100px;
+            height: 100px;
+        }
+
+}
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* el medio es 896 */
+
+    .ImagenPerfil-container {
+            top: 5.5rem;
+            width: 16rem;
+        }
+    
+        .imagenperfil-imagen {
+            width: 170px;
+            height: 170px;
+        }
+
+}
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+ 
+
+    .ImagenPerfil-container {
+        top: 5.5rem;
+        width: 18rem;
+    }
+
+    .imagenperfil-imagen {
+        width: 180px;
+        height: 180px;
+    }
+
+
+}
+
+
+
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+
+    .ImagenPerfil-container {
+        top: 6.5rem;
+        width: 21rem;
+    }
+
+    .imagenperfil-imagen {
+        width: 210px;
+        height: 210px;
+    }
+
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+
+    .ImagenPerfil-container {
+        top: 7.5rem;
+        width: 26rem;
+    }
+
+    .imagenperfil-imagen {
+        width: 250px;
+        height: 250px;
+    }
+
+
+}

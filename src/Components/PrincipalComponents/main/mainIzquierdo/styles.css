@@ -1,0 +1,107 @@
+.MainIzquierdo-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 220, 211);
+}
+
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 480px) {
+
+    .MainIzquierdo-container {
+        padding-top: 3.5rem;
+        padding-bottom: 8rem;
+        width: 7rem;
+        gap: 2rem;
+    }
+
+}
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    
+
+    .MainIzquierdo-container {
+        padding-top: 3.5rem;
+        padding-bottom: 8rem;
+        width: 10rem;
+        gap: 2rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .MainIzquierdo-container {
+        padding-top: 6rem;
+        padding-bottom: 8rem;
+        width: 16rem;
+        gap: 1.8rem;
+    }
+
+
+}
+
+
+
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .MainIzquierdo-container {
+        padding-top: 6.5rem;
+        padding-bottom: 8rem;
+        width: 18rem;
+        gap: 2rem;
+    }
+
+
+}
+
+
+
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+
+    .MainIzquierdo-container {
+        padding-top: 7.5rem;
+        padding-bottom: 8rem;
+        width: 21rem;
+        gap: 2.5rem;
+    }
+
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+
+    .MainIzquierdo-container {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        width: 26rem;
+        gap: 3rem;
+    }
+
+
+}
