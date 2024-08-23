@@ -24,8 +24,8 @@ return (
         flexDirection: 'column',
         alignItems: 'center',
         border: '2px solid rgb(55, 55, 65)',
-        '@media (max-width: 480px)': {
-            width: '5rem', 
+        '@media (min-width: 350px) and (max-width: 480px)': {
+            width: '9rem', 
         },
         '@media (min-width: 481px) and (max-width: 767px)': {
             width: '10rem', 

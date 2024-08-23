@@ -65,7 +65,7 @@
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
   
     .mySwiper {}
     
@@ -90,7 +90,7 @@
     .swiper-button-prev {
         height: 60%;
         top: 50%;
-        width: 1.4rem;
+        width: 1.1rem;
     }
 
     .swiper-button-next:hover,
@@ -106,12 +106,12 @@
 
     .swiper-button-next::after,
     .swiper-button-prev::after {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     .swiper-pagination-bullet {
-        width: 16px;
-        height: 16px;
+        width: 13px;
+        height: 13px;
     }
 
     .swiper-pagination-bullet-active {
