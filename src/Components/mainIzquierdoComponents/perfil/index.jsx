@@ -11,8 +11,10 @@ export const Perfil = () => {
                   <div className='perfil-parrafo-container'>
                       
                         <div className='perfil-titulo-descripcion-parrafo-container'>
-                            <div className='perfil-titulo-descripcion'>
-                                👦¿QUIÉN SOY?👦
+                            <div className='perfil-icono-titulo-descripcion-icono-container'>
+                                <div className='perfil-titulo-icono'>👦</div>
+                                <div className='perfil-titulo-descripcion'> ¿QUIÉN SOY? </div>
+                                <div className='perfil-titulo-icono'>👦</div>
                             </div>
                             <div className='perfil-parrafo'>
                                 Soy Nilton Medina Sayan, un Full Stack Web Developer con experiencia
