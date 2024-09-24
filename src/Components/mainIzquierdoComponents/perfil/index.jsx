@@ -27,8 +27,10 @@ export const Perfil = () => {
                         {/* --------------------------------------------------------------------------------  */}
                         
                         <div className='perfil-titulo-descripcion-parrafo-container'>
-                            <div className='perfil-titulo-descripcion'>
-                                💡¿QUÉ ME DIFERENCIA DE LOS DEMÁS? 💡
+                            <div className='perfil-icono-titulo-descripcion-icono-container'>
+                                <div className='perfil-titulo-icono'>💡</div>
+                                <div className='perfil-titulo-descripcion perfil-titulo-descripcion-queMeDiferencia'>¿QUÉ ME DIFERENCIA DE LOS DEMÁS?</div>
+                                <div className='perfil-titulo-icono'>💡</div>
                             </div>
                             <div className='perfil-parrafo'>
                                   Me especializo en HTML, CSS, JavaScript y React JS. Tengo facilidad
@@ -40,8 +42,10 @@ export const Perfil = () => {
                         {/* --------------------------------------------------------------------------------  */}
                         
                         <div className='perfil-titulo-descripcion-parrafo-container'>
-                            <div className='perfil-titulo-descripcion'>
-                                ⚒¿QUÉ PUEDO APORTAR?⚒
+                            <div className='perfil-icono-titulo-descripcion-icono-container'>
+                                <div className='perfil-titulo-icono-quePuedoAportar perfil-titulo-icono'>⚒</div>
+                                <div className='perfil-titulo-descripcion perfil-titulo-descripcion-quePuedoAportar'>¿QUÉ PUEDO APORTAR?</div>
+                                <div className='perfil-titulo-icono-quePuedoAportar perfil-titulo-icono'>⚒</div>
                             </div>
                             <div className='perfil-parrafo'>
                                 Me enfoco en la eficiencia y en poner al usuario en el
@@ -54,8 +58,10 @@ export const Perfil = () => {
                         {/* --------------------------------------------------------------------------------  */}
                         
                         <div className='perfil-titulo-descripcion-parrafo-container'>
-                            <div className='perfil-titulo-descripcion'>
-                                 🔎¿CUALES SON MIS INTERESES?🔍
+                            <div className='perfil-icono-titulo-descripcion-icono-container'>
+                                <div className='perfil-titulo-icono'>🔎</div>
+                                <div className='perfil-titulo-descripcion perfil-titulo-descripcion-cualesSonMisIntereses'>¿CUALES SON MIS INTERESES?</div>
+                                <div className='perfil-titulo-icono'>🔍</div>
                             </div>
                             <div className='perfil-parrafo'>
                                   Me interesa la inteligencia artificial y quiero crecer en una empresa
