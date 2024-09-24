@@ -37,13 +37,13 @@ const experiencias = [
 
       <ExperienciaDescripcion
         empresa={'prueba'}
-        tiempo={''}
-        calle={''}
+        tiempo={'prueba'}
+        calle={'prueba'}
 
-        descripcion={''}
-        competencia={''}
-        logros={''}
-        aprendi={''}
+        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        competencia={'sdfsdfsadsdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfs'}
+        logros={'sdfsdfsadfsdfsdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfs'}
+        aprendi={'sdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfs'}
       />  
     
     ),
@@ -127,11 +127,11 @@ export default function ExperienciaListado() {
                     
                         <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />}>
                               
-                              <Typography>
+                              <Typography sx={{ fontSize: '20px' }}>
                             
                                   <Box sx={{ display: 'flex', flexDirection: 'row',
                                                     '@media (max-width: 480px)': {
-                                                        gap: '1rem',
+                                                        gap: '0.5rem',
                                                     },
                                                     '@media (min-width: 481px) and (max-width: 767px)': {
                                                         gap: '0.5rem',
@@ -154,8 +154,8 @@ export default function ExperienciaListado() {
                                                     backgroundPosition: 'center',
                                                     backgroundSize: '100% 100%',
                                                     '@media (max-width: 480px)': {
-                                                        width: '2rem',
-                                                        height: '2rem',
+                                                        width: '1rem',
+                                                        height: '1rem',
                                                     },
                                                     '@media (min-width: 481px) and (max-width: 767px)': {
                                                         width: '1.4rem',
@@ -182,7 +182,7 @@ export default function ExperienciaListado() {
                                         <Box sx={{ display: 'flex', alignItems: 'center', alignSelf: 'center',         
                                                   fontWeight: 900,
                                                   '@media (max-width: 480px)': {
-                                                      fontSize: '12px',
+                                                      fontSize: '8px',
                                                   },
                                                   '@media (min-width: 481px) and (max-width: 767px)': {
                                                       fontSize: '12px',

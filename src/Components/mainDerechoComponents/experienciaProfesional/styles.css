@@ -11,15 +11,24 @@
     text-align: center;
 }
 
-.experienciaprofesional-lista-carrusel {
-}
 
 
 
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+
+    .ExperienciaProfesional-container {
+        width: 12.5rem;
+    }
+
+    .experienciaprofesional-titulo {
+        font-size: 8px;
+        padding: 0.1rem;
+    }
+
+
 
 }
 
@@ -40,9 +49,7 @@
         padding: 0.3rem;
     }
 
-    .experienciaprofesional-lista-carrusel {
-        width: 14rem;
-    }
+
 
 
 }
@@ -64,9 +71,7 @@
         padding: 0.4rem;
     }
 
-    .experienciaprofesional-lista-carrusel {
-        width: 26rem;
-    }
+
 
 
 }
@@ -88,9 +93,7 @@
         padding: 0.4rem;
     }
 
-    .experienciaprofesional-lista-carrusel {
-        width: 40rem;
-    }
+ 
 
 
 }
@@ -112,9 +115,6 @@
         padding: 0.4rem;
     }
 
-    .experienciaprofesional-lista-carrusel {
-        width: 52rem;
-    }
 
 
 }
@@ -136,9 +136,7 @@
         padding: 0.5rem;
     }
 
-    .experienciaprofesional-lista-carrusel {
-        width: 57rem;
-    }
+
 
 
 }

@@ -51,10 +51,50 @@
 
 
 /* Móviles Pequeños */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 480px) {
 
 
-
+    .TechnicalSkills-container {
+            width: 5.5rem;
+            gap: 0.5rem;
+        }
+    
+        .technicalskills-titulo {
+            font-size: 8px;
+            padding: 0.2rem;
+        }
+    
+        .technicalskills-skills-container {
+            width: 5.5rem;
+            gap: 0.5rem;
+        }
+    
+        .technicalskills-skills-container-izquierda {
+            margin-right: 0rem;
+            gap: 0.3rem;
+    
+            width: 100%;
+        }
+    
+        .technicalskills-skills-container-derecha {
+            gap: 0.3rem;
+        }
+    
+        .technicalskills-icono-skill-container {
+            gap: 0.2rem;
+            font-size: 6px;
+        }
+    
+        .technicalskills-icono-container {
+            width: 0.5rem;
+            height: 0.5rem;
+            padding-top: 0px;
+        }
+    
+        .technicalskills-icono {
+            width: 0.5rem;
+            height: 0.5rem;
+        }
 
 
 }
@@ -70,10 +110,6 @@
         .technicalskills-titulo {
             font-size: 12px;
             padding: 0.3rem;
-        }
-    
-        .technicalskills-container {
-            gap: 1rem;
         }
     
         .technicalskills-skills-container {
@@ -130,10 +166,6 @@
         padding: 0.4rem;
     }
 
-    .technicalskills-container {
-        gap: 1rem;
-    }
-
     .technicalskills-skills-container {
         width: 14rem;
         gap: 0.5rem;
@@ -185,10 +217,6 @@
     .technicalskills-titulo {
         font-size: 16px;
         padding: 0.4rem;
-    }
-
-    .technicalskills-container {
-        gap: 1rem;
     }
 
     .technicalskills-skills-container {

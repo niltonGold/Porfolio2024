@@ -1,17 +1,18 @@
 import React from 'react';
 import './styles.css';
 import { ImagenPerfil } from '../../headerComponents/imagenperfil';
-import { HeaderEnlaces } from '../../headerComponents/headerEnlaces';
+import { HeaderBanner } from '../../headerComponents/headerBanner';
 
 
 export const Header = () => {
   return (
         <>
           <div className='Header-container'>
-            <div className='headerBanner-imagen'/>
+            {/* <div className='headerBanner-imagen'/> */}
+            <HeaderBanner/>
             <div className='headerImagen-enlaces-container'>
               <ImagenPerfil />
-              <HeaderEnlaces />
+              {/* <HeaderEnlaces /> */}
             </div> 
           </div> 
         </>
