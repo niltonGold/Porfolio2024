@@ -222,7 +222,8 @@
                                         
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                        width: 6rem;
+                                                        width: 7.5rem;
+                                                        background-color: aqua;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {
