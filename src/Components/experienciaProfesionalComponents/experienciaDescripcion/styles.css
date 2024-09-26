@@ -1,3 +1,6 @@
+
+
+
 /* CONTAINER PRINCIPAL */
 .Experienciaprofecional_principal_container {
     display: flex;
@@ -36,7 +39,7 @@
                                 }
 
                                         .experienciaprofesional_fontweith1 {
-                                            font-weight: 700;
+                                            font-weight: bold;
                                         }
 
                                 .experienciaprofecional_tiempo {
@@ -44,7 +47,7 @@
                                 }
 
                                         .experienciaprofesional_fontweith2 {
-                                            font-weight: 500;
+                                            font-style: italic;
                                         }
 
                                 .experienciaprofecional_calle {
@@ -52,7 +55,7 @@
                                 }
 
                                         .experienciaprofesional_fontweith3 {
-                                            font-weight: 300;
+                                                
                                         }
 
 /* Tamaño de todos los subtitulos */
@@ -114,7 +117,7 @@
                                         }
 
                                                 .experienciaprofesional_descripcion_titulo_fontweith {
-                                                    font-weight: 700;
+                                                    font-weight: bold;
                                                 }
                                         
 
@@ -219,7 +222,7 @@
                                         
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                        width: 6rem;
+                                                        width: 5.8rem;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {
@@ -240,7 +243,7 @@
                                                 .experienciaprofecional_parrafo {
                                                     width: 100%;
                                                     gap: 0.1rem;
-                                                    font-size: 8px;
+                                                    font-size: 6px;
                                                 }
 
 }
@@ -533,7 +536,7 @@
                                         
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                        width: 16.5rem;
+                                                        width: 16.1rem;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {
@@ -636,7 +639,7 @@
                                         
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                        width: 20rem;
+                                                        width: 19.6rem;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {

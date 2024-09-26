@@ -81,7 +81,7 @@ export default function ProyectosCarrusel() {
 
         <SwiperSlide className='swiper-card'>
           <CardProyecto
-                        titulocard='hola'
+            titulocard='hola'
             tecnologias='(React, html)'
             imagen={webresponsive}
             descripcion='hohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdf5656561561561561'

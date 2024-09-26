@@ -32,13 +32,13 @@ const experiencias = [
 
   // FULL STACK WEB DEVELOPER(ESCUELA LULLABY)
   {
-    puestoExperiencia: 'Select campaign settings',
+    puestoExperiencia: 'SELECT CAMPAING SETTINGS',
     description: (
 
       <ExperienciaDescripcion
-        empresa={'prueba1'}
-        tiempo={'prueba1'}
-        calle={'prueba1'}
+        empresa={'prueba1prueba1prueba1'}
+        tiempo={'prueba1prueba1prueba1'}
+        calle={'prueba1prueba1prueba1'}
 
         descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
         competencia={'sdfsdfsadsdfs dfsadfssdfsdfsadfssdfsdfsa dfssdfsdfsadf ssdfsdfsadfs'}
@@ -117,7 +117,7 @@ export default function ExperienciaListado() {
   };
 
   return (
-    <Box sx={{ maxWidth: '59rem', bgcolor: 'rgb(236, 233, 233)' }} >
+    <Box sx={{ maxWidth: '59rem', bgcolor: 'rgb(236, 233, 233)', paddingBottom: '1rem' }} >
           
           {/* posicion del circulo y la linea */}
           <Stepper activeStep={experiencias.length} orientation="vertical" 
@@ -223,8 +223,8 @@ export default function ExperienciaListado() {
                                                         }, }} />
                               
                                             {/* DESCRIPCION */}
-                                            <Box sx={{  display: 'flex', alignItems: 'center', alignSelf: 'center', fontFamily: 'Mangal, sans-serif',        
-                                                        fontWeight: 900,
+                                            <Box sx={{  display: 'flex', alignItems: 'center', alignSelf: 'center', fontFamily: 'Roboto', fontWeight: 900,      
+                                                        
                                                         '@media (max-width: 480px)': {
                                                             fontSize: '8px',
                                                         },

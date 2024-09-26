@@ -42,10 +42,8 @@
 .contacto-descripcion {
     display: flex;
     align-self: center;
-    font-family: Mangal;
     overflow-wrap: break-word;
     white-space: normal;
-    font-weight: bold;
     /* background-color: rgb(211, 118, 118); */
 }
 

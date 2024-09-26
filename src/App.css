@@ -1,20 +1,11 @@
-@font-face {
-    font-family: 'Baskerville Old Face';
-    src: url('../src/fonts/baskerville-old-face.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Mangal';
-    src: url('../src/fonts/mangal.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
+
+
+
 
 body {
-font-family: 'Baskerville Old Face', serif;
-font-family: 'Mangal', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Main-container{

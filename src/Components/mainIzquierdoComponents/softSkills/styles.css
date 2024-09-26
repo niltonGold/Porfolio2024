@@ -57,20 +57,19 @@
 }
 
 .softskill-titulo-descripcion-organizacionYgestion{
-
+    justify-content: center;
 }
 
 .softskill-titulo-descripcion-puntualidadAbsoluta{
-
+    justify-content: center;
 }
 
 .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-
+    justify-content: center;
 }
 
 .softskills-parrafo {
     text-align: justify;
-    font-family: Mangal;
     hyphens: auto;
 }
 
@@ -116,15 +115,15 @@
     }
 
     .softskill-titulo-descripcion-organizacionYgestion{
-        width: 3.6rem;
+        width: 3.5rem;
     }
 
     .softskill-titulo-descripcion-puntualidadAbsoluta{
-        width: 3.4rem;
+        width: 3.1rem;
     }
 
     .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-        width: 4.5rem;
+        width: 3.6rem;
     }
 
     .softskills-parrafo {
@@ -172,15 +171,15 @@
     }
 
     .softskill-titulo-descripcion-organizacionYgestion{
-        width: 5.1rem;
+        width: 4.6rem;
     }
 
     .softskill-titulo-descripcion-puntualidadAbsoluta{
-        width: 4.4rem;
+        width: 4rem;
     }
 
     .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-        width: 5.2rem;
+        width: 4.7rem;
     }
 
     .softskills-parrafo {
@@ -228,15 +227,15 @@
     }
 
     .softskill-titulo-descripcion-organizacionYgestion{
-        width: 7rem;
+        width: 9.7rem;
     }
 
     .softskill-titulo-descripcion-puntualidadAbsoluta{
-        width: 6rem;
+        width: 9.2rem;
     }
 
     .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-        width: 7.2rem;
+        width: 6.6rem;
     }
 
     .softskills-parrafo {
@@ -284,15 +283,15 @@
     }
 
     .softskill-titulo-descripcion-organizacionYgestion{
-        width: 8rem;
+        width: 11rem;
     }
 
     .softskill-titulo-descripcion-puntualidadAbsoluta{
-        width: 7rem;
+        width: 10.4rem;
     }
 
     .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-        width: 8.5rem;
+        width: 7.5rem;
     }
 
     .softskills-parrafo {
@@ -340,15 +339,15 @@
     }
 
     .softskill-titulo-descripcion-organizacionYgestion{
-        width: 9.8rem;
+        width: 13.5rem;
     }
 
     .softskill-titulo-descripcion-puntualidadAbsoluta{
-        width: 8.5rem;
+        width: 12.5rem;
     }
 
     .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-        width: 10.4rem;
+        width: 9rem;
     }
 
     .softskills-parrafo {
@@ -396,18 +395,15 @@
     }
 
     .softskill-titulo-descripcion-organizacionYgestion{
-        width: 15rem;
-        justify-content: center;
+        width: 14rem;
     }
 
     .softskill-titulo-descripcion-puntualidadAbsoluta{
-        width: 14.5rem;
-        justify-content: center;
+        width: 13.1rem;
     }
 
     .softskill-titulo-descripcion-adaptabilidad_y_flexibilidad{
-        width: 18.2rem;
-        justify-content: center;
+        width: 16.5rem;
     }
 
     .softskills-parrafo {
