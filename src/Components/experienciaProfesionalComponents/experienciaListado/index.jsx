@@ -36,14 +36,14 @@ const experiencias = [
     description: (
 
       <ExperienciaDescripcion
-        empresa={'prueba'}
-        tiempo={'prueba'}
-        calle={'prueba'}
+        empresa={'prueba1'}
+        tiempo={'prueba1'}
+        calle={'prueba1'}
 
         descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'sdfsdfsadsdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfs'}
-        logros={'sdfsdfsadfsdfsdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfs'}
-        aprendi={'sdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfssdfsdfsadfs'}
+        competencia={'sdfsdfsadsdfs dfsadfssdfsdfsadfssdfsdfsa dfssdfsdfsadf ssdfsdfsadfs'}
+        logros={'sdfsdfs adfsdfsdfs dfsadfssdfsdfsa dfssdfsdfsadfs sdfsdfsadfssd fsdfsadfs'}
+        aprendi={'sdfsdfsad fssdfsdfsadfss dfsdfsadfssdfsdfsadfssdfs dfsadfssdfs dfsadfs'}
       />  
     
     ),
@@ -58,13 +58,13 @@ const experiencias = [
       
       <ExperienciaDescripcion
         empresa={'prueba'}
-        tiempo={''}
-        calle={''}
+        tiempo={'vv'}
+        calle={'v'}
 
-        descripcion={''}
-        competencia={''}
-        logros={''}
-        aprendi={''}
+        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        logros={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        aprendi={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
       />  
 
     ),
@@ -79,12 +79,12 @@ const experiencias = [
       
       <ExperienciaConcurso
         empresa={'prueba'}
-        tiempo={''}
-        calle={''}
+        tiempo={'a'}
+        calle={'a'}
 
-        descripcion={''}
-        competencia={''}
-        desafio={''}
+        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        desafio={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
       />
 
     ),
@@ -99,12 +99,12 @@ const experiencias = [
         
       <ExperienciaConcurso
         empresa={'prueba'}
-        tiempo={''}
-        calle={''}
+        tiempo={'dd'}
+        calle={'ff'}
 
-        descripcion={''}
-        competencia={''}
-        desafio={''}
+        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        desafio={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
       />
 
     ),
@@ -117,103 +117,144 @@ export default function ExperienciaListado() {
   };
 
   return (
-    <Box sx={{ maxWidth: '59rem', bgcolor: 'rgb(236, 233, 233)', p: 0.5 }}>
+    <Box sx={{ maxWidth: '59rem', bgcolor: 'rgb(236, 233, 233)' }} >
           
-          <Stepper activeStep={experiencias.length} orientation="vertical">
+          {/* posicion del circulo y la linea */}
+          <Stepper activeStep={experiencias.length} orientation="vertical" 
+                    sx={{ '@media (max-width: 480px)': {
+                              pl: '0rem'
+                          },
+                          '@media (min-width: 481px) and (max-width: 767px)': {
+                              pl: '0rem'
+                          },
+                          '@media (min-width: 768px) and (max-width: 1024px)': {
+                              pl: '0.2rem'
+                          },
+                          '@media (min-width: 1025px) and (max-width: 1280px)': {
+                              pl: '0.3rem'
+                          },
+                          '@media (min-width: 1281px) and (max-width: 1440px)': {
+                              pl: '0.4rem'
+                          },
+                          '@media (min-width: 1441px)': {
+                              pl: '0.3rem'
+                          }, }}>
             
             {experiencias.map( ( step, index ) => (
                   
-                  <Step key={step.puestoExperiencia} expanded>
-                    
-                        <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />}>
-                              
-                              <Typography sx={{ fontSize: '20px' }}>
+              <Step key={step.puestoExperiencia} expanded >
+
+                        {/* posicion del circulo */}
+                        <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />} 
+                                    sx={{ '@media (max-width: 480px)': {
+                                          ml: '0.5rem',
+                                      },
+                                      '@media (min-width: 481px) and (max-width: 767px)': {
+                                          ml: '0.4rem',
+                                      },
+                                      '@media (min-width: 768px) and (max-width: 1024px)': {
+                                          ml: '0.3rem',
+                                      },
+                                      '@media (min-width: 1025px) and (max-width: 1280px)': {
+                                          ml: '0.2rem',
+                                      },
+                                      '@media (min-width: 1281px) and (max-width: 1440px)': {
+                                          ml: '0.1rem',
+                                      },
+                                      '@media (min-width: 1441px)': {
+                                          ml: '0.1rem',
+                                      }, }} >
                             
-                                  <Box sx={{ display: 'flex', flexDirection: 'row',
-                                                    '@media (max-width: 480px)': {
-                                                        gap: '0.5rem',
-                                                    },
-                                                    '@media (min-width: 481px) and (max-width: 767px)': {
-                                                        gap: '0.5rem',
-                                                    },
-                                                    '@media (min-width: 768px) and (max-width: 1024px)': {
-                                                        gap: '0.5rem',
-                                                    },
-                                                    '@media (min-width: 1025px) and (max-width: 1280px)': {
-                                                        gap: '0.5rem',
-                                                    },
-                                                    '@media (min-width: 1281px) and (max-width: 1440px)': {
-                                                        gap: '1rem',
-                                                    },
-                                                    '@media (min-width: 1441px)': {
-                                                        gap: '1rem',
-                                                    }, }}>
-                            
-                                        <Box sx={{  backgroundImage: `url(${puesto})`,
-                                                    backgroundRepeat: 'no-repeat',
-                                                    backgroundPosition: 'center',
-                                                    backgroundSize: '100% 100%',
-                                                    '@media (max-width: 480px)': {
-                                                        width: '1rem',
-                                                        height: '1rem',
-                                                    },
-                                                    '@media (min-width: 481px) and (max-width: 767px)': {
-                                                        width: '1.4rem',
-                                                        height: '1.4rem',
-                                                    },
-                                                    '@media (min-width: 768px) and (max-width: 1024px)': {
-                                                        width: '1.6rem',
-                                                        height: '1.6rem',
-                                                    },
-                                                    '@media (min-width: 1025px) and (max-width: 1280px)': {
-                                                        width: '1.7rem',
-                                                        height: '1.7rem',
-                                                    },
-                                                    '@media (min-width: 1281px) and (max-width: 1440px)': {
-                                                        width: '1.8rem',
-                                                        height: '1.8rem',
-                                                    },
-                                                    '@media (min-width: 1441px)': {
-                                                        width: '2rem',
-                                                        height: '2rem',
-                                                    },
-                                        }} />
-                              
-                                        <Box sx={{ display: 'flex', alignItems: 'center', alignSelf: 'center',         
-                                                  fontWeight: 900,
+                                  <Box sx={{ display: 'flex', 
+                                            flexDirection: 'row',
+                                            alignItems: 'center',
+                                            alignSelf: 'center',
+                                            // backgroundColor: 'yellow',
+                                         
                                                   '@media (max-width: 480px)': {
-                                                      fontSize: '8px',
+                                                      gap: '0.3rem',
                                                   },
                                                   '@media (min-width: 481px) and (max-width: 767px)': {
-                                                      fontSize: '12px',
+                                                      gap: '0.5rem',
                                                   },
                                                   '@media (min-width: 768px) and (max-width: 1024px)': {
-                                                      fontSize: '15px',
+                                                      gap: '0.5rem',
                                                   },
                                                   '@media (min-width: 1025px) and (max-width: 1280px)': {
-                                                      fontSize: '16px',
+                                                      gap: '0.5rem',
                                                   },
                                                   '@media (min-width: 1281px) and (max-width: 1440px)': {
-                                                      fontSize: '20px',
+                                                      gap: '1rem',
                                                   },
                                                   '@media (min-width: 1441px)': {
-                                                      fontSize: '22px',
-                                                  }
-                                        }}>
-                                              
-                                              { step.puestoExperiencia }
-                                        
-                                        </Box>
+                                                      gap: '0.5rem',
+                                                  }, }}>
+                            
+
+                                            {/* ICONO */}
+                                            <Box sx={{  backgroundImage: `url(${puesto})`,
+                                                        backgroundRepeat: 'no-repeat',
+                                                        backgroundPosition: 'center',
+                                                        backgroundSize: '100% 100%',
+                                                        '@media (max-width: 480px)': {
+                                                            width: '1rem',
+                                                            height: '1rem',
+                                                        },
+                                                        '@media (min-width: 481px) and (max-width: 767px)': {
+                                                            width: '1.2rem',
+                                                            height: '1.2rem',
+                                                        },
+                                                        '@media (min-width: 768px) and (max-width: 1024px)': {
+                                                            width: '1.5rem',
+                                                            height: '1.5rem',
+                                                        },
+                                                        '@media (min-width: 1025px) and (max-width: 1280px)': {
+                                                            width: '1.6rem',
+                                                            height: '1.6rem',
+                                                        },
+                                                        '@media (min-width: 1281px) and (max-width: 1440px)': {
+                                                            width: '1.8rem',
+                                                            height: '1.8rem',
+                                                        },
+                                                        '@media (min-width: 1441px)': {
+                                                            width: '2rem',
+                                                            height: '2rem',
+                                                            // backgroundColor: 'green',
+                                                        }, }} />
+                              
+                                            {/* DESCRIPCION */}
+                                            <Box sx={{  display: 'flex', alignItems: 'center', alignSelf: 'center', fontFamily: 'Mangal, sans-serif',        
+                                                        fontWeight: 900,
+                                                        '@media (max-width: 480px)': {
+                                                            fontSize: '8px',
+                                                        },
+                                                        '@media (min-width: 481px) and (max-width: 767px)': {
+                                                            fontSize: '11px',
+                                                        },
+                                                        '@media (min-width: 768px) and (max-width: 1024px)': {
+                                                            fontSize: '14px',
+                                                        },
+                                                        '@media (min-width: 1025px) and (max-width: 1280px)': {
+                                                            fontSize: '15px',
+                                                        },
+                                                        '@media (min-width: 1281px) and (max-width: 1440px)': {
+                                                            fontSize: '18px',
+                                                        },
+                                                        '@media (min-width: 1441px)': {
+                                                            fontSize: '21px',
+                                                        }, }}>
+                                                  
+                                                  { step.puestoExperiencia }
+                                            
+                                            </Box>
                             
                                   </Box>
-                            
-                              </Typography>
                           
                         </StepLabel>
                         
                         <StepContent>
                   
-                            {step.description}
+                                {step.description}
                         
                         </StepContent>
 

@@ -10,14 +10,9 @@ import CardProyecto from '../cardProyecto';
 import webresponsive from '../../../images/proyectos/webresponsibe.jpg';
 
 
-const prueba = 'jdjjjjjjjjjjjjjjjjjjjjosdmfaoojasojfskjklsaklnvknvnoniongoiiogioghiojioasogh54548448456424231222222222222222222222222222222222222255555555555'
-
-
 export default function ProyectosCarrusel() {
 
-
-
-   const [rotateValue, setRotateValue] = useState(80);
+  const [rotateValue, setRotateValue] = useState(80);
 
   useEffect(() => {
     const updateRotateValue = () => {
@@ -70,15 +65,14 @@ export default function ProyectosCarrusel() {
         navigation={true} 
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
-        
       >
         <SwiperSlide className='swiper-card'>
 
           <CardProyecto
-                        titulocard='hola'
+            titulocard='hola'
             tecnologias='(React, html)'
             imagen={webresponsive}
-            descripcion='hohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdf5656561561561561'
+            descripcion='hohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdf5656561561561561xxxyyyyyyyyhrshgsgffsfsfssssssssssss'
             repositorioGitHub='https://github.com/niltonGold/HTML-CSS-Proyect-WebResponsiveAnimada'
             enlaceWeb='https://www.ionos-status.es/'
           />

@@ -14,7 +14,9 @@ export const SoftSkills = () => {
                             <div className='softskills-titulo-descripcion-container'> 
                                 <div className='softskills-icono-titulo-container'>
                                     <div className='softskills-icono sofskill-organizacion' />
-                                    <div className='softskill-titulo-descripcion'>ORGANIZACIÓN Y GESTIÓN :</div>
+                                    <div className='softskill-titulo-descripcion softskill-titulo-descripcion-organizacionYgestion'>
+                                        ORGANIZACIÓN Y GESTIÓN :
+                                    </div>
                                     <div className='softskills-icono sofskill-organizacion' />
                                 </div>
                                 <div className='softskills-parrafo'>
@@ -27,7 +29,9 @@ export const SoftSkills = () => {
                             <div className='softskills-titulo-descripcion-container'>
                                 <div className='softskills-icono-titulo-container'>
                                     <div className='softskills-icono sofskill-puntualidad' />
-                                    <div className='softskill-titulo-descripcion'>PUNTUALIDAD ABSOLUTA:</div>
+                                    <div className='softskill-titulo-descripcion softskill-titulo-descripcion-puntualidadAbsoluta'>
+                                        PUNTUALIDAD ABSOLUTA:
+                                    </div>
                                     <div className='softskills-icono sofskill-puntualidad' />
                                 </div>
                                 <div className='softskills-parrafo'>
@@ -40,7 +44,9 @@ export const SoftSkills = () => {
                             <div className='softskills-titulo-descripcion-container'> 
                                 <div className='softskills-icono-titulo-container'>
                                     <div className='softskills-icono sofskill-adaptabilidad' />
-                                    <div className='softskill-titulo-descripcion adaptabilidad_y_flexibilidad'>ADAPTABILIDAD Y FLEXIBILIDAD :</div>
+                                    <div className='softskill-titulo-descripcion softskill-titulo-descripcion-adaptabilidad_y_flexibilidad'>
+                                        ADAPTABILIDAD Y FLEXIBILIDAD :
+                                    </div>
                                     <div className='softskills-icono sofskill-adaptabilidad' />
                                 </div>
                                 <div className='softskills-parrafo'>

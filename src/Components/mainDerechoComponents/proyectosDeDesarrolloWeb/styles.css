@@ -17,33 +17,29 @@
 
 
 
+
 /* Móviles Pequeños */
 @media only screen and (min-width: 350px) and (max-width: 480px) {
  
     .ProyectosDeDesarrolloWeb-container {
-            width: 12.5rem;
-            height: 414px;
-        }
-    
-        .proyectosdedesarrolloweb-titulo {
-            font-size: 8px;
-            padding: 0.1rem;
-        }
-    
-        .proyectosdedesarrolloweb-lista-carrusel {
-            width: 12.5rem;
-        }
+        width: 12.5rem;
+        height: 414px;
+    }
 
+    .proyectosdedesarrolloweb-titulo {
+        font-size: 9px;
+        padding: 0.2rem;
+    }
+
+    .proyectosdedesarrolloweb-lista-carrusel {
+        width: 12.5rem;
+    }
 
 }
 
 
-
-
-
 /* Móviles Medianos a Grandes */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-
 
     .ProyectosDeDesarrolloWeb-container {
         width: 14rem;
@@ -59,16 +55,11 @@
         width: 14rem;
     }
 
-    
 }
-
-
-
 
 
 /* Tabletas Pequeñas */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
 
     .ProyectosDeDesarrolloWeb-container {
         width: 26rem;
@@ -84,7 +75,6 @@
         width: 26rem;
     }
 
-
 }
 
 
@@ -94,7 +84,6 @@
 /* Tabletas Grandes */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
-    
     .ProyectosDeDesarrolloWeb-container {
         width: 40rem;
         height: 581px;
@@ -109,20 +98,16 @@
         width: 40rem;
     }
 
-
 }
-
-
-
 
 
 /* Laptops y Desktops Pequeños */
 @media only screen and (min-width: 1281px) and (max-width: 1440px) {
 
-
     .ProyectosDeDesarrolloWeb-container {
         width: 52rem;
-        height: 581px;
+        height: 576.4px;
+        /* background-color: rgb(9, 71, 71); */
     }
 
     .proyectosdedesarrolloweb-titulo {
@@ -134,11 +119,7 @@
         width: 52rem;
     }
 
-
 }
-
-
-
 
 
 /* Desktops Grandes */
@@ -146,7 +127,8 @@
 
     .ProyectosDeDesarrolloWeb-container {
         width: 57rem;
-        height: 601px;
+        height: 621.4px;
+        /* background-color: aqua; */
     }
 
     .proyectosdedesarrolloweb-titulo {
@@ -157,6 +139,5 @@
     .proyectosdedesarrolloweb-lista-carrusel {
         width: 57rem;
     }
-
 
 }

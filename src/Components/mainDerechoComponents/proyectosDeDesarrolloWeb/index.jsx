@@ -8,18 +8,20 @@ export const ProyectosDeDesarrolloWeb = () => {
   return (
     <>
       <div>
+
           <div className='ProyectosDeDesarrolloWeb-container'>
             
-            <div className='proyectosdedesarrolloweb-titulo'>
-                PROYECTOS DE DESARROLLO WEB
-            </div>
-            <div className='proyectosdedesarrolloweb-lista-carrusel'>
-                <ProyectosCarrusel />
-            </div>
-       
-        </div>
+              <div className='proyectosdedesarrolloweb-titulo'>
+                  PROYECTOS DE DESARROLLO WEB
+              </div>
+              
+              <div className='proyectosdedesarrolloweb-lista-carrusel'>
+                  <ProyectosCarrusel />
+              </div>
+            
+          </div>
         
-        </div>
-        </>
+      </div>
+    </>
   )
 }

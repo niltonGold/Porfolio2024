@@ -12,6 +12,7 @@
 .perfil-parrafo-container {
     display: flex;
     flex-direction: column;
+    font-family: Mangal;
 }
 
 .perfil-titulo-descripcion-parrafo-container {
@@ -230,7 +231,7 @@
     }
 
     .perfil-titulo-descripcion-cualesSonMisIntereses {
-        width: 10.5rem;
+        width: 10.7rem;
     }
 
 }
@@ -287,7 +288,7 @@
     }
 
     .perfil-titulo-descripcion-cualesSonMisIntereses {
-        width: 11.7rem;
+        width: 12.3rem;
     }
 
 }
@@ -401,7 +402,7 @@
     }
 
     .perfil-titulo-descripcion-cualesSonMisIntereses {
-        width: 15.2rem;
+        width: 16rem;
     }
 
 }

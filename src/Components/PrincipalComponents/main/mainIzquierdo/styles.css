@@ -31,9 +31,8 @@
         padding-top: 3.5rem;
         padding-bottom: 8rem;
         width: 10rem;
-        gap: 2rem;
+        gap: 3rem;
     }
-
 
 }
 
@@ -45,7 +44,7 @@
         padding-top: 6rem;
         padding-bottom: 8rem;
         width: 16rem;
-        gap: 1.8rem;
+        gap: 3.5rem;
     }
 
 }
@@ -58,7 +57,7 @@
         padding-top: 6.5rem;
         padding-bottom: 8rem;
         width: 18rem;
-        gap: 2rem;
+        gap: 4rem;
     }
 
 }
@@ -71,7 +70,7 @@
         padding-top: 7.5rem;
         padding-bottom: 8rem;
         width: 21rem;
-        gap: 2.5rem;
+        gap: 5rem;
     }
 
 }
@@ -84,7 +83,7 @@
         padding-top: 8rem;
         padding-bottom: 8rem;
         width: 26rem;
-        gap: 3rem;
+        gap: 6rem;
     }
 
 }

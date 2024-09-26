@@ -168,7 +168,7 @@ return (
                     <Typography
                         sx={{
                             textAlign: 'justify',
-                            fontWeight: 500,
+                            fontWeight: 400,
                             // backgroundColor: 'yellow',
                             overflow: 'hidden',
                             display: '-webkit-box',

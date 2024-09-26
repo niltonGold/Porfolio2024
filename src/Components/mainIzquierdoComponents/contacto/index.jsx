@@ -22,7 +22,8 @@ export const Contacto = () => {
                         <div className='contacto-icono-descripcion-container'>
                             <div className='contacto-icono contacto-correo'/>
                             <div className='contacto-descripcion'>
-                                niltonenrique3000@hotmail.com
+                                <div>niltonenrique3000</div>
+                                <div>@hotmail.com</div>
                             </div>
                         </div>
                                   
