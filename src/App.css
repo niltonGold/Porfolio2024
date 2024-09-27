@@ -40,7 +40,12 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: 'Didot Title';
+    src: url('fonts/Didot\ Title.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: 'Roboto', serif;
