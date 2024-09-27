@@ -5,16 +5,14 @@ import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
 import Typography from '@mui/material/Typography';
-
+// import puesto from '../../../images/experienciaProfesional/puesto.png';
 import './styles.css';
-import { ExperienciaDescripcion } from '../experienciaDescripcion';
-import { ExperienciaConcurso } from '../experienciaConcurso';
+import { EducacionDescripcion } from '../educacionDescripcion';
 
-import neoland from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.jpg'
-import caldi from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.jpg'
-import andaluz from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.jpg'
-
-
+// Logotipos de las empresas
+import neoland from '../../../images/educacion/laptop.png'
+import caldi from '../../../images/educacion/libro.png'
+import andaluz from '../../../images/educacion/neoland.png'
 
 function StepIcon(props) {
   const { active, completed, className, color } = props;
@@ -31,17 +29,17 @@ function StepIcon(props) {
 }
 
 // Experiencias Listado
-const experiencias = [
+const educaciones = [
 
 
 
   // FULL STACK WEB DEVELOPER(ESCUELA LULLABY)
   {
-    iconoEmpresa: neoland,
-    puestoExperiencia: 'SELECT CAMPAING SETTINGS',
+    iconoAcademia: neoland,
+    centroEducativo: 'SELECT CAMPAING SETTINGS',
     description: (
 
-      <ExperienciaDescripcion
+      <EducacionDescripcion
         empresa={'prueba1prueba1prueba1'}
         tiempo={'prueba1prueba1prueba1'}
         calle={'prueba1prueba1prueba1'}
@@ -59,11 +57,11 @@ const experiencias = [
 
   // DESARROLLADOR Y CONSULTOR SAGE 200
   {
-    iconoEmpresa: neoland,
-    puestoExperiencia: 'Create an ad group',
+    iconoAcademia: caldi,
+    centroEducativo: 'Create an ad group',
     description: (
       
-      <ExperienciaDescripcion
+      <EducacionDescripcion
         empresa={'prueba'}
         tiempo={'vv'}
         calle={'v'}
@@ -78,49 +76,9 @@ const experiencias = [
   },
 
 
-
-  // HACKATON BARCELONA
-  {
-    iconoEmpresa: caldi,
-    puestoExperiencia: 'Create an ad',
-    description: (
-      
-      <ExperienciaConcurso
-        empresa={'prueba'}
-        tiempo={'a'}
-        calle={'a'}
-
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        desafio={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-      />
-
-    ),
-  },
-
-
-
-  // HACKATON MADRID
-  {
-    iconoEmpresa: caldi,
-    lapuestoExperienciabel: 'Create xxxxxxxxx',
-    description: (
-        
-      <ExperienciaConcurso
-        empresa={'prueba'}
-        tiempo={'dd'}
-        calle={'ff'}
-
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        desafio={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-      />
-
-    ),
-  },
 ];
 
-export default function ExperienciaListado() {
+export default function EducacionListado() {
   const stepIconProps = { 
     color: 'rgb(55, 55, 65)' // Color para todos los estados del paso
   };
@@ -129,7 +87,7 @@ export default function ExperienciaListado() {
     <Box sx={{ maxWidth: '59rem', bgcolor: 'rgb(236, 233, 233)', paddingBottom: '1rem' }} >
           
           {/* posicion del circulo y la linea */}
-          <Stepper activeStep={experiencias.length} orientation="vertical" 
+          <Stepper activeStep={educaciones.length} orientation="vertical" 
                     sx={{ '@media (max-width: 480px)': {
                               pl: '0rem'
                           },
@@ -149,9 +107,9 @@ export default function ExperienciaListado() {
                               pl: '0.3rem'
                           }, }}>
             
-            {experiencias.map( ( step, index ) => (
+            {educaciones.map( ( step, index ) => (
                   
-              <Step key={step.puestoExperiencia} expanded >
+              <Step key={step.centroEducativo} expanded >
 
                         {/* posicion del circulo */}
                         <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />} 
@@ -201,7 +159,7 @@ export default function ExperienciaListado() {
                             
 
                                             {/* ICONO */}
-                                            <Box sx={{  backgroundImage: `url(${step.iconoEmpresa})`,
+                                            <Box sx={{  backgroundImage: `url(${step.iconoAcademia})`,
                                                         backgroundRepeat: 'no-repeat',
                                                         backgroundPosition: 'center',
                                                         backgroundSize: '100% 100%',
@@ -253,7 +211,7 @@ export default function ExperienciaListado() {
                                                             fontSize: '21px',
                                                         }, }}>
                                                   
-                                                  { step.puestoExperiencia }
+                                                  { step.centroEducativo }
                                             
                                             </Box>
                             

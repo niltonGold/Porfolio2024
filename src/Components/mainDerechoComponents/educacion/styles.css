@@ -1,0 +1,109 @@
+.Educacion-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(241, 220, 211); */
+}
+
+.educacion-titulo {
+    background-color: rgb(55, 55, 65);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+
+    .Educacion-container {
+        width: 12.5rem;
+    }
+
+    .educacion-titulo {
+        font-size: 9px;
+        padding: 0.1rem;
+    }
+
+}
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    .Educacion-container {
+        width: 14rem;
+    }
+
+    .educacion-titulo {
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+
+}
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .Educacion-container {
+        width: 26rem;
+    }
+
+    .educacion-titulo {
+        font-size: 15px;
+        padding: 0.4rem;
+    }
+
+}
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .Educacion-container {
+        width: 40rem;
+    }
+
+    .educacion-titulo {
+        font-size: 16px;
+        padding: 0.4rem;
+    }
+
+}
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    .Educacion-container {
+        width: 52rem;
+    }
+
+    .educacion-titulo {
+        font-size: 20px;
+        padding: 0.4rem;
+    }
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+    .Educacion-container {
+        width: 57rem;
+    }
+
+    .educacion-titulo {
+        font-size: 22px;
+        padding: 0.5rem;
+    }
+
+}
