@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import { Box } from '@mui/material';
 
 
 export const Perfil = () => {
@@ -18,6 +19,9 @@ export const Perfil = () => {
                                 <div className='perfil-titulo-icono'>👦</div>
                             </div>
                             <div className='perfil-parrafo'>
+                                <Box sx={{  fontFamily: 'Roboto', fontWeight: 900,  }}>prueba1</Box>
+                                <Box sx={{  fontFamily: 'Roboto', fontWeight: 100,  }}>prueba2</Box>
+                                <Box sx={{  fontFamily: 'Mangal'  }}>prueba3</Box>
                                 Soy Nilton Medina Sayan, un Full Stack Web Developer con experiencia
                                 en crear y optimizar aplicaciones web. La tecnología siempre ha sido
                                 mi pasión. Disfruto resolviendo desafíos complejos y creando soluciones
