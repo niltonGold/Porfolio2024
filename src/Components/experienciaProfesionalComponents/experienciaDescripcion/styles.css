@@ -39,7 +39,7 @@
                                 }
 
                                         .experienciaprofesional_fontweith1 {
-                                            font-weight: bold;
+                                            /* font-weight: bold; */
                                         }
 
                                 .experienciaprofecional_tiempo {
@@ -47,7 +47,7 @@
                                 }
 
                                         .experienciaprofesional_fontweith2 {
-                                            font-style: italic;
+                                            /* font-style: italic; */
                                         }
 
                                 .experienciaprofecional_calle {

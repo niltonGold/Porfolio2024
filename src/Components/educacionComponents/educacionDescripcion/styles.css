@@ -39,7 +39,7 @@
                                 }
 
                                         .educacionDescripcion_fontweith1 {
-                                            font-weight: bold;
+                                            /* font-weight: bold; */
                                         }
 
                                 .educacionDescripcion_tiempo {
@@ -47,7 +47,7 @@
                                 }
 
                                         .educacionDescripcion_fontweith2 {
-                                            font-style: italic;
+                                            /* font-style: italic; */
                                         }
 
                                 /* .educacionDescripcion_calle {

@@ -64,9 +64,9 @@ const experiencias = [
     description: (
       
       <ExperienciaDescripcion
-        empresa={'prueba'}
-        tiempo={'vv'}
-        calle={'v'}
+        empresa={'prueba8'}
+        tiempo={'prueba8'}
+        calle={'prueba8'}
 
         descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
         competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
@@ -103,7 +103,7 @@ const experiencias = [
   // HACKATON MADRID
   {
     iconoEmpresa: caldi,
-    lapuestoExperienciabel: 'Create xxxxxxxxx',
+    puestoExperiencia: 'Create xxxxxxxxx',
     description: (
         
       <ExperienciaConcurso
@@ -181,22 +181,22 @@ export default function ExperienciaListado() {
                                             // backgroundColor: 'yellow',
                                          
                                                   '@media (max-width: 480px)': {
-                                                      gap: '0.3rem',
+                                                      gap: '0.2rem',
                                                   },
                                                   '@media (min-width: 481px) and (max-width: 767px)': {
-                                                      gap: '0.5rem',
+                                                      gap: '0.2rem',
                                                   },
                                                   '@media (min-width: 768px) and (max-width: 1024px)': {
-                                                      gap: '0.5rem',
+                                                      gap: '0.2rem',
                                                   },
                                                   '@media (min-width: 1025px) and (max-width: 1280px)': {
-                                                      gap: '0.5rem',
+                                                      gap: '0.2rem',
                                                   },
                                                   '@media (min-width: 1281px) and (max-width: 1440px)': {
-                                                      gap: '1rem',
+                                                      gap: '0.2rem',
                                                   },
                                                   '@media (min-width: 1441px)': {
-                                                      gap: '0.5rem',
+                                                      gap: '0.2rem',
                                                   }, }}>
                             
 

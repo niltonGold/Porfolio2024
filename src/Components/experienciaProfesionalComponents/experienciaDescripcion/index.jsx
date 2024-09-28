@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import Box from '@mui/material/Box';
 
 export const ExperienciaDescripcion = ( props ) => {
   return (
@@ -20,7 +21,7 @@ export const ExperienciaDescripcion = ( props ) => {
                                                     <div className='experienciaprofecional_icono experienciaprofecional_empresa' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith1'>
-                                                        { props.empresa }
+                                                       <Box sx={{ fontFamily: 'Roboto', fontWeight: 900 }}> { props.empresa } </Box>
                                                     </div>
                                             </div>
                                         
@@ -29,7 +30,7 @@ export const ExperienciaDescripcion = ( props ) => {
                                                     <div className='experienciaprofecional_icono experienciaprofecional_tiempo' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith2'>
-                                                        { props.tiempo }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 500 }}> { props.tiempo } </Box>
                                                     </div>
                                             </div>
                                 
@@ -38,7 +39,7 @@ export const ExperienciaDescripcion = ( props ) => {
                                                     <div className='experienciaprofecional_icono experienciaprofecional_calle' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith3'>
-                                                        { props.calle }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 300 }}> { props.calle } </Box>
                                                     </div>
                                             </div>
                                 

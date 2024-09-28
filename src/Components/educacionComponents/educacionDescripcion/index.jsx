@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import Box from '@mui/material/Box';
 
 export const EducacionDescripcion = ( props ) => {
   return (
@@ -20,7 +21,7 @@ export const EducacionDescripcion = ( props ) => {
                                                     <div className='educacionDescripcion_icono educacionDescripcion_empresa' />
 
                                                     <div className='educacionDescripcion_dato educacionDescripcion_fontweith1'>
-                                                        { props.empresa }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 900 }}> { props.empresa } </Box>
                                                     </div>
                                             </div>
                                         
@@ -29,7 +30,7 @@ export const EducacionDescripcion = ( props ) => {
                                                     <div className='educacionDescripcion_icono educacionDescripcion_tiempo' />
 
                                                     <div className='educacionDescripcion_dato educacionDescripcion_fontweith2'>
-                                                        { props.tiempo }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 500 }}> { props.tiempo } </Box>
                                                     </div>
                                             </div>
                                 
@@ -65,7 +66,7 @@ export const EducacionDescripcion = ( props ) => {
                                                                     <div className='educacionDescripcion_icono educacionDescripcion-icono-descripcion' />
                                                                 
                                                                     <div  className='educacionDescripcion_dato educacionDescripcion_descripcion_titulo_fontweith'>
-                                                                        Horas de Clases Impartidas:  
+                                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 900 }}>Horas de Clases Impartidas:  </Box>
                                                                     </div>
                                                                 
                                                                     <div className='educacionDescripcion_icono educacionDescripcion-icono-descripcion' />
@@ -77,7 +78,7 @@ export const EducacionDescripcion = ( props ) => {
                                                         <div className='educacionDescripcion_icono_descripcion_parrafo_container'>
 
                                                                     <div className='educacionDescripcion_parrafo'>
-                                                                        { props.descripcion }
+                                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 500 }}>{ props.descripcion }</Box>
                                                                     </div>
 
                                                         </div>
