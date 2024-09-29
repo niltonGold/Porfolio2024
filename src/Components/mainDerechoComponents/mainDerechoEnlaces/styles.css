@@ -1,0 +1,270 @@
+.HeaderEnlaces-container{
+    display: flex;
+    flex-direction: column;
+    font-family: Baskerville Old Face;
+    /* background-color: rgb(176, 176, 193); */
+}
+
+.headerEnlaces-1,
+.headerEnlaces-2 {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.headerEnlaces-1 {
+    /* background-color: aqua; */
+}
+
+.headerEnlaces-2 {
+    /* background-color: rgb(6, 97, 97); */
+}
+
+.HREF-boton{
+    background-color: rgb(55, 55, 65);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* Móviles Pequeños */
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+
+    .HeaderEnlaces-container{
+        width: 12.5rem;
+        font-size: 7px;
+        gap: 0.3rem;
+    }
+
+    .headerEnlaces-1,
+    .headerEnlaces-2 {
+        gap: 0.4rem;
+    }
+
+    .headerEnlaces-1 {
+        /* width: 8.1rem; */
+    }
+
+    .headerEnlaces-2 {   
+        /* width: 8rem; */
+    }
+
+    .HREF-boton{
+        padding: 0.2rem;
+    }
+
+}
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+        .HeaderEnlaces-container{
+            width: 14rem;
+            font-size: 12px;
+        }
+
+        .HeaderEnlaces-container{
+            background-color: rgb(176, 176, 193);
+            display: flex;
+            flex-direction: row;
+            font-family: Baskerville Old Face;
+            gap: 2rem;
+        }
+
+        .headerEnlaces-1,
+        .headerEnlaces-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .headerEnlaces-1 {
+            display: flex;
+            flex-direction: column;
+            justify-items: right;
+            background-color: aqua;
+        }
+
+        .headerEnlaces-2 {
+            background-color: rgb(6, 97, 97);
+            
+        }
+
+        .HREF-boton{
+            background-color: rgb(55, 55, 65);
+            color: rgb(255, 255, 255);
+        }
+
+}
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .HeaderEnlaces-container{
+        width: 26rem;
+        font-size: 15px;
+    }
+    .HeaderEnlaces-container{
+        background-color: rgb(176, 176, 193);
+        display: flex;
+        flex-direction: row;
+        font-family: Baskerville Old Face;
+        gap: 2rem;
+    }
+
+    .headerEnlaces-1,
+    .headerEnlaces-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .headerEnlaces-1 {
+        display: flex;
+        flex-direction: column;
+        justify-items: right;
+        background-color: aqua;
+    }
+
+    .headerEnlaces-2 {
+        background-color: rgb(6, 97, 97);
+        
+    }
+
+    .HREF-boton{
+        background-color: rgb(55, 55, 65);
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .HeaderEnlaces-container{
+        width: 40rem;
+        font-size: 16px;
+    }
+    .HeaderEnlaces-container {
+        background-color: rgb(176, 176, 193);
+        display: flex;
+        flex-direction: row;
+        font-family: Baskerville Old Face;
+        gap: 2rem;
+    }
+
+    .headerEnlaces-1,
+    .headerEnlaces-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .headerEnlaces-1 {
+        display: flex;
+        flex-direction: column;
+        justify-items: right;
+        background-color: aqua;
+    }
+
+    .headerEnlaces-2 {
+        background-color: rgb(6, 97, 97);
+
+    }
+
+    .HREF-boton {
+        background-color: rgb(55, 55, 65);
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    .HeaderEnlaces-container{
+        width: 52rem;
+        font-size: 20px;
+    }
+    .HeaderEnlaces-container {
+        background-color: rgb(176, 176, 193);
+        display: flex;
+        flex-direction: row;
+        font-family: Baskerville Old Face;
+        gap: 2rem;
+    }
+
+    .headerEnlaces-1,
+    .headerEnlaces-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .headerEnlaces-1 {
+        display: flex;
+        flex-direction: column;
+        justify-items: right;
+        background-color: aqua;
+    }
+
+    .headerEnlaces-2 {
+        background-color: rgb(6, 97, 97);
+
+    }
+
+    .HREF-boton {
+        background-color: rgb(55, 55, 65);
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+    .HeaderEnlaces-container{
+        width: 57rem;
+        font-size: 22px;
+    }
+    .HeaderEnlaces-container {
+        background-color: rgb(176, 176, 193);
+        display: flex;
+        flex-direction: row;
+        font-family: Baskerville Old Face;
+        gap: 2rem;
+    }
+
+    .headerEnlaces-1,
+    .headerEnlaces-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .headerEnlaces-1 {
+        display: flex;
+        flex-direction: column;
+        justify-items: right;
+        background-color: aqua;
+    }
+
+    .headerEnlaces-2 {
+        background-color: rgb(6, 97, 97);
+
+    }
+
+    .HREF-boton {
+        background-color: rgb(55, 55, 65);
+        color: rgb(255, 255, 255);
+    }
+
+}

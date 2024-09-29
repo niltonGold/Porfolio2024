@@ -173,7 +173,7 @@ return (
                             overflow: 'hidden',
                             display: '-webkit-box',
                             WebkitBoxOrient: 'vertical',
-                            WebkitLineClamp: 5, // Limita el número de líneas visibles
+                            WebkitLineClamp: 6, // Limita el número de líneas visibles
                             textOverflow: 'ellipsis',
                             wordWrap: 'break-word',
                             whiteSpace: 'normal',
