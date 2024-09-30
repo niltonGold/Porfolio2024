@@ -4,17 +4,19 @@ import { ProyectosDeDesarrolloWeb } from '../../../mainDerechoComponents/proyect
 import { ExperienciaProfesional } from '../../../mainDerechoComponents/experienciaProfesional';
 import { MainDerechoEnlaces } from '../../../mainDerechoComponents/mainDerechoEnlaces';
 import { Educacion } from '../../../mainDerechoComponents/educacion';
+import { OtrosEstudios } from '../../../mainDerechoComponents/otrosEstudios';
 
-export const MainDerecho = () => {
+export const MainDerecho = ( { footerRef } ) => {
 
   const experienciaRef = useRef(null);
-  const educacionRef = useRef(null);
+  const educacionRef = useRef( null );
+  const otrosEstudiosRef = useRef(null);
 
   return (
         <>
           <div className='MainDerecho-container'>
         
-                    <MainDerechoEnlaces experienciaRef={experienciaRef} educacionRef={educacionRef}/>
+                    <MainDerechoEnlaces experienciaRef={experienciaRef} educacionRef={educacionRef} otrosEstudiosRef={otrosEstudiosRef} footerRef={footerRef}/>
                 
                
                     <ProyectosDeDesarrolloWeb />
@@ -29,6 +31,9 @@ export const MainDerecho = () => {
                       <Educacion />
                     </div>
                     
+                    <div ref={otrosEstudiosRef}>
+                      <OtrosEstudios/>
+                    </div>
           
           </div>  
         </>

@@ -1,0 +1,109 @@
+.OtrosEstudios-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(241, 220, 211); */
+}
+
+.otrosEstudios-titulo {
+    background-color: rgb(55, 55, 65);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+
+    .OtrosEstudios-container {
+        width: 12.5rem;
+    }
+
+    .otrosEstudios-titulo {
+        font-size: 9px;
+        padding: 0.1rem;
+    }
+
+}
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    .OtrosEstudios-container {
+        width: 14rem;
+    }
+
+    .otrosEstudios-titulo {
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+
+}
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .OtrosEstudios-container {
+        width: 26rem;
+    }
+
+    .otrosEstudios-titulo {
+        font-size: 15px;
+        padding: 0.4rem;
+    }
+
+}
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .OtrosEstudios-container {
+        width: 40rem;
+    }
+
+    .otrosEstudios-titulo {
+        font-size: 16px;
+        padding: 0.4rem;
+    }
+
+}
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    .OtrosEstudios-container {
+        width: 52rem;
+    }
+
+    .otrosEstudios-titulo {
+        font-size: 20px;
+        padding: 0.4rem;
+    }
+
+}
+
+
+
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+    .OtrosEstudios-container {
+        width: 57rem;
+    }
+
+    .otrosEstudios-titulo {
+        font-size: 22px;
+        padding: 0.5rem;
+    }
+
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import './styles.css';
 
-export const MainDerechoEnlaces = (  { experienciaRef, educacionRef }  ) => {
-
+export const MainDerechoEnlaces = ( { experienciaRef, educacionRef, otrosEstudiosRef, footerRef } ) => {
+  
   const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (sectionRef && sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -22,14 +24,15 @@ export const MainDerechoEnlaces = (  { experienciaRef, educacionRef }  ) => {
                   </div>
                   
                   <div className='headerEnlaces-2'>
-                      <div className='HREF-boton' onClick={() => scrollToSection(educacionRef)}>
+                      <div className='HREF-boton' onClick={() => scrollToSection(otrosEstudiosRef)}>
                         OTROS ESTUDIOS
                       </div>
                       
-                      <div className='HREF-boton' onClick={() => scrollToSection(educacionRef)}>
+                      <div className='HREF-boton' onClick={() => scrollToSection(footerRef)}>
                         CURRICULUM VITAE
                       </div>
                   </div>
+          
           </div>  
         </>
   )
