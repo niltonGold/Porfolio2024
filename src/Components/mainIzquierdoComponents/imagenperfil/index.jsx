@@ -24,12 +24,12 @@ export const ImagenPerfil = () => {
 
       {/* Contenedor de la imagen en pantalla completa */}
       {isFullScreen && (
-        <div className="fullscreen-overlay" onClick={closeFullScreen}>
-          <div className="fullscreen-image">
+        <div className="imagenperfil-fullscreen-overlay" onClick={closeFullScreen}>
+          <div className="imagenperfil-fullscreen-image">
             <img
               src={require('../../../images/header/foto_de_perfil.png')} // Ruta de la imagen, asegúrate de que sea correcta
               alt='Imagen de perfil en pantalla completa'
-              className="fullscreen-img" // Clase CSS para la imagen en pantalla completa
+              className="imagenperfil-fullscreen-img" // Clase CSS para la imagen en pantalla completa
             />
           </div>
         </div>

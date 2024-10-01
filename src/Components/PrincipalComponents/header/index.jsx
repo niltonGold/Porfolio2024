@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css';
-
+import './styles.css'; // Asegúrate de tener los estilos CSS en este archivo
 
 export const Header = () => {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -33,7 +32,6 @@ export const Header = () => {
           </div>
         </div>
       )}
-      
     </>
   );
 };

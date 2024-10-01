@@ -12,7 +12,7 @@
 }
 
 /* Estilo para el overlay de pantalla completa */
-.fullscreen-overlay {
+.imagenperfil-fullscreen-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -29,13 +29,13 @@
 }
 
 /* Estilo para la imagen en pantalla completa */
-.fullscreen-image {
+.imagenperfil-fullscreen-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.fullscreen-img {
+.imagenperfil-fullscreen-img {
     max-width: 120vw;
         /* Aumenta el tamaño máximo de la imagen al 120% del ancho de la pantalla */
         max-height: 120vh;
@@ -60,7 +60,7 @@
         border-radius: 30px;
     }
 
-        .fullscreen-img {
+        .imagenperfil-fullscreen-img {
             max-width: 140vw;
             /* Aumenta el tamaño en pantallas pequeñas */
             max-height: 140vh;
@@ -80,7 +80,7 @@
         border-radius: 50px;
     }
 
-         .fullscreen-img {
+         .imagenperfil-fullscreen-img {
              max-width: 130vw;
              /* Aumenta el tamaño en pantallas medianas */
              max-height: 130vh;
@@ -100,7 +100,7 @@
         border-radius: 85px;
     }
 
-        .fullscreen-img {
+        .imagenperfil-fullscreen-img {
             max-width: 125vw;
             /* Aumenta el tamaño en tabletas pequeñas */
             max-height: 125vh;
@@ -120,7 +120,7 @@
         border-radius: 90px;
     }
 
-        .fullscreen-img {
+        .imagenperfil-fullscreen-img {
             max-width: 120vw;
             /* Ajuste del tamaño */
             max-height: 120vh;
@@ -141,7 +141,7 @@
         
     }
 
-                .fullscreen-img {
+                .imagenperfil-fullscreen-img {
                     max-width: 110vw;
                     /* Ajuste del tamaño */
                     max-height: 110vh;
@@ -160,7 +160,7 @@
         border-radius: 125px;
     }
 
-    .fullscreen-img {
+    .imagenperfil-fullscreen-img {
         max-width: 300vw;
         /* Aumenta el tamaño máximo al 300% del ancho de la pantalla */
         max-height: 300vh;
