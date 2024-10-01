@@ -1,20 +1,50 @@
-import React from 'react';
+// import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
-import { ImagenPerfil } from '../../headerComponents/imagenperfil';
-import { HeaderBanner } from '../../headerComponents/headerBanner';
+
+
+// export const Header = () => {
+//   return (
+//         <>
+                    
+//             <div className='Header-container'/>
+
+//         </>
+//   )
+// }
 
 
 export const Header = () => {
+  const [isFullScreen, setIsFullScreen] = useState(false);
+
+  const handleImageClick = () => {
+    setIsFullScreen(true); // Activar pantalla completa
+  };
+
+  const closeFullScreen = () => {
+    setIsFullScreen(false); // Desactivar pantalla completa
+  };
+
   return (
-        <>
-          <div className='Header-container'>
-            {/* <div className='headerBanner-imagen'/> */}
-            <HeaderBanner/>
-            <div className='headerImagen-enlaces-container'>
-              <ImagenPerfil />
-              {/* <HeaderEnlaces /> */}
-            </div> 
-          </div> 
-        </>
-  )
-}
+    <>
+      {/* Contenedor que maneja el clic para pantalla completa */}
+      <div
+        className='Header-container'
+        onClick={handleImageClick} // Manejar clic para activar pantalla completa
+      />
+
+      {/* Pantalla completa de la imagen */}
+      {isFullScreen && (
+        <div className="fullscreen-overlay" onClick={closeFullScreen}>
+          <div className="fullscreen-image">
+            <img
+              src={require('../../../images/header/LogoLinkedin.png')} // Asegúrate de que la ruta sea correcta
+              alt='Imagen en pantalla completa'
+              className="fullscreen-img" // Clase CSS para la imagen en pantalla completa
+            />
+          </div>
+        </div>
+      )}
+    </>
+  );
+};

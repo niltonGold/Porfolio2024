@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import Box from '@mui/material/Box';
 
 export const ExperienciaConcurso = ( props ) => {
   return (
@@ -20,7 +21,7 @@ export const ExperienciaConcurso = ( props ) => {
                                                     <div className='experienciaprofecional_icono experienciaprofecional_empresa' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith1'>
-                                                        { props.empresa }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 900 }}> { props.empresa } </Box>
                                                     </div>
                                             </div>
                                         
@@ -29,7 +30,7 @@ export const ExperienciaConcurso = ( props ) => {
                                                     <div className='experienciaprofecional_icono experienciaprofecional_tiempo' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith2'>
-                                                        { props.tiempo }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 500 }}> { props.tiempo } </Box>
                                                     </div>
                                             </div>
                                 
@@ -38,7 +39,7 @@ export const ExperienciaConcurso = ( props ) => {
                                                     <div className='experienciaprofecional_icono experienciaprofecional_calle' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith3'>
-                                                        { props.calle }
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 300 }}> { props.calle } </Box>
                                                     </div>
                                             </div>
                                 
@@ -76,10 +77,46 @@ export const ExperienciaConcurso = ( props ) => {
                                 
                                                         {/* SubSubSub-Container2 de icono titulo icono */}
                                                         <div className='experienciaprofecional_icono_descripcion_parrafo_container'>
-
-                                                            <div className='experienciaprofecional_parrafo experienciaprofecional_parrafo_font'>
-                                                                { props.descripcion }
+                                                            
+                                                            {/* Fila 1 - Siempre tiene contenido */}
+                                                            <div className='experienciaprofecional_parrafo'>
+                                                                { props.descripcionFila1 }
                                                             </div>
+                                                            
+                                                            {/* Fila 2 - Solo aparece si descripcionFila2 tiene contenido */}
+                                                            { props.descripcionFila2 && (
+                                                                <div className='experienciaprofecional_parrafo'>
+                                                                { props.descripcionFila2 }
+                                                                </div>
+                                                            )}
+
+                                                            {/* Fila 3 - Solo aparece si descripcionFila3 tiene contenido */}
+                                                            { props.descripcionFila3 && (
+                                                                <div className='experienciaprofecional_parrafo'>
+                                                                { props.descripcionFila3 }
+                                                                </div>
+                                                            )}
+                        
+                                                            {/* Fila 4 - Solo aparece si descripcionFila4 tiene contenido */}
+                                                            { props.descripcionFila4 && (
+                                                                <div className='experienciaprofecional_parrafo'>
+                                                                { props.descripcionFila4 }
+                                                                </div>
+                                                            )}
+
+                                                            {/* Fila 5 - Solo aparece si descripcionFila5 tiene contenido */}
+                                                            { props.descripcionFila5 && (
+                                                                <div className='experienciaprofecional_parrafo'>
+                                                                { props.descripcionFila5 }
+                                                                </div>
+                                                            )}
+                                                            
+                                                            {/* Fila 6 - Solo aparece si descripcionFila6 tiene contenido */}
+                                                            { props.descripcionFila6 && (
+                                                                <div className='experienciaprofecional_parrafo'>
+                                                                { props.descripcionFila6 }
+                                                                </div>
+                                                            )}
                                                             
                                                         </div>
                                                 
@@ -104,9 +141,46 @@ export const ExperienciaConcurso = ( props ) => {
                                                         {/* SubSubSub-Container2 de icono titulo icono */}
                                                         <div className='experienciaprofecional_icono_descripcion_parrafo_container'>
                                                                 
-                                                                    <div className='experienciaprofecional_parrafo experienciaprofecional_parrafo_font'>
-                                                                        { props.competencia }
+                                                                     {/* Fila 1 - Siempre tiene contenido */}
+                                                                    <div className='experienciaprofecional_parrafo'>
+                                                                        { props.competenciaFila1 }
                                                                     </div>
+
+                                                                    {/* Fila 2 - Solo aparece si competenciaFila2 tiene contenido */}
+                                                                    { props.competenciaFila2 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.competenciaFila2 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 3 - Solo aparece si competenciaFila3 tiene contenido */}
+                                                                    { props.competenciaFila3 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.competenciaFila3 }
+                                                                        </div>
+                                                                    )}
+                              
+                                                                    {/* Fila 4 - Solo aparece si competenciaFila4 tiene contenido */}
+                                                                    { props.competenciaFila4 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.competenciaFila4 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 5 - Solo aparece si competenciaFila5 tiene contenido */}
+                                                                    { props.competenciaFila5 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.competenciaFila5 }
+                                                                        </div>
+                                                                    )}
+                                                                    
+                                                                    {/* Fila 6 - Solo aparece si competenciaFila6 tiene contenido */}
+                                                                    { props.competenciaFila6 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.competenciaFila6 }
+                                                                        </div>
+                                                                    )}
+                                                                    
                                                         </div>
                                                 
                                             </div>
@@ -130,9 +204,45 @@ export const ExperienciaConcurso = ( props ) => {
                                                         {/* SubSubSub-Container2 de icono titulo icono */}
                                                         <div className='experienciaprofecional_icono_descripcion_parrafo_container'>
 
-                                                                    <div className='experienciaprofecional_parrafo experienciaprofecional_parrafo_font'>
-                                                                        { props.desafio }
+                                                                     {/* Fila 1 - Siempre tiene contenido */}
+                                                                    <div className='experienciaprofecional_parrafo'>
+                                                                        { props.desfioFila1 }
                                                                     </div>
+
+                                                                    {/* Fila 2 - Solo aparece si desfioFila2 tiene contenido */}
+                                                                    { props.desfioFila2 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.desfioFila2 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 3 - Solo aparece si desfioFila3 tiene contenido */}
+                                                                    { props.desfioFila3 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.desfioFila3 }
+                                                                        </div>
+                                                                    )}
+                              
+                                                                    {/* Fila 4 - Solo aparece si desfioFila4 tiene contenido */}
+                                                                    { props.desfioFila4 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.desfioFila4 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 5 - Solo aparece si desfioFila5 tiene contenido */}
+                                                                    { props.desfioFila5 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.desfioFila5 }
+                                                                        </div>
+                                                                    )}
+                                                                    
+                                                                    {/* Fila 6 - Solo aparece si desfioFila6 tiene contenido */}
+                                                                    { props.desfioFila6 && (
+                                                                        <div className='experienciaprofecional_parrafo'>
+                                                                        { props.desfioFila6 }
+                                                                        </div>
+                                                                    )}
                                                             
                                                         </div>
                                                 

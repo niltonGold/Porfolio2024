@@ -13,18 +13,21 @@ function App() {
   return (
     <div className="App">
 
-      <div className='App-container'>
+      
+          <div className='App-container'>
 
-            <Header />
-            
-            <div className='Main-container'>
-              <MainIzquierdo />
-              <MainDerecho footerRef={footerRef} />
-            </div>
+                <Header />
+                
+                <div className='Main-container'>
+                  <MainIzquierdo />
+                  <MainDerecho footerRef={footerRef} />
+                </div>
 
-            <Footer ref={footerRef} />
+          </div>
+          
+          
+          <Footer ref={footerRef} />
         
-      </div>
       
     </div>
   );

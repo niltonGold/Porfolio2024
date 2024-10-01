@@ -46,10 +46,34 @@ const experiencias = [
         tiempo={'prueba1prueba1prueba1'}
         calle={'prueba1prueba1prueba1'}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'sdfsdfsadsdfs dfsadfssdfsdfsadfssdfsdfsa dfssdfsdfsadf ssdfsdfsadfs'}
-        logros={'sdfsdfs adfsdfsdfs dfsadfssdfsdfsa dfssdfsdfsadfs sdfsdfsadfssd fsdfsadfs'}
-        aprendi={'sdfsdfsad fssdfsdfsadfss dfsdfsadfssdfsdfsadfssdfs dfsadfssdfs dfsadfs'}
+        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila3={''}
+        descripcionFila4={''}
+        descripcionFila5={''}
+        descripcionFila6={''}
+        
+        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila4={''}
+        competenciaFila5={''}
+        competenciaFila6={''}
+
+        logrosFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        logrosFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        logrosFila3={''}
+        logrosFila4={''}
+        logrosFila5={''}
+        logrosFila6={''}
+
+        aprendiFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        aprendiFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        aprendiFila3={''}
+        aprendiFila4={''}
+        aprendiFila5={''}
+        aprendiFila6={''}
+
       />  
     
     ),
@@ -68,10 +92,34 @@ const experiencias = [
         tiempo={'prueba8'}
         calle={'prueba8'}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        logros={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        aprendi={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila3={''}
+        descripcionFila4={''}
+        descripcionFila5={''}
+        descripcionFila6={''}
+        
+        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila4={''}
+        competenciaFila5={''}
+        competenciaFila6={''}
+
+        logrosFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        logrosFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        logrosFila3={''}
+        logrosFila4={''}
+        logrosFila5={''}
+        logrosFila6={''}
+
+        aprendiFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        aprendiFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        aprendiFila3={''}
+        aprendiFila4={''}
+        aprendiFila5={''}
+        aprendiFila6={''}
+
       />  
 
     ),
@@ -90,9 +138,27 @@ const experiencias = [
         tiempo={'a'}
         calle={'a'}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        desafio={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila3={''}
+        descripcionFila4={''}
+        descripcionFila5={''}
+        descripcionFila6={''}
+        
+        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila4={''}
+        competenciaFila5={''}
+        competenciaFila6={''}
+
+        desfioFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        desfioFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        desfioFila3={''}
+        desfioFila4={''}
+        desfioFila5={''}
+        desfioFila6={''}
+
       />
 
     ),
@@ -111,9 +177,27 @@ const experiencias = [
         tiempo={'dd'}
         calle={'ff'}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        desafio={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        descripcionFila3={''}
+        descripcionFila4={''}
+        descripcionFila5={''}
+        descripcionFila6={''}
+        
+        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        competenciaFila4={''}
+        competenciaFila5={''}
+        competenciaFila6={''}
+
+        desfioFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        desfioFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        desfioFila3={''}
+        desfioFila4={''}
+        desfioFila5={''}
+        desfioFila6={''}
+        
       />
 
     ),
@@ -151,7 +235,7 @@ export default function ExperienciaListado() {
             
             {experiencias.map( ( step, index ) => (
                   
-              <Step key={step.puestoExperiencia} expanded >
+              <Step key={step.puestoExperiencia} expanded>
 
                         {/* posicion del circulo */}
                         <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />} 

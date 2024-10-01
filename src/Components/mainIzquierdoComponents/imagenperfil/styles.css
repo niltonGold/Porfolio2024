@@ -1,0 +1,84 @@
+.imagenperfil-imagen {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('../../../images/header/foto_de_perfil.png');
+    cursor: move;
+    background-color: blue;
+}
+
+
+
+
+
+
+/* Móviles Pequeños */
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+
+    .imagenperfil-imagen {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
+}
+
+
+/* Móviles Medianos a Grandes */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    .imagenperfil-imagen {
+        width: 100px;
+        height: 100px;
+        border-radius: 49px;
+    }
+
+}
+
+
+/* Tabletas Pequeñas */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .imagenperfil-imagen {
+        width: 170px;
+        height: 170px;
+        border-radius: 84px;
+    }
+
+}
+
+
+/* Tabletas Grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .imagenperfil-imagen {
+        width: 180px;
+        height: 180px;
+        border-radius: 88px;
+    }
+
+}
+
+
+/* Laptops y Desktops Pequeños */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+    .imagenperfil-imagen {
+        width: 210px;
+        height: 210px;
+        border-radius: 104px;
+    }
+
+}
+
+
+/* Desktops Grandes */
+@media only screen and (min-width: 1441px) {
+
+    .imagenperfil-imagen {
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+    }
+
+}

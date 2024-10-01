@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import './styles.css';
 import { EducacionDescripcion } from '../educacionDescripcion';
 
-// Logotipos de las empresas
+// Logotipos de las centroEducativos
 import neoland from '../../../images/educacion/laptop.png'
 import caldi from '../../../images/educacion/libro.png'
 import andaluz from '../../../images/educacion/neoland.png'
@@ -37,17 +37,28 @@ const educaciones = [
   {
     iconoAcademia: neoland,
     centroEducativo: 'SELECT CAMPAING SETTINGS',
-    description: (
+    horasDeClasesImpartidasDeEducacion: (
 
       <EducacionDescripcion
-        empresa={'prueba1prueba1prueba1'}
-        tiempo={'prueba1prueba1prueba1'}
-        calle={'prueba1prueba1prueba1'}
+        centroEducativo={'pruebaedua'}
+        fechaDelCurso={'pruebaedu2'}
+        // calle={'pruebaedu3'}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'sdfsdfsadsdfs dfsadfssdfsdfsadfssdfsdfsa dfssdfsdfsadf ssdfsdfsadfs'}
-        logros={'sdfsdfs adfsdfsdfs dfsadfssdfsdfsa dfssdfsdfsadfs sdfsdfsadfssd fsdfsadfs'}
-        aprendi={'sdfsdfsad fssdfsdfsadfss dfsdfsadfssdfsdfsadfssdfs dfsadfssdfs dfsadfs'}
+        horasDeClasesImpartidasFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        
+        tecnologiasAprendidasFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        tecnologiasAprendidasFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        tecnologiasAprendidasFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        tecnologiasAprendidasFila4={''}
+        tecnologiasAprendidasFila5={''}
+        tecnologiasAprendidasFila6={''}
+
+        contenidoDelCursoFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila3={''}
+        contenidoDelCursoFila4={''}
+        contenidoDelCursoFila5={''}
+        contenidoDelCursoFila6={''}
       />  
     
     ),
@@ -59,17 +70,29 @@ const educaciones = [
   {
     iconoAcademia: caldi,
     centroEducativo: 'Create an ad group',
-    description: (
+    horasDeClasesImpartidasDeEducacion: (
       
       <EducacionDescripcion
-        empresa={'prueba'}
-        tiempo={'vv'}
-        calle={'v'}
+        centroEducativo={'prueba'}
+        fechaDelCurso={'vv'}
+        // calle={'v'}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        logros={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        aprendi={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        horasDeClasesImpartidasFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        
+        tecnologiasAprendidasFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        tecnologiasAprendidasFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        tecnologiasAprendidasFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        tecnologiasAprendidasFila4={''}
+        tecnologiasAprendidasFila5={''}
+        tecnologiasAprendidasFila6={''}
+
+        contenidoDelCursoFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila3={''}
+        contenidoDelCursoFila4={''}
+        contenidoDelCursoFila5={''}
+        contenidoDelCursoFila6={''}
+        
       />  
 
     ),
@@ -189,7 +212,7 @@ export default function EducacionListado() {
                                                             // backgroundColor: 'green',
                                                         }, }} />
                               
-                                            {/* DESCRIPCION */}
+                                            {/* horasDeClasesImpartidas */}
                                             <Box sx={{  display: 'flex', alignItems: 'center', alignSelf: 'center', fontFamily: 'Roboto', fontWeight: 900,      
                                                         
                                                         '@media (max-width: 480px)': {
@@ -221,7 +244,7 @@ export default function EducacionListado() {
                         
                         <StepContent>
                   
-                                {step.description}
+                                {step.horasDeClasesImpartidasDeEducacion}
                         
                         </StepContent>
 

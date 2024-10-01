@@ -38,17 +38,24 @@ const otrosEstudios = [
   {
     iconoOtrosEstudios: neoland,
     tituloDelEstudio: 'SELECT CAMPAING SETTINGS',
-    description: (
+    otrosEstudiosDescripcion: (
     
       <OtrosEstudiosDescripcion
-        empresa={'prueba1prueba1prueba1'}
-        tiempo={'prueba1prueba1prueba1'}
-        calle={'prueba1prueba1prueba1'}
+      
+        tecnologiasAprendidasfila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        tecnologiasAprendidasfila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        tecnologiasAprendidasfila3={''}
+        tecnologiasAprendidasfila4={''}
+        tecnologiasAprendidasfila5={''}
+        tecnologiasAprendidasfila6={''}
+        
+        contenidoDelCursoFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila4={''}
+        contenidoDelCursoFila5={''}
+        contenidoDelCursoFila6={''}
 
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'sdfsdfsadsdfs dfsadfssdfsdfsadfssdfsdfsa dfssdfsdfsadf ssdfsdfsadfs'}
-        logros={'sdfsdfs adfsdfsdfs dfsadfssdfsdfsa dfssdfsdfsadfs sdfsdfsadfssd fsdfsadfs'}
-        aprendi={'sdfsdfsad fssdfsdfsadfss dfsdfsadfssdfsdfsadfssdfs dfsadfssdfs dfsadfs'}
       />  
     
     ),
@@ -60,17 +67,24 @@ const otrosEstudios = [
   {
     iconoOtrosEstudios: caldi,
     tituloDelEstudio: 'Create an ad group',
-    description: (
+    otrosEstudiosDescripcion: (
       
       <OtrosEstudiosDescripcion
-        empresa={'prueba'}
-        tiempo={'vv'}
-        calle={'v'}
-
-        descripcion={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        competencia={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        logros={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        aprendi={'-Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        
+        tecnologiasAprendidasfila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        tecnologiasAprendidasfila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        tecnologiasAprendidasfila3={''}
+        tecnologiasAprendidasfila4={''}
+        tecnologiasAprendidasfila5={''}
+        tecnologiasAprendidasfila6={''}
+        
+        contenidoDelCursoFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
+        contenidoDelCursoFila4={''}
+        contenidoDelCursoFila5={''}
+        contenidoDelCursoFila6={''}
+        
       />  
 
     ),
@@ -222,7 +236,7 @@ export default function OtrosEstudiosListado() {
                         
                         <StepContent>
                   
-                                {step.description}
+                                {step.otrosEstudiosDescripcion}
                         
                         </StepContent>
 
