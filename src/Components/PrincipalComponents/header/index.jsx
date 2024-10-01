@@ -1,17 +1,5 @@
-// import React from 'react';
 import React, { useState } from 'react';
 import './styles.css';
-
-
-// export const Header = () => {
-//   return (
-//         <>
-                    
-//             <div className='Header-container'/>
-
-//         </>
-//   )
-// }
 
 
 export const Header = () => {
@@ -45,6 +33,7 @@ export const Header = () => {
           </div>
         </div>
       )}
+      
     </>
   );
 };
