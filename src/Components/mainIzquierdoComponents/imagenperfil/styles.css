@@ -4,14 +4,10 @@
     background-position: center;
     background-size: 100% 100%;
     background-image: url('../../../images/header/foto_de_perfil.png');
-    /* Ruta de la imagen */
-    cursor: move;
-    /* Cambia el cursor al pasar sobre la imagen */
-    background-color: blue;
-    /* Color de fondo para distinguir */
+    cursor: grab;
+    /* background-color: blue; */
 }
 
-/* Estilo para el overlay de pantalla completa */
 .imagenperfil-fullscreen-overlay {
     position: fixed;
     top: 0;
@@ -19,16 +15,13 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.8);
-    /* Fondo oscuro semitransparente */
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1000;
     cursor: pointer;
-    /* Muestra el cursor pointer para indicar que se puede cerrar */
 }
 
-/* Estilo para la imagen en pantalla completa */
 .imagenperfil-fullscreen-image {
     display: flex;
     align-items: center;
@@ -37,103 +30,112 @@
 
 .imagenperfil-fullscreen-img {
     max-width: 120vw;
-        /* Aumenta el tamaño máximo de la imagen al 120% del ancho de la pantalla */
-        max-height: 120vh;
-        /* Aumenta el tamaño máximo de la imagen al 120% del alto de la pantalla */
-        border-radius: 50%;
-        /* Mantiene la imagen en forma circular */
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-        /* Aumenta la sombra para mayor énfasis */
-        border: 5px solid white;
-        /* Borde blanco alrededor de la imagen */
-        transition: all 0.3s ease-in-out;
-        /* Añade una transición suave */
+    max-height: 120vh;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Estilos Responsivos para la imagen de perfil */
+
+
+
+
 
 /* Móviles Pequeños */
 @media only screen and (min-width: 350px) and (max-width: 480px) {
+    
     .imagenperfil-imagen {
         width: 60px;
         height: 60px;
         border-radius: 30px;
     }
 
-        .imagenperfil-fullscreen-img {
-            max-width: 140vw;
-            /* Aumenta el tamaño en pantallas pequeñas */
-            max-height: 140vh;
-                /* Aumenta el tamaño máximo al 300% del alto de la pantalla */
-                    transform: scale(1);
-                    /* Aplica un escalado para hacer que la imagen se vea más grande */
-                    transition: transform 0.3s ease-in-out;
-                    /* Transición suave para el escalado */
-        }
+    .imagenperfil-fullscreen-overlay {
+    }
+
+    .imagenperfil-fullscreen-image {
+    }
+        
+    .imagenperfil-fullscreen-img {
+        max-width: 140vw;
+        max-height: 140vh;
+        transform: scale(1);
+    }
 }
 
 /* Móviles Medianos a Grandes */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+    
     .imagenperfil-imagen {
         width: 100px;
         height: 100px;
         border-radius: 50px;
     }
 
-         .imagenperfil-fullscreen-img {
-             max-width: 130vw;
-             /* Aumenta el tamaño en pantallas medianas */
-             max-height: 130vh;
-                    /* Aumenta el tamaño máximo al 300% del alto de la pantalla */
-                        transform: scale(1.6);
-                        /* Aplica un escalado para hacer que la imagen se vea más grande */
-                        transition: transform 0.3s ease-in-out;
-                        /* Transición suave para el escalado */
-         }
+    .imagenperfil-fullscreen-overlay {
+    }
+
+    .imagenperfil-fullscreen-image {
+    }
+
+    .imagenperfil-fullscreen-img {
+    max-width: 130vw;
+    max-height: 130vh;
+    transform: scale(1.6);
+    }
+
 }
 
 /* Tabletas Pequeñas */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
     .imagenperfil-imagen {
         width: 170px;
         height: 170px;
         border-radius: 85px;
     }
 
-        .imagenperfil-fullscreen-img {
-            max-width: 125vw;
-            /* Aumenta el tamaño en tabletas pequeñas */
-            max-height: 125vh;
-                /* Aumenta el tamaño máximo al 300% del alto de la pantalla */
-                    transform: scale(1.7);
-                    /* Aplica un escalado para hacer que la imagen se vea más grande */
-                    transition: transform 0.3s ease-in-out;
-                    /* Transición suave para el escalado */
-        }
+    .imagenperfil-fullscreen-overlay {
+    }
+
+    .imagenperfil-fullscreen-image {
+    }
+
+    .imagenperfil-fullscreen-img {
+        max-width: 125vw;
+        max-height: 125vh;
+        transform: scale(1.7);
+    }
+
 }
 
 /* Tabletas Grandes */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    
     .imagenperfil-imagen {
         width: 180px;
         height: 180px;
         border-radius: 90px;
     }
 
-        .imagenperfil-fullscreen-img {
-            max-width: 120vw;
-            /* Ajuste del tamaño */
-            max-height: 120vh;
-                /* Aumenta el tamaño máximo al 300% del alto de la pantalla */
-                    transform: scale(1.8);
-                    /* Aplica un escalado para hacer que la imagen se vea más grande */
-                    transition: transform 0.3s ease-in-out;
-                    /* Transición suave para el escalado */
-        }
+    .imagenperfil-fullscreen-overlay {
+    }
+
+    .imagenperfil-fullscreen-image {
+    }
+
+    .imagenperfil-fullscreen-img {
+        max-width: 120vw;
+        max-height: 120vh;
+        transform: scale(1.8);
+    }
+
 }
 
 /* Laptops y Desktops Pequeños */
 @media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    
     .imagenperfil-imagen {
         width: 210px;
         height: 210px;
@@ -141,33 +143,38 @@
         
     }
 
-                .imagenperfil-fullscreen-img {
-                    max-width: 110vw;
-                    /* Ajuste del tamaño */
-                    max-height: 110vh;
-                        /* Aumenta el tamaño máximo al 300% del alto de la pantalla */
-                            transform: scale(2);
-                            /* Aplica un escalado para hacer que la imagen se vea más grande */
-                            transition: transform 0.3s ease-in-out;
-                            /* Transición suave para el escalado */
-                }
+    .imagenperfil-fullscreen-overlay {
+    }
+
+    .imagenperfil-fullscreen-image {
+    }
+
+    .imagenperfil-fullscreen-img {
+        max-width: 110vw;
+        max-height: 110vh;
+        transform: scale(2);
+    }
+
 }
 
 @media only screen and (min-width: 1441px) {
+    
     .imagenperfil-imagen {
         width: 250px;
         height: 250px;
         border-radius: 125px;
     }
 
+    .imagenperfil-fullscreen-overlay {
+    }
+
+    .imagenperfil-fullscreen-image {
+    }
+
     .imagenperfil-fullscreen-img {
         max-width: 300vw;
-        /* Aumenta el tamaño máximo al 300% del ancho de la pantalla */
         max-height: 300vh;
-        /* Aumenta el tamaño máximo al 300% del alto de la pantalla */
         transform: scale(2.5);
-        /* Aplica un escalado para hacer que la imagen se vea más grande */
-        transition: transform 0.3s ease-in-out;
-        /* Transición suave para el escalado */
     }
+
 }

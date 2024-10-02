@@ -10,23 +10,24 @@ import { ImagenPerfil } from '../../../mainIzquierdoComponents/imagenperfil';
 export const MainIzquierdo = () => {
   return (
         <>
-          <div className='MainIzquierdo-container'>
-              
-        
-                <div className='mainIzquierdo-imagen-container'>
-                    <ImagenPerfil />
-                </div>
+            <div className='MainIzquierdo-container'>
                 
-                <div className='mainIzquierdo-perfil-contacto-etc-container'>
-                    <Perfil />
-                    <Contacto />
-                    <TechnicalSkills />
-                    <SoftSkills />
-                    <Idiomas />
-                </div>  
-              
-        
-        </div>  
+          
+                  <div className='mainIzquierdo-imagen-container'>
+                      <ImagenPerfil />
+                  </div>
+                  
+          
+                  <div className='mainIzquierdo-perfil-contacto-etc-container'>
+                      <Perfil />
+                      <Contacto />
+                      <TechnicalSkills />
+                      <SoftSkills />
+                      <Idiomas />
+                  </div>  
+                
+          
+            </div>  
         </>
   )
 }
