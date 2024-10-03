@@ -6,6 +6,7 @@ import { TechnicalSkills } from '../../../mainIzquierdoComponents/technicalSkill
 import { SoftSkills } from '../../../mainIzquierdoComponents/softSkills';
 import { Idiomas } from '../../../mainIzquierdoComponents/idiomas';
 import { ImagenPerfil } from '../../../mainIzquierdoComponents/imagenperfil';
+import { CurriculumVitae } from '../../../mainIzquierdoComponents/curriculumVitae';
 
 export const MainIzquierdo = () => {
   return (
@@ -24,6 +25,7 @@ export const MainIzquierdo = () => {
                       <TechnicalSkills />
                       <SoftSkills />
                       <Idiomas />
+                      <CurriculumVitae />
                   </div>  
                 
           
