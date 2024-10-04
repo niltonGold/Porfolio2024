@@ -4,9 +4,6 @@
     display: flex;
     justify-content: center;
     background-color: rgb(241, 220, 211);
-
-    /* height: 3rem;
-    width: 19rem; */
 }
 
 .footer-btn{
@@ -20,11 +17,6 @@
     border: none;
     outline: none;
     box-shadow: none;
-
-    /* border-radius: 5px;
-    gap: 0.3rem;
-    font-size: 9px;
-    padding: 0.2rem; */
 }
 
 .footer-btn:hover {
@@ -36,10 +28,9 @@
     background-position: center;
     background-size: 100% 100%;
     background-image: url('../../../images/download.png');
-/* 
-    width: 1rem;
-    height: 1rem; */
 }
+
+
 
 
 
