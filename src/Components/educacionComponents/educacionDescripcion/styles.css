@@ -7,21 +7,21 @@
     flex-direction: column;
 }
 
-        /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-        .educacionDescripcion_datos_principales_de_la_centroEducativo {
+        /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+        .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
             display: flex;
             flex-direction: row;
             /* background-color: rgb(215, 170, 111); */
         }
 
-                /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                     display: flex;
                     flex-direction: column;
                     /* background-color: aqua; */
                 }
 
-                        /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                        /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                         .educacionDescripcion_icono_dato_principal_container {
                             display: flex;
                             flex-direction: row;
@@ -34,8 +34,8 @@
     background-size: 100% 100%;
 }
 
-                                .educacionDescripcion_centroEducativo {
-                                    background-image: url('../../../images/educacion/educacion.png');
+                                .educacionDescripcion_tituloDelCurso {
+                                    background-image: url('../../../images/educacion/iconos/educacion.png');
                                 }
 
                                         .educacionDescripcion_fontweith1 {
@@ -43,7 +43,7 @@
                                         }
 
                                 .educacionDescripcion_fechaDelCurso {
-                                    background-image: url('../../../images/educacion/tiempo.png');
+                                    background-image: url('../../../images/educacion/iconos/tiempo.png');
                                 }
 
                                         .educacionDescripcion_fontweith2 {
@@ -86,11 +86,11 @@
                                 }
 
                                         .educacionDescripcion-icono-tiempo {
-                                            background-image: url('../../../images/educacion/reloj.png');
+                                            background-image: url('../../../images/educacion/iconos/reloj.png');
                                         }
                                 
                                         .educacionDescripcion-icono-tecnologiasAprendidas {
-                                            background-image: url('../../../images/educacion/laptop.png');
+                                            background-image: url('../../../images/educacion/iconos/laptop.png');
                                         }
 
                                             /* Descripción de tecnologiasAprendidas potenciadas o desarrolladas */
@@ -101,7 +101,7 @@
                                             }
 
                                         .educacionDescripcion-icono-contenidoDelCurso {
-                                            background-image: url('../../../images/educacion/libro.png');
+                                            background-image: url('../../../images/educacion/iconos/libro.png');
                                         }
                                 
                                         /* .educacionDescripcion_aprendi {
@@ -145,17 +145,17 @@
             gap: 0.3rem;
         }
 
-                /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_datos_principales_de_la_centroEducativo {
+                /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
                     padding-left: 0rem;
                 }
 
-                        /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                        .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                        /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                        .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                             gap: 0.3rem;
                         }
 
-                                /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                                /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                                 .educacionDescripcion_icono_dato_principal_container {
                                     gap: 0.2rem;
                                 }
@@ -166,7 +166,7 @@
             height: 0.8rem;   
         }
 
-                                        .educacionDescripcion_centroEducativo {
+                                        .educacionDescripcion_tituloDelCurso {
                                         }
 
                                                 .educacionDescripcion_fontweith1 {
@@ -252,17 +252,17 @@
             gap: 0.5rem;
         }
 
-                /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_datos_principales_de_la_centroEducativo {
+                /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
                     padding-left: 0.6rem;
                 }
 
-                        /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                        .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                        /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                        .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                             gap: 0.3rem;
                         }
 
-                                /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                                /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                                 .educacionDescripcion_icono_dato_principal_container {
                                     gap: 0.3rem;
                                 }
@@ -273,7 +273,7 @@
             height: 0.9rem;
         }
 
-                                        .educacionDescripcion_centroEducativo {
+                                        .educacionDescripcion_tituloDelCurso {
                                         }
 
                                                 .educacionDescripcion_fontweith1 {
@@ -357,17 +357,17 @@
             gap: 0.5rem;
         }
 
-                /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_datos_principales_de_la_centroEducativo {
+                /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
                     padding-left: 1rem;
                 }
 
-                        /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                        .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                        /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                        .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                             gap: 0.5rem;
                         }
 
-                                /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                                /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                                 .educacionDescripcion_icono_dato_principal_container {
                                     gap: 0.3rem;
                                 }
@@ -378,7 +378,7 @@
             height: 1.1rem;
         }
 
-                                        .educacionDescripcion_centroEducativo {
+                                        .educacionDescripcion_tituloDelCurso {
                                         }
 
                                                 .educacionDescripcion_fontweith1 {
@@ -458,17 +458,17 @@
             gap: 1rem;
         }
 
-                /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_datos_principales_de_la_centroEducativo {
+                /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
                     padding-left: 1rem;
                 }
 
-                        /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                        .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                        /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                        .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                             gap: 0.5rem;
                         }
 
-                                /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                                /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                                 .educacionDescripcion_icono_dato_principal_container {
                                     gap: 0.5rem;
                                 }
@@ -479,7 +479,7 @@
             height: 1.2rem;
         }
 
-                                        .educacionDescripcion_centroEducativo {
+                                        .educacionDescripcion_tituloDelCurso {
                                         }
 
                                                 .educacionDescripcion_fontweith1 {
@@ -559,17 +559,17 @@
             gap: 0.5rem;
         }
 
-                /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_datos_principales_de_la_centroEducativo {
+                /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
                     padding-left: 1.2rem;
                 }
 
-                        /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                        .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                        /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                        .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                             gap: 0.6rem;
                         }
 
-                                /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                                /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                                 .educacionDescripcion_icono_dato_principal_container {
                                     gap: 0.4rem;
                                 }
@@ -580,7 +580,7 @@
             height: 1.5rem;
         }
 
-                                        .educacionDescripcion_centroEducativo {
+                                        .educacionDescripcion_tituloDelCurso {
                                         }
 
                                                 .educacionDescripcion_fontweith1 {
@@ -660,17 +660,17 @@
             gap: 0.5rem;
         }
 
-                /* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                .educacionDescripcion_datos_principales_de_la_centroEducativo {
+                /* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                .educacionDescripcion_datos_principales_de_la_tituloDelCurso {
                     padding-left: 1.5rem;
                 }
 
-                        /* Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */
-                        .educacionDescripcion_centroEducativo_fechaDelCurso_calle_container {
+                        /* Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */
+                        .educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container {
                             gap: 0.5rem;
                         }
 
-                                /* SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */
+                                /* SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */
                                 .educacionDescripcion_icono_dato_principal_container {
                                     gap: 0.5rem;
                                 }
@@ -681,7 +681,7 @@
             height: 1.5rem;
         }
 
-                                        .educacionDescripcion_centroEducativo {
+                                        .educacionDescripcion_tituloDelCurso {
                                         }
 
                                                 .educacionDescripcion_fontweith1 {

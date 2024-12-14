@@ -4,15 +4,14 @@ import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
-import Typography from '@mui/material/Typography';
-// import puesto from '../../../images/experienciaProfesional/puesto.png';
 import './styles.css';
 
 
 // Logotipos de las empresas
-import neoland from '../../../images/educacion/laptop.png'
-import caldi from '../../../images/educacion/libro.png'
-import andaluz from '../../../images/educacion/neoland.png'
+import urjc from '../../../images/otrosEstudios/logos/urjc_logo.png';
+import udemy from '../../../images/otrosEstudios/logos/udemy.png';
+
+
 import { OtrosEstudiosDescripcion } from '../otrosEstudiosDescripcion';
 
 function StepIcon(props) {
@@ -34,27 +33,29 @@ const otrosEstudios = [
 
 
 
-  // FULL STACK WEB DEVELOPER(ESCUELA LULLABY)
+  // UNIVERSIDAD REY JUAN CARLOS
   {
-    iconoOtrosEstudios: neoland,
-    tituloDelEstudio: 'SELECT CAMPAING SETTINGS',
+    iconoOtrosEstudios: urjc,
+    tituloDelEstudio: 'INGENIERIA INFORMATICA',
     otrosEstudiosDescripcion: (
     
       <OtrosEstudiosDescripcion
       
-        tecnologiasAprendidasfila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        tecnologiasAprendidasfila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        tecnologiasAprendidasfila3={''}
-        tecnologiasAprendidasfila4={''}
-        tecnologiasAprendidasfila5={''}
-        tecnologiasAprendidasfila6={''}
+        // Tecnologias aprendidas
+        tecnologiasAprendidasfila1={`Java, GitHub, VHDL, Pascal, HTML, CSS, JavaScript`}
+        tecnologiasAprendidasfila2={``}
+        tecnologiasAprendidasfila3={``}
+        tecnologiasAprendidasfila4={``}
+        tecnologiasAprendidasfila5={``}
+        tecnologiasAprendidasfila6={``}
         
-        contenidoDelCursoFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        contenidoDelCursoFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        contenidoDelCursoFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        contenidoDelCursoFila4={''}
-        contenidoDelCursoFila5={''}
-        contenidoDelCursoFila6={''}
+        // Contenido del curso
+        contenidoDelCursoFila1={`Programación orientada a objetos.`}
+        contenidoDelCursoFila2={`Teoria de autómatas.`}
+        contenidoDelCursoFila3={`Calculo.`}
+        contenidoDelCursoFila4={``}
+        contenidoDelCursoFila5={``}
+        contenidoDelCursoFila6={``}
 
       />  
     
@@ -63,27 +64,32 @@ const otrosEstudios = [
 
 
 
-  // DESARROLLADOR Y CONSULTOR SAGE 200
+  // UDEMY REACT: DE CER A EXPERTO (HOOKS Y MERN) 
   {
-    iconoOtrosEstudios: caldi,
-    tituloDelEstudio: 'Create an ad group',
+    iconoOtrosEstudios: udemy,
+    tituloDelEstudio: 'REACT: DE 0 A EXPERTO ( HOKKS Y MERN )',
     otrosEstudiosDescripcion: (
       
       <OtrosEstudiosDescripcion
         
-        tecnologiasAprendidasfila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        tecnologiasAprendidasfila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        tecnologiasAprendidasfila3={''}
-        tecnologiasAprendidasfila4={''}
-        tecnologiasAprendidasfila5={''}
-        tecnologiasAprendidasfila6={''}
+        // Tecnologias aprendidas
+        tecnologiasAprendidasfila1={`ReactJS, HTML, CSS, JavaScript, Visual Studio Code, Git, 
+                                     GitHub, Front-End, Back-End, API, Node.js, Express, API REST, 
+                                     MERN Stack, Hooks de React, Desarrollo Web Redux.`}
+        tecnologiasAprendidasfila2={``}
+        tecnologiasAprendidasfila3={``}
+        tecnologiasAprendidasfila4={``}
+        tecnologiasAprendidasfila5={``}
+        tecnologiasAprendidasfila6={``}
         
-        contenidoDelCursoFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        contenidoDelCursoFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        contenidoDelCursoFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        contenidoDelCursoFila4={''}
-        contenidoDelCursoFila5={''}
-        contenidoDelCursoFila6={''}
+        // Contenido del curso
+        contenidoDelCursoFila1={`Aprender React a profundidad.`}
+        contenidoDelCursoFila2={`Realizar pruebas unitarias y de integración en todo tu código.`}
+        contenidoDelCursoFila3={`MERN - Mongo Express React Node.`}
+        contenidoDelCursoFila4={`Autenticación con Google y JWTs (JsonWebTokens).`}
+        contenidoDelCursoFila5={`Hooks a profundidad.`}
+        contenidoDelCursoFila6={`Crear aplicaciones reales.`}
+        contenidoDelCursoFila7={`Redux, Context y otros manejadores de estado.`}
         
       />  
 

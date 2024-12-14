@@ -8,24 +8,24 @@ export const EducacionDescripcion = ( props ) => {
         {/* CONTAINER PRINCIPAL */}
         <div className='EducacionDescripcion_principal_container'>
 
-                    {/* Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */}
-                    <div className='educacionDescripcion_datos_principales_de_la_centroEducativo'>
+                    {/* Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */}
+                    <div className='educacionDescripcion_datos_principales_de_la_tituloDelCurso'>
                             
-                                {/*  Sub-Container1 de nombre de la centroEducativo, fechaDelCurso que trabaje en la centroEducativo y localizacion de la centroEducativo */}
-                                <div className='educacionDescripcion_centroEducativo_fechaDelCurso_calle_container'>
+                                {/*  Sub-Container1 de nombre de la tituloDelCurso, fechaDelCurso que trabaje en la tituloDelCurso y localizacion de la tituloDelCurso */}
+                                <div className='educacionDescripcion_tituloDelCurso_fechaDelCurso_calle_container'>
                                         
 
-                                            {/*  SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */}
+                                            {/*  SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */}
                                             <div className='educacionDescripcion_icono_dato_principal_container'>
                                                     
-                                                    <div className='educacionDescripcion_icono educacionDescripcion_centroEducativo' />
+                                                    <div className='educacionDescripcion_icono educacionDescripcion_tituloDelCurso' />
 
                                                     <div className='educacionDescripcion_dato educacionDescripcion_fontweith1'>
-                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 900 }}> { props.centroEducativo } </Box>
+                                                        <Box sx={{ fontFamily: 'Roboto', fontWeight: 900 }}> { props.tituloDelCurso } </Box>
                                                     </div>
                                             </div>
                                         
-                                            {/*  SubSub-Container1 icono centroEducativo, fechaDelCurso, localizacion + dato de cada icono */}
+                                            {/*  SubSub-Container1 icono tituloDelCurso, fechaDelCurso, localizacion + dato de cada icono */}
                                             <div className='educacionDescripcion_icono_dato_principal_container'>
                                                     <div className='educacionDescripcion_icono educacionDescripcion_fechaDelCurso' />
 
@@ -91,7 +91,7 @@ export const EducacionDescripcion = ( props ) => {
                                                                         Tecnologías Aprendidas: 
                                                                     </div>
                                                                     
-                                                                    <div className='educacionDescripcion_icono educacionDescripcion-icono-tecnologiasAprendidass' />
+                                                                    <div className='educacionDescripcion_icono educacionDescripcion-icono-tecnologiasAprendidas' />
                                                             
                                                         </div>
                                                         
@@ -136,6 +136,104 @@ export const EducacionDescripcion = ( props ) => {
                                                                     { props.tecnologiasAprendidasFila6 && (
                                                                         <div className='educacionDescripcion_parrafo'>
                                                                         { props.tecnologiasAprendidasFila6 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 7 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila7 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila7 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 8 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila8 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila8 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 9 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila9 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila9 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 10 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila10 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila10 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 11 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila11 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila11 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 12 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila12 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila12 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 13 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila13 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila13 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 14 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila14 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila14 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 15 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila15 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila15 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 16 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila16 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila16 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 17 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila17 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila17 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 18 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila18 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila18 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 19 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila19 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila19 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 20 - Solo aparece si tecnologiasAprendidasFila6 tiene contenido */}
+                                                                    { props.tecnologiasAprendidasFila20 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.tecnologiasAprendidasFila20 }
                                                                         </div>
                                                                     )}
 
@@ -203,6 +301,104 @@ export const EducacionDescripcion = ( props ) => {
                                                                     { props.contenidoDelCursoFila6 && (
                                                                         <div className='educacionDescripcion_parrafo'>
                                                                         { props.contenidoDelCursoFila6 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 7 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila7 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila7 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 8 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila8 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila8 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 9 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila9 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila9 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 10 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila10 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila10 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 11 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila11 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila11 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 12 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila12 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila12 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 13 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila13 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila13 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 14 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila14 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila14 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 15 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila15 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila15 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 16 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila16 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila16 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 17 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila17 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila17 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 18 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila18 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila18 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 19 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila19 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila19 }
+                                                                        </div>
+                                                                    )}
+
+                                                                    {/* Fila 20 - Solo aparece si contenidoDelCursoFila6 tiene contenido */}
+                                                                    { props.contenidoDelCursoFila20 && (
+                                                                        <div className='educacionDescripcion_parrafo'>
+                                                                        { props.contenidoDelCursoFila20 }
                                                                         </div>
                                                                     )}
 

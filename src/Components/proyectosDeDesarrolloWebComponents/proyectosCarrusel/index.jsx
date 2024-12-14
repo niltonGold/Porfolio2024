@@ -7,7 +7,9 @@ import 'swiper/css/navigation';
 import './styles.css';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import CardProyecto from '../cardProyecto';
-import webresponsive from '../../../images/proyectos/webresponsibe.jpg';
+
+import escuela from '../../../images/proyectos/EscuelaLullabyFront.jpg';
+import landingpage from '../../../images/proyectos/LandingPageFront.jpg';
 
 
 export default function ProyectosCarrusel() {
@@ -66,64 +68,42 @@ export default function ProyectosCarrusel() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className='swiper-card'>
 
-          <CardProyecto
-            titulocard='hola'
-            tecnologias='(React, html)'
-            imagen={webresponsive}
-            descripcion='hohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdf5656561561561561xxxyyyyyyyyhrshgsgffsfsfssssssssssss'
-            repositorioGitHub='https://github.com/niltonGold/HTML-CSS-Proyect-WebResponsiveAnimada'
-            enlaceWeb='https://www.ionos-status.es/'
-          />
-          
-        </SwiperSlide>
 
-        <SwiperSlide className='swiper-card'>
-          <CardProyecto
-            titulocard='hola'
-            tecnologias='(React, html)'
-            imagen={webresponsive}
-            descripcion='hohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdf5656561561561561'
-            repositorioGitHub='https://github.com/niltonGold/HTML-CSS-Proyect-WebResponsiveAnimada'
-            enlaceWeb='https://www.ionos-status.es/'
-          />
-        </SwiperSlide>
+          {/* Escuela lullaby */}
+          <SwiperSlide className='swiper-card'>
 
-        <SwiperSlide className='swiper-card'>
-          <CardProyecto
-                        titulocard='hola'
-            tecnologias='(React, html)'
-            imagen={webresponsive}
-            descripcion='hohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdfohfkosdjaofjsodajfojdf5656561561561561'
-            repositorioGitHub='https://github.com/niltonGold/HTML-CSS-Proyect-WebResponsiveAnimada'
-            enlaceWeb='https://www.ionos-status.es/'
-          />
-        </SwiperSlide>
+              <CardProyecto
+                titulocard='ESCUELA LULLABY'
+                tecnologias='(React, Html, Css, JavaScript)'
+                imagen={escuela}
+                descripcion='Página web desarrollada en React, con navegación dinámica, formulario funcional mediante EmailJS 
+                             y diseño responsivo adaptable a cualquier pantalla. Incluye posicionamiento preciso de imágenes 
+                             con CSS para una experiencia optimizada.'
+                repositorioGitHub='https://github.com/niltonGold/React-Escuelaullaby.git'
+                enlaceWeb='https://escuelalullaby.netlify.app/inicioPage'
+              />
+            
+          </SwiperSlide>
 
-        <SwiperSlide className='swiper-card'>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="Nature 4" />
-        </SwiperSlide>
+                {/* ------------------------------------------------------------------------------------------ */}
 
-        <SwiperSlide  className='swiper-card'>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="Nature 5" />
-        </SwiperSlide>
+          {/* LandingPage */}
+          <SwiperSlide className='swiper-card'>
 
-        <SwiperSlide className='swiper-card'>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="Nature 6" />
-        </SwiperSlide>
+              <CardProyecto
+                titulocard='ESCUELA LULLABY'
+                tecnologias='(React, Html, Css, JavaScript)'
+                imagen={landingpage}
+                descripcion='Landing page desarrollada con React, que incluye tarjetas reutilizables para mostrar información 
+                             de forma dinámica. Integra EmailJS para correos y enlaces de WhatsApp para enviar mensajes directamente. 
+                             Totalmente optimizada y funcional.'
+                repositorioGitHub='https://github.com/niltonGold/REACT-LandingPage.git'
+                enlaceWeb='https://landingpage100.netlify.app/'
+              />
+            
+          </SwiperSlide>
 
-        <SwiperSlide className='swiper-card'>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="Nature 7" />
-        </SwiperSlide>
-
-        <SwiperSlide className='swiper-card'>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt="Nature 8" />
-        </SwiperSlide>
-
-        <SwiperSlide className='swiper-card'>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" alt="Nature 9" />
-        </SwiperSlide>
 
       </Swiper>
     </>

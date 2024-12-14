@@ -49,7 +49,7 @@
 
                                 
                                         .otrosEstudiosDescripcion-icono-competencias {
-                                            background-image: url('../../../images/educacion/laptop.png');
+                                            background-image: url('../../../images/otrosEstudios/iconos/laptop.png');
                                         }
 
                                             /* Descripción de Competencias potenciadas o desarrolladas */
@@ -60,12 +60,10 @@
                                             }
 
                                         .otrosEstudiosDescripcion-icono-logros {
-                                            background-image: url('../../../images/educacion/libro.png');
+                                            background-image: url('../../../images/otrosEstudios/iconos/libro.png');
                                         }
                                 
-                                        /* .otrosEstudiosDescripcion_aprendi {
-                                            background-image: url('../../../images/otrosEstudiosDescripcion/iconos/aprendi.png');
-                                        } */
+                                       
 
                                                 .otrosEstudiosDescripcion_descripcion_titulo_fontweith {
                                                     font-weight: bold;

@@ -4,15 +4,16 @@ import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
-import Typography from '@mui/material/Typography';
-
 import './styles.css';
 import { ExperienciaDescripcion } from '../experienciaDescripcion';
 import { ExperienciaConcurso } from '../experienciaConcurso';
 
-import neoland from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.jpg'
-import caldi from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.jpg'
-import andaluz from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.jpg'
+import Caldi from '../../../images/experienciaProfesional/empresasIconos/caldiIngenierosConsultoresSL.png';
+import andalus from '../../../images/experienciaProfesional/empresasIconos/alAndaluzFeeling.jpeg';
+import jobinplanet from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.png';
+
+
+
 
 
 
@@ -37,42 +38,51 @@ const experiencias = [
 
   // FULL STACK WEB DEVELOPER(ESCUELA LULLABY)
   {
-    iconoEmpresa: neoland,
-    puestoExperiencia: 'SELECT CAMPAING SETTINGS',
+    iconoEmpresa: Caldi,
+    puestoExperiencia: 'Full Stack Developer',
     description: (
 
       <ExperienciaDescripcion
-        empresa={'prueba1prueba1prueba1'}
-        tiempo={'prueba1prueba1prueba1'}
-        calle={'prueba1prueba1prueba1'}
+        empresa={'CALDI INGENIEROS CONSULTORES SL'}
+        tiempo={'Abril 2024 - Julio 2024'}
+        calle={'Calle Salónica 43, 28232, Las Rozas Madrid'}
 
-        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
+        // Descripcion del puesto
+        descripcionFila1={`Como desarrollador full stack, diseñé y desarrollé una landing page eficiente, escalable y orientada a resultados, 
+                           mejorando la experiencia de usuario y el rendimiento del sitio. Además, optimicé la estructura de la web de la 
+                           empresa, facilitando su modificación, personalización y adaptación a nuevas necesidades y objetivos.`}
+        descripcionFila2={''}
         descripcionFila3={''}
         descripcionFila4={''}
         descripcionFila5={''}
         descripcionFila6={''}
         
-        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila4={''}
+        // Competencias potenciadas o desarrolladas
+        competenciaFila1={`ReactJS, HTML y CSS: Amplié mis conocimientos en ReactJS, HTML y CSS para crear componentes reutilizables y 
+                           diseñar interfaces atractivas.`}
+        competenciaFila2={`Gestión de Proyectos en GitHub: Mejoré mis habilidades de gestión de proyectos y colaboración en GitHub.`}
+        competenciaFila3={`Responsive Design: Desarrollé habilidades en diseño responsive para asegurar accesibilidad en múltiples dispositivos.`}
+        competenciaFila4={`Publicación en Netlify: Adquirí experiencia en el despliegue y actualización de proyectos web.`}
         competenciaFila5={''}
         competenciaFila6={''}
 
-        logrosFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        logrosFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        logrosFila3={''}
-        logrosFila4={''}
-        logrosFila5={''}
-        logrosFila6={''}
+        // Logros
+        logrosFila1={`Diseñé y desarrollé una landing page dinámica para la empresa, implementando React y separando componentes,
+                      lo que facilitó la realización de cambios y mejoró significativamente la eficiencia y escalabilidad del proyecto.`}
+        logrosFila2={`Modernicé la página web principal de la empresa, migrándola completamente a React y estructurándola en 
+                      componentes reutilizables, optimizando su mantenibilidad y adaptabilidad para futuros desarrollos.`}
+        logrosFila3={``}
+        logrosFila4={``}
+        logrosFila5={``}
+        logrosFila6={``}
 
-        aprendiFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        aprendiFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        aprendiFila3={''}
-        aprendiFila4={''}
-        aprendiFila5={''}
-        aprendiFila6={''}
+        // Lo que aprendí
+        aprendiFila1={`Responsive Design: Profundicé en diseño responsive para garantizar una experiencia consistente en todos los dispositivos.`}
+        aprendiFila2={`Uso de Canvas: Aprendí a utilizar Canvas para crear gráficos y elementos interactivos.`}
+        aprendiFila3={`Creación de Componentes en React: Me especialicé en la creación de componentes modulares y reutilizables.`}
+        aprendiFila4={`Despliegue en Netlify: Mejoré en los procesos de despliegue utilizando Netlify.`}
+        aprendiFila5={``}
+        aprendiFila6={``}
 
       />  
     
@@ -81,44 +91,48 @@ const experiencias = [
 
 
 
-  // DESARROLLADOR Y CONSULTOR SAGE 200
+  // DESARROLLADOR Y CONSULTOR DE SAGE 200
   {
-    iconoEmpresa: neoland,
-    puestoExperiencia: 'Create an ad group',
+    iconoEmpresa: andalus,
+    puestoExperiencia: 'Desarrollador y Consultor de Sage 200 ',
     description: (
       
       <ExperienciaDescripcion
-        empresa={'prueba8'}
-        tiempo={'prueba8'}
-        calle={'prueba8'}
+        empresa={'AL-ANDALUS FEELING'}
+        tiempo={'Julio 2023 - Octubre 2024'}
+        calle={'Granada, Andalucía, España'}
 
-        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila3={''}
-        descripcionFila4={''}
-        descripcionFila5={''}
-        descripcionFila6={''}
+        // Descripcion del puesto
+        descripcionFila1={`Investigué las necesidades de usuarios y clientes para alinear las soluciones desarrolladas con sus requerimientos.`}
+        descripcionFila2={`Mantuve servidores y corregí errores, asegurando la estabilidad y seguridad del sistema.`}
+        descripcionFila3={`Creé y desarrollé un servicio web para conectar APIs externas de Shopify con Sage 200, facilitando la integración de datos.`}
+        descripcionFila4={`Utilicé SQL y SQL Server Management Studio para gestionar y optimizar bases de datos.`}
+        descripcionFila5={``}
+        descripcionFila6={``}
         
-        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila4={''}
-        competenciaFila5={''}
-        competenciaFila6={''}
+        // Competencias potenciadas o desarrolladas
+        competenciaFila1={`Análisis de Necesidades de Usuarios: Recopilación y análisis de datos para el desarrollo de productos.`}
+        competenciaFila2={`Mantenimiento de Servidores: Administración y resolución de problemas en servidores.`}
+        competenciaFila3={`Integración de APIs: Integración de servicios externos con enfoque en Sage 200.`}
+        competenciaFila4={`Gestión de Bases de Datos con SQL: Uso de SQL y SQL Server Management Studio.`}
+        competenciaFila5={``}
+        competenciaFila6={``}
 
-        logrosFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        logrosFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        logrosFila3={''}
-        logrosFila4={''}
-        logrosFila5={''}
-        logrosFila6={''}
+        // Logros
+        logrosFila1={`Implementé un servicio web que integró APIs externas con Sage 200, mejorando la eficiencia operativa.`}
+        logrosFila2={`Optimicé la experiencia del usuario adaptando soluciones a necesidades específicas.`}
+        logrosFila3={``}
+        logrosFila4={``}
+        logrosFila5={``}
+        logrosFila6={``}
 
-        aprendiFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        aprendiFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        aprendiFila3={''}
-        aprendiFila4={''}
-        aprendiFila5={''}
-        aprendiFila6={''}
+        // Lo que aprendí
+        aprendiFila1={`Investigación de Usuarios: Técnicas avanzadas para comprender las necesidades de los usuarios.`}
+        aprendiFila2={`Desarrollo e Integración de APIs: Habilidades en servicios web y APIs con Sage 200.`}
+        aprendiFila3={`SQL y SQL Server Management Studio: Gestión eficiente de bases de datos.`}
+        aprendiFila4={``}
+        aprendiFila5={``}
+        aprendiFila6={``}
 
       />  
 
@@ -129,35 +143,51 @@ const experiencias = [
 
   // HACKATON BARCELONA
   {
-    iconoEmpresa: caldi,
-    puestoExperiencia: 'Create an ad',
+    iconoEmpresa: jobinplanet,
+    puestoExperiencia: 'Programador full stack',
     description: (
       
       <ExperienciaConcurso
-        empresa={'prueba'}
-        tiempo={'a'}
-        calle={'a'}
+        empresa={'JOBINPLANET BY TALENT POINT HR'}
+        tiempo={'Abril 2023'}
+        calle={'Recinto Spotify Camp Nou'}
 
-        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila3={''}
-        descripcionFila4={''}
-        descripcionFila5={''}
-        descripcionFila6={''}
+        // Descripcion de la experiencia
+        descripcionFila1={`Participé en JOBarcelona, una hackathon que desafió a los participantes a resolver 
+                           problemas complejos en un entorno de tiempo limitado. Trabajé en equipo para desarrollar 
+                           soluciones innovadoras centradas en un proyecto full stack, compitiendo junto a 
+                           otros desarrolladores talentosos especializados en desarrollo web full stack.`}
+        descripcionFila2={``}
+        descripcionFila3={``}
+        descripcionFila4={``}
+        descripcionFila5={``}
+        descripcionFila6={``}
         
-        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila4={''}
-        competenciaFila5={''}
-        competenciaFila6={''}
+        // Competencias potenciadas o desarrolladas
+        competenciaFila1={`Resolución de Problemas: Mejoré mis habilidades en el análisis y resolución de problemas 
+                           complejos bajo presión.`}
+        competenciaFila2={`Trabajo en Equipo: Colaboré eficazmente con otros desarrolladores para abordar desafíos 
+                           técnicos y coordinar esfuerzos en el proyecto.`}
+        competenciaFila3={`Manejo del Tiempo: Desarrollé estrategias efectivas para gestionar el tiempo y priorizar 
+                           tareas en un entorno competitivo.`}
+        competenciaFila4={`Conocimiento Técnico: Amplié mi dominio en HTML, CSS, JavaScript, Python, Git, GitHub, y 
+                           APIs REST, aplicando conocimientos teóricos en situaciones prácticas.`}
+        competenciaFila5={``}
+        competenciaFila6={``}
 
-        desfioFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        desfioFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        desfioFila3={''}
-        desfioFila4={''}
-        desfioFila5={''}
-        desfioFila6={''}
+        // En que consistia en el desafio
+        desfioFila1={`El desafío consistía en desarrollar una plataforma web que permitiera visualizar las 
+                      analíticas de los grandes equipos de fútbol femenino de Europa. Este proyecto se enmarcaba 
+                      en el contexto del creciente interés y popularidad del fútbol femenino, un deporte que ha 
+                      visto un crecimiento exponencial en los últimos años. La plataforma debía ofrecer datos y 
+                      análisis sobre los equipos y ligas, permitiendo a los usuarios explorar estadísticas 
+                      detalladas y comparar el rendimiento de los equipos. El objetivo era crear una herramienta
+                      útil tanto para los aficionados como para los profesionales del deporte.`}
+        desfioFila2={``}
+        desfioFila3={``}
+        desfioFila4={``}
+        desfioFila5={``}
+        desfioFila6={``}
 
       />
 
@@ -168,35 +198,52 @@ const experiencias = [
 
   // HACKATON MADRID
   {
-    iconoEmpresa: caldi,
-    puestoExperiencia: 'Create xxxxxxxxx',
+    iconoEmpresa: jobinplanet,
+    puestoExperiencia: 'Programador full stack',
     description: (
         
       <ExperienciaConcurso
-        empresa={'prueba'}
-        tiempo={'dd'}
-        calle={'ff'}
+        empresa={'JOBINPLANET BY TALENT POINT HR'}
+        tiempo={'Noviembre 2022'}
+        calle={'WiZink Center Madrid'}
 
-        descripcionFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para facilitar su modificación y adaptación a nuevas necesidades.'}
-        descripcionFila3={''}
-        descripcionFila4={''}
-        descripcionFila5={''}
-        descripcionFila6={''}
+        // Descripcion de la experiencia
+        descripcionFila1={`Participé en JOBMadrid, una hackathon que desafió a los participantes 
+                           a resolver problemas complejos en un entorno de tiempo limitado. 
+                           Trabajé en equipo para desarrollar soluciones innovadoras centradas 
+                           en un proyecto full stack, compitiendo junto a otros desarrolladores 
+                           talentosos especializados en desarrollo web full stack.`}
+        descripcionFila2={``}
+        descripcionFila3={``}
+        descripcionFila4={``}
+        descripcionFila5={``}
+        descripcionFila6={``}
         
-        competenciaFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila3={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        competenciaFila4={''}
-        competenciaFila5={''}
-        competenciaFila6={''}
+        // Competencias potenciadas o desarrolladas
+        competenciaFila1={`Resolución de Problemas: Mejoré mis habilidades en el análisis y resolución de 
+                           problemas complejos bajo presión.`}
+        competenciaFila2={`Trabajo en Equipo: Colaboré eficazmente con otros desarrolladores para abordar 
+                           desafíos técnicos y coordinar esfuerzos en el proyecto.`}
+        competenciaFila3={`Manejo del Tiempo: Desarrollé estrategias efectivas para gestionar el tiempo y 
+                           priorizar tareas en un entorno competitivo.`}
+        competenciaFila4={`Conocimiento Técnico: Amplié mi dominio en HTML, CSS, JavaScript, Python, Git, GitHub, 
+                           y APIs REST, aplicando conocimientos teóricos en situaciones prácticas.`}
+        competenciaFila5={``}
+        competenciaFila6={``}
 
-        desfioFila1={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        desfioFila2={'Como desarrollador full stack, creé una landing page eficiente y escalable, y optimicé la web de la empresa para'}
-        desfioFila3={''}
-        desfioFila4={''}
-        desfioFila5={''}
-        desfioFila6={''}
+         // En que consistia en el desafio
+        desfioFila1={`El desafío consistía en desarrollar una plataforma para JOBMadrid Discographic, 
+                           la promotora organizadora del concierto de la banda tributo Nuwe Music en el WiZink 
+                           Center. La tarea principal era identificar qué canciones, artistas y géneros musicales 
+                           deberían interpretarse para asegurar el éxito del concierto. Se debía considerar si el 
+                           objetivo era un concierto enérgico, bailable o más tranquilo, utilizando una base de datos
+                           de canciones populares en streaming. La plataforma debía evaluar la popularidad, el mood
+                           y otros factores relevantes para ofrecer una experiencia de concierto óptima para el público.`}
+        desfioFila2={``}
+        desfioFila3={``}
+        desfioFila4={``}
+        desfioFila5={``}
+        desfioFila6={``}
         
       />
 

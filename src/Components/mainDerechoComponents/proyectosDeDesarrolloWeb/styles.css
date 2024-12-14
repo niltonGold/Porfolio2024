@@ -43,7 +43,8 @@
 
     .ProyectosDeDesarrolloWeb-container {
         width: 14rem;
-        height: 414px;
+        height: 413px;
+        background-color: rgb(9, 71, 71);
     }
 
     .proyectosdedesarrolloweb-titulo {
@@ -63,7 +64,8 @@
 
     .ProyectosDeDesarrolloWeb-container {
         width: 26rem;
-        height: 550px;
+        height: 551px;
+        background-color: rgb(9, 71, 71);
     }
 
     .proyectosdedesarrolloweb-titulo {
@@ -84,6 +86,7 @@
     .ProyectosDeDesarrolloWeb-container {
         width: 40rem;
         height: 581px;
+        background-color: rgb(9, 71, 71);
     }
 
     .proyectosdedesarrolloweb-titulo {
@@ -103,8 +106,8 @@
 
     .ProyectosDeDesarrolloWeb-container {
         width: 52rem;
-        height: 576.4px;
-        /* background-color: rgb(9, 71, 71); */
+        height: 600px;
+        background-color: rgb(9, 71, 71);
     }
 
     .proyectosdedesarrolloweb-titulo {
@@ -124,8 +127,9 @@
 
     .ProyectosDeDesarrolloWeb-container {
         width: 57rem;
-        height: 621.4px;
-        /* background-color: aqua; */
+        /* height: 621.4px; */
+        height: 640px;
+        background-color: aqua;
     }
 
     .proyectosdedesarrolloweb-titulo {

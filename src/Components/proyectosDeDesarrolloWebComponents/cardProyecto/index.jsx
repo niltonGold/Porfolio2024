@@ -115,16 +115,43 @@ return (
 
         {/* CARD CENTER, parte 2 de la card IMAGEN*/}
         <CardMedia
-            component="img"
-            width="auto" 
+            // component="img"
+            // width="auto" 
             image={props.imagen}
             alt="No disponible"
             sx={{
-                objectFit: 'cover',
-                width: '17rem',
-                height: '14rem',
+                // objectFit: 'cover',
                 border: '2px solid #000',
                 borderRadius: '8px',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                backgroundSize: '100% 100%',
+                '@media (min-width: 350px) and (max-width: 480px)': {
+                    width: '8rem',
+                    height: '5rem',
+                },
+                '@media (min-width: 481px) and (max-width: 767px)': {
+                    width: '9rem',
+                    height: '5rem',
+                },
+                '@media (min-width: 768px) and (max-width: 1024px)': {
+                    width: '16rem',
+                    height: '11rem',
+                },
+                '@media (min-width: 1025px) and (max-width: 1280px)': {
+                    width: '16rem',
+                    height: '12rem',
+                },
+                '@media (min-width: 1281px) and (max-width: 1440px)': {
+                    width: '16rem',
+                    height: '10rem',
+                },
+                '@media (min-width: 1441px)': {
+                    width: '17rem',
+                    height: '12rem',
+                } 
+
+
             }}
         />
 
@@ -173,7 +200,7 @@ return (
                             overflow: 'hidden',
                             display: '-webkit-box',
                             WebkitBoxOrient: 'vertical',
-                            WebkitLineClamp: 6, // Limita el número de líneas visibles
+                            WebkitLineClamp: 8, // Limita el número de líneas visibles
                             textOverflow: 'ellipsis',
                             wordWrap: 'break-word',
                             whiteSpace: 'normal',
@@ -212,7 +239,6 @@ return (
                                 target="_blank"
                                 sx={{ 
                                         textTransform: 'none', 
-                                        color: 'inherit',
                                         backgroundColor: 'transparent',
                                         display: 'flex',
                                         flexDirection: 'column',
@@ -275,11 +301,10 @@ return (
                         
                             <Button
                                     component={Link}
-                                    href={props.repositorioGitHub}
+                                    href={props.enlaceWeb}
                                     target="_blank"
                                     sx={{ 
                                             textTransform: 'none', 
-                                            color: 'inherit',
                                             backgroundColor: 'transparent',
                                             display: 'flex',
                                             flexDirection: 'column',
@@ -335,7 +360,7 @@ return (
                                         
                                     }} />
                                     
-                                    PaginaWeb
+                                    EnlaceWeb
                                 
                             </Button>
                     

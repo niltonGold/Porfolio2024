@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import { StepIcon } from '@mui/material';
 import ExperienciaListado from '../../experienciaProfesionalComponents/experienciaListado';
 
 export const ExperienciaProfesional = () => {
