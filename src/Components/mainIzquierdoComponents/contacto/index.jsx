@@ -67,7 +67,7 @@ export const Contacto = () => {
     // Oculta el tooltip después de 500ms
     setTimeout(() => {
       setShowTooltip(false);
-    }, 500);
+    }, 300);
 
     // Abre WhatsApp después de que el usuario vea el tooltip (opcional)
     setTimeout(() => {
