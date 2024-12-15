@@ -1,7 +1,6 @@
 .Contacto-container {
     display: flex;
     flex-direction: column;
-
 }
 
         .contacto-titulo {
@@ -15,59 +14,75 @@
                     flex-direction: column;
                     font-weight: bold;
                     text-decoration: underline;
-                    color: rgb(49, 49, 245);
-                    background-color: antiquewhite;     
+                    color: rgb(49, 49, 245);    
                 }
 
-                .contacto-enlace-container{
-                    background-color: aqua;
-                    width: 100%;
-                }
+                        .contacto-enlace-container{
+                            /* background-color: aqua; */
+                            position: relative;
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            border: solid 0.5px rgba(252, 252, 252, 0.8);
 
+                            width: 150px;
+                            padding: 7px;
+                            border-radius: 15px;
+                            gap: 0.5rem;
+                        }
 
-                .contacto-enlace{
-                    position: relative;
-                    cursor: pointer;
-                    border: solid 0.5px rgb(255, 253, 253, 0.8);
-                    display: flex;
-                
-                    background-color: bisque;
-                    width: 90px;
-                    padding: 7px;
-                    border-radius: 10px;
-                    
-                    justify-content: center;
-                    user-select: none; /* Evita la selección del texto */
-                }
+                        .contacto-enlace-container:hover {
+                            background-color: rgba(168, 150, 150, 0.5);
 
-                .contacto-enlace:hover {
-                    background-color: rgb(186, 179, 179, 0.5);
-                    border-radius: 10px;
-                    border: solid 0.5px rgba(0, 0, 0, 1);
-                    padding: 7px;
-                }
+                            border-radius: 10px;
+                            border: solid 0.5px rgba(0, 0, 0, 1);
+                            padding: 7px;
+                        }
 
-                .contacto-enlace::after {
-                    content: attr(data-tooltip);
-                    position: absolute;
-                    top: -30px; /* Ajusta según la posición deseada */
-                    left: 50%;
-                    transform: translateX(-50%);
-                    background-color: rgba(0, 0, 0, 0.8);
-                    color: #fff;
-                    padding: 5px 8px;
-                    border-radius: 5px;
-                    font-size: 15px;
-                    white-space: nowrap;
-                    opacity: 0;
-                    pointer-events: none;
-                    transition: opacity 0.2s ease-in-out;
-                }
-                
-                .contacto-enlace:hover::after {
-                    opacity: 1;
-                }
+                        .contacto-enlace-container:active {
+                            background-color: rgba(98, 92, 92, 0.5);
+                        }
 
+                        .contacto-enlace-container::after {
+                            content: attr(data-tooltip);
+                            position: absolute;
+                            transform: translateX(-50%);
+                            background-color: rgba(0, 0, 0, 0.8);
+                            color: #fff;
+                            white-space: nowrap;
+                            opacity: 0;
+                            pointer-events: none;
+                            transition: opacity 0.2s ease-in-out;
+
+                            padding: 5px 8px;
+                            border-radius: 5px;
+                            font-size: 15px;
+                            top: -30px; /* Ajusta según la posición deseada */
+                            left: 50%;
+                        }
+                        
+                        .contacto-enlace-container:hover::after {
+                            opacity: 1;
+                        }
+
+                                .contacto-icono {
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: 100% 100%;
+                                }
+                                
+                                .contacto-telefono{
+                                    background-image: url('../../../images/contacto/telefono.png');
+
+                                    width: 2rem;
+                                    height: 2rem;
+                                }
+
+                                .contacto-enlace{
+                                    user-select: none; /* Evita la selección del texto */
+                                }
+
+                                
 
                         /* .contacto-icono-descripcion-container {
                             display: flex;
