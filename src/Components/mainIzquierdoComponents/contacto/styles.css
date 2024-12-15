@@ -37,6 +37,7 @@
                     border-radius: 10px;
                     
                     justify-content: center;
+                    user-select: none; /* Evita la selección del texto */
                 }
 
                 .contacto-enlace:hover {

@@ -33,11 +33,11 @@ export const Contacto = () => {
                   <div className='contacto-parrafo-container'>
 
                         <div className='contacto-enlace-container'>
-                            <div className='contacto-enlace'  data-tooltip="Haz clic para copiar">
+                            <div className='contacto-enlace'  data-tooltip="Haz clic para copiar" onTouchStart={(e) => e.preventDefault()}>
                                 650347741
                             </div>
                         </div>
-                        
+
                         <div className='contacto-enlace'  data-tooltip="Haz clic para copiar">
                             650347741
                         </div>
