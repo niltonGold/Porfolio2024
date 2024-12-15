@@ -57,25 +57,24 @@ import "./styles.css";
 export const Contacto = () => {
   const phoneNumber = "34650347741";
   const message = "Hola Nilton me gustaría ponerme en contacto contigo";
-  const [showTooltip, setShowTooltip] = useState(true);
+  const [showTooltip, setShowTooltip] = useState(true); // Controla la visibilidad del tooltip
 
-  const handleClick = (event) => {
-    event.preventDefault(); // Previene comportamientos predeterminados
-    event.stopPropagation(); // Detiene la propagación del evento
-    setShowTooltip(true); // Muestra el tooltip temporalmente (opcional)
+  const handleMouseDown = () => {
+    setShowTooltip(true); // Muestra el tooltip mientras se presiona
+  };
 
-    // Oculta el tooltip después de 500ms
-    setTimeout(() => {
-      setShowTooltip(false);
-    }, 300);
+  const handleMouseUp = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    setTimeout(() => setShowTooltip(false), 500); // Oculta el tooltip después de 500ms
 
-    // Abre WhatsApp después de que el usuario vea el tooltip (opcional)
+    // Abre WhatsApp después de que el tooltip desaparezca
     setTimeout(() => {
       const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
         message
       )}`;
       window.open(whatsappURL, "_blank");
-    }, 500); // Este tiempo coincide con la desaparición del tooltip
+    }, 500);
   };
 
   return (
@@ -85,8 +84,10 @@ export const Contacto = () => {
         <div
           className="contacto-enlace-container"
           data-tooltip={showTooltip ? "Haz clic para copiar" : ""}
-          onClick={handleClick}
-          onTouchStart={(e) => e.preventDefault()} // Previene acciones no deseadas en pantallas táctiles
+          onMouseDown={handleMouseDown} // Detecta cuando el usuario presiona el botón
+          onMouseUp={handleMouseUp} // Detecta cuando el usuario suelta el botón
+          onTouchStart={handleMouseDown} // Maneja dispositivos táctiles
+          onTouchEnd={handleMouseUp} // Detecta cuando el usuario suelta el toque
         >
           <div className="contacto-icono contacto-telefono" />
           <div className="contacto-enlace">650347741</div>

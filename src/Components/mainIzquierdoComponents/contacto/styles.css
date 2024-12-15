@@ -57,14 +57,14 @@
                     font-size: 15px;
                   }
                   
-                  .contacto-enlace-container[data-tooltip]:hover::after {
+                  .contacto-enlace-container[data-tooltip]:hover::after,
+                  .contacto-enlace-container[data-tooltip]:active::after {
                     opacity: 1;
                   }
                   
                   .contacto-enlace-container[data-tooltip=""]::after {
                     content: none; /* Oculta el tooltip si no hay texto */
                   }
-                  
 
                                 .contacto-icono {
                                     background-repeat: no-repeat;
