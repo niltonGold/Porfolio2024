@@ -29,6 +29,12 @@
                             padding: 7px;
                             border-radius: 15px;
                             gap: 0.5rem;
+
+
+    
+               
+                       
+                            user-select: none; /* Evita selección del texto */
                         }
 
                         .contacto-enlace-container:hover {
@@ -61,9 +67,26 @@
                             left: 50%;
                         }
                         
-                        .contacto-enlace-container:hover::after {
-                            opacity: 1;
-                        }
+                        .contacto-enlace-container[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -30px; /* Ajusta la posición */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.contacto-enlace-container[data-tooltip=""]::after {
+    content: none; /* Oculta el tooltip si no hay texto */
+}
 
                                 .contacto-icono {
                                     background-repeat: no-repeat;
