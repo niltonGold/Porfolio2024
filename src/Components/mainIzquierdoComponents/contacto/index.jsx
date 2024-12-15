@@ -62,16 +62,20 @@ export const Contacto = () => {
   const handleClick = (event) => {
     event.preventDefault(); // Previene comportamientos predeterminados
     event.stopPropagation(); // Detiene la propagación del evento
-    setShowTooltip(false); // Oculta el tooltip al hacer clic
+    setShowTooltip(true); // Muestra el tooltip temporalmente (opcional)
 
-    // Espera brevemente para permitir que el tooltip desaparezca antes de abrir WhatsApp
+    // Oculta el tooltip después de 500ms
+    setTimeout(() => {
+      setShowTooltip(false);
+    }, 500);
+
+    // Abre WhatsApp después de que el usuario vea el tooltip (opcional)
     setTimeout(() => {
       const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
         message
       )}`;
       window.open(whatsappURL, "_blank");
-      setShowTooltip(true); // Vuelve a habilitar el tooltip después
-    }, 300); // Tiempo en ms para esperar antes de redirigir
+    }, 500); // Este tiempo coincide con la desaparición del tooltip
   };
 
   return (
