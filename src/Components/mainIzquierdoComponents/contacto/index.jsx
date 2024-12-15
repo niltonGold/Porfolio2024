@@ -51,20 +51,22 @@
 // };
 
 
-
 import React, { useState } from "react";
 import "./styles.css";
 
 export const Contacto = () => {
-  const [showTooltip, setShowTooltip] = useState(true); // Estado para el tooltip
-    const phoneNumber = "34650347741"; 
+       const phoneNumber = "34650347741"; 
     const message = "Hola Nilton me gustaría ponerme en contacto contigo";
     const email = "niltonenrique3000@hotmail.com";
-  const handleClick = () => {
+  const [showTooltip, setShowTooltip] = useState(true); // Estado del tooltip
+
+  const handleClick = (event) => {
+    event.preventDefault(); // Previene comportamientos predeterminados
+    event.stopPropagation(); // Detiene la propagación del evento
     setShowTooltip(false); // Oculta el tooltip al hacer clic
-    setTimeout(() => setShowTooltip(true), 100); // Restablece el estado después de un breve lapso
-            const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-        window.open(whatsappURL, "_blank");
+    setTimeout(() => setShowTooltip(true), 300); // Restablece el estado del tooltip tras 300ms
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+       window.open(whatsappURL, "_blank");
   };
 
   return (
@@ -75,6 +77,7 @@ export const Contacto = () => {
           className="contacto-enlace-container"
           data-tooltip={showTooltip ? "Haz clic para copiar" : ""}
           onClick={handleClick}
+          onTouchStart={(e) => e.preventDefault()} // Previene acciones no deseadas en pantallas táctiles
         >
           <div className="contacto-icono contacto-telefono" />
           <div className="contacto-enlace">650347741</div>

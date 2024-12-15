@@ -64,6 +64,7 @@
                   .contacto-enlace-container[data-tooltip=""]::after {
                     content: none; /* Oculta el tooltip si no hay texto */
                   }
+                  
 
                                 .contacto-icono {
                                     background-repeat: no-repeat;
