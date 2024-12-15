@@ -1,7 +1,7 @@
 .Contacto-container {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(241, 220, 211); */
+
 }
 
         .contacto-titulo {
@@ -16,17 +16,66 @@
                     font-weight: bold;
                     text-decoration: underline;
                     color: rgb(49, 49, 245);
-                    /* background-color: rgb(222, 222, 59); */
+                    background-color: antiquewhite;     
                 }
 
-                        .contacto-icono-descripcion-container {
+                .contacto-enlace-container{
+                    background-color: aqua;
+                    width: 100%;
+                }
+
+
+                .contacto-enlace{
+                    position: relative;
+                    cursor: pointer;
+                    border: solid 0.5px rgb(255, 253, 253, 0.8);
+                    display: flex;
+                
+                    background-color: bisque;
+                    width: 90px;
+                    padding: 7px;
+                    border-radius: 10px;
+                    
+                    justify-content: center;
+                }
+
+                .contacto-enlace:hover {
+                    background-color: rgb(186, 179, 179, 0.5);
+                    border-radius: 10px;
+                    border: solid 0.5px rgba(0, 0, 0, 1);
+                    padding: 7px;
+                }
+
+                .contacto-enlace::after {
+                    content: attr(data-tooltip);
+                    position: absolute;
+                    top: -30px; /* Ajusta según la posición deseada */
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: #fff;
+                    padding: 5px 8px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    white-space: nowrap;
+                    opacity: 0;
+                    pointer-events: none;
+                    transition: opacity 0.2s ease-in-out;
+                }
+                
+                .contacto-enlace:hover::after {
+                    opacity: 1;
+                }
+
+
+                        /* .contacto-icono-descripcion-container {
                             display: flex;
                             flex-direction: row;
                             align-items: center;
                             cursor: pointer;
                             position: relative;
                             transition: transform 0.3s ease, box-shadow 0.3s ease;
-                            /* background-color: aqua; */
+                           
                         }
 
                         .contacto-icono-descripcion-container-telefono:hover,
@@ -34,7 +83,7 @@
                         .contacto-icono-descripcion-container-linkedin:hover {
                         }
 
-                                /* estilos de tooltip de telefono, mail y linkedin */
+                              
                                 .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                 .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                 .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
@@ -42,7 +91,7 @@
                                     visibility: visible;
                                 }
 
-                                /* mas estilos de tooltip de telefono, mail y linkedin */
+                               
                                 .contactoTooltip {
                                     position: absolute;
                                     background-color: rgba(0, 0, 0, 0.7);
@@ -54,15 +103,15 @@
                                     z-index: 10;
                                 }
 
-                        /* telefono */
+                        
                         .contacto-icono-descripcion-container-telefono {
                         }
 
-                        /* mail */
+                   
                         .contacto-icono-descripcion-container-mail {
                         }
 
-                        /* linkedin */
+                      
                         .contacto-icono-descripcion-container-linkedin{
                         }
         
@@ -90,8 +139,8 @@
                         overflow-wrap: break-word;
                         white-space: normal;
                         justify-content: left;
-                        /* background-color: rgb(211, 118, 118); */
-                    }
+                       
+                    } */
 
 
 
@@ -114,7 +163,7 @@
                         gap: 0.6rem;
                     }
 
-                            .contacto-icono-descripcion-container {
+                            /* .contacto-icono-descripcion-container {
                                 gap: 0.2rem;
                                 padding: 0.1rem;
                                 border-radius: 6px;
@@ -128,29 +177,29 @@
                                 box-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
                             }
 
-                                    /* estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
                                         transform: translateY(-10px);
                                     }
 
-                                    /* mas estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contactoTooltip {
                                         transform: translateX(-20%);
                                     }
                             
-                            /* telefono */
+                            
                             .contacto-icono-descripcion-container-telefono {
                                 width: 4rem;
                             }
 
-                            /* mail */
+                            
                             .contacto-icono-descripcion-container-mail {
                                 width: 4.8rem;
                             }
 
-                            /* linkedin */
+                            
                             .contacto-icono-descripcion-container-linkedin{
                                 width: 3.5rem;
                             }
@@ -183,7 +232,7 @@
                         .contacto-descripcion {
                             flex-direction: column;
                             font-size: 6px;
-                        }
+                        } */
 
 }
 
@@ -204,7 +253,7 @@
                         gap: 0.8rem;
                     }
 
-                            .contacto-icono-descripcion-container {
+                            /* .contacto-icono-descripcion-container {
                                 gap: 0.3rem;
                                 padding: 0.1rem;
                             }
@@ -217,31 +266,31 @@
                                 box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
                             }
 
-                                    /* estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
                                         transform: translateY(-10px);
                                     }
 
-                                    /* mas estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contactoTooltip {
                                         transform: translateX(-20%);
                                     }
 
-                            /* telefono */
+                            
                             .contacto-icono-descripcion-container-telefono {
                                 width: 5rem;
                                 border-radius: 7px;
                             }
 
-                            /* mail */
+                            
                             .contacto-icono-descripcion-container-mail {
                                 width: 7rem;
                                 border-radius: 7px;
                             }
 
-                            /* linkedin */
+                            
                             .contacto-icono-descripcion-container-linkedin{
                                 width: 4.5rem;
                                 border-radius: 7px;
@@ -274,7 +323,7 @@
                         .contacto-descripcion {
                             flex-direction: column;
                             font-size: 8px;
-                        }
+                        } */
 
 }
 
@@ -295,7 +344,7 @@
                         gap: 0.8rem;
                     }
 
-                            .contacto-icono-descripcion-container {
+                            /* .contacto-icono-descripcion-container {
                                 gap: 0.3rem;
                                 padding: 0.2rem;
                             }
@@ -308,31 +357,31 @@
                                 box-shadow: 6px 6px 6px rgba(0, 0, 0, 1);
                             }
 
-                                    /* estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
                                         transform: translateY(-10px);
                                     }
 
-                                    /* mas estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contactoTooltip{
                                         transform: translateX(-20%);
                                     }
 
-                            /* telefono */
+                            
                             .contacto-icono-descripcion-container-telefono {
                                 width: 6.5rem;
                                 border-radius: 9px;
                             }
 
-                            /* mail */
+                            
                             .contacto-icono-descripcion-container-mail {
                                 width: 13rem;
                                 border-radius: 9px;
                             }
 
-                            /* linkedin */
+                            
                             .contacto-icono-descripcion-container-linkedin{
                                 width: 5.5rem;
                                 border-radius: 9px;
@@ -365,7 +414,7 @@
                         .contacto-descripcion {
                             flex-direction: row;
                             font-size: 11px;
-                        }
+                        } */
 
 }
 
@@ -386,7 +435,7 @@
                         gap: 0.8rem;
                     }
 
-                            .contacto-icono-descripcion-container {
+                            /* .contacto-icono-descripcion-container {
                                 gap: 0.4rem;
                                 padding: 0.2rem;
                             }
@@ -399,31 +448,31 @@
                                 box-shadow: 7px 7px 7px rgba(0, 0, 0, 1);
                             }
 
-                                    /* estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
                                         transform: translateY(-10px);
                                     }
 
-                                    /* mas estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contactoTooltip{
                                         transform: translateX(-20%);
                                     }
 
-                            /* telefono */
+                            
                             .contacto-icono-descripcion-container-telefono {
                                 width: 7.5rem;
                                 border-radius: 10px;
                             }
 
-                            /* mail */
+                            
                             .contacto-icono-descripcion-container-mail {
                                 width: 15rem;
                                 border-radius: 10px;
                             }
 
-                            /* linkedin */
+                            
                             .contacto-icono-descripcion-container-linkedin{
                                 width: 6rem;
                                 border-radius: 10px;
@@ -456,7 +505,7 @@
                         .contacto-descripcion {
                             flex-direction: row;
                             font-size: 12.5px;
-                        }
+                        } */
 
 }
 
@@ -477,7 +526,7 @@
                         gap: 1rem;
                     }
 
-                            .contacto-icono-descripcion-container {
+                            /* .contacto-icono-descripcion-container {
                                 gap: 0.4rem;
                                 padding: 0.4rem;
                             }
@@ -490,31 +539,31 @@
                                 box-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
                             }
 
-                                    /* estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
                                         transform: translateY(-10px);
                                     }
 
-                                    /* mas estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contactoTooltip{
                                         transform: translateX(-20%);
                                     }
 
-                            /* telefono */
+                            
                             .contacto-icono-descripcion-container-telefono {
                                 width: 9.5rem;
                                 border-radius: 15px;
                             }
 
-                            /* mail */
+                            
                             .contacto-icono-descripcion-container-mail {
                                 width: 18rem;
                                 border-radius: 15px;
                             }
 
-                            /* linkedin */
+                            
                             .contacto-icono-descripcion-container-linkedin{
                                 width: 7.5rem;
                                 border-radius: 15px;
@@ -547,7 +596,7 @@
                         .contacto-descripcion {
                             flex-direction: row;
                             font-size: 15px;
-                        }
+                        } */
 
 }
 
@@ -568,7 +617,7 @@
                         gap: 1rem;
                     }
 
-                            .contacto-icono-descripcion-container {
+                            /* .contacto-icono-descripcion-container {
                                 gap: 0.4rem;
                                 padding: 0.4rem;
                             }
@@ -581,31 +630,31 @@
                                 box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
                             }
 
-                                    /* estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
                                     .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
                                         transform: translateY(-10px);
                                     }
 
-                                    /* mas estilos de tooltip de telefono, mail y linkedin */
+                                    
                                     .contactoTooltip{
                                         transform: translateX(-20%);
                                     }
 
-                            /* telefono */
+                            
                             .contacto-icono-descripcion-container-telefono {
                                 width: 9.5rem;
                                 border-radius: 15px;
                             }
 
-                            /* mail */
+                            
                             .contacto-icono-descripcion-container-mail {
                                 width: 19.5rem;
                                 border-radius: 15px;
                             }
 
-                            /* linkedin */
+                            
                             .contacto-icono-descripcion-container-linkedin{
                                 width: 8rem;
                                 border-radius: 15px;
@@ -638,6 +687,6 @@
                         .contacto-descripcion {
                             flex-direction: row;
                             font-size: 16px;
-                        }
+                        } */
 
 }

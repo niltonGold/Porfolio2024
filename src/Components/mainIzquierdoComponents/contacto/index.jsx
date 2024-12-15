@@ -3,14 +3,14 @@ import './styles.css';
 
 export const Contacto = () => {
 
-    const phoneNumber = "34650347741"; // Número de teléfono con el código del país (34 para España en este caso)
+    const phoneNumber = "34650347741"; 
     const message = "Hola Nilton me gustaría ponerme en contacto contigo";
     const email = "niltonenrique3000@hotmail.com";
 
     const handleWhatsAppClick = () => {
-        // Crear la URL con el número y el mensaje
+        
         const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-        // Redirigir a la URL de WhatsApp
+      
         window.open(whatsappURL, "_blank");
     };
 
@@ -31,19 +31,30 @@ export const Contacto = () => {
                   <div className='contacto-titulo'>CONTACTO</div>
                   
                   <div className='contacto-parrafo-container'>
-                      
-                        {/* Contenedor de WhatsApp */}
-                        <div className='contacto-icono-descripcion-container contacto-icono-descripcion-container-telefono' onClick={handleWhatsAppClick} >
+
+                        <div className='contacto-enlace-container'>
+                            <div className='contacto-enlace'  data-tooltip="Haz clic para copiar">
+                                650347741
+                            </div>
+                        </div>
+                        
+                        <div className='contacto-enlace'  data-tooltip="Haz clic para copiar">
+                            650347741
+                        </div>
+
+                        <div>
+                            niltonenrique3000@hotmail.com
+                        </div>
+                        
+                        {/* <div className='contacto-icono-descripcion-container contacto-icono-descripcion-container-telefono' onClick={handleWhatsAppClick} >
                             <div className="contactoTooltip">Enviar Mensaje</div>
                             <div className='contacto-icono contacto-telefono' />
                             <div className='contacto-descripcion'>
                                 650347741
                             </div>
                         </div>
-                        
-                        {/* --------------------------------------------------------------------------------  */}
-                        
-                        {/* Contenedor de correo */}
+                         
+                       
                         <div className='contacto-icono-descripcion-container contacto-icono-descripcion-container-mail' onClick={handleEmailClick}>
                             <div className="contactoTooltip">Click Para Copiar</div>
                             <div className='contacto-icono contacto-correo'/>
@@ -53,7 +64,7 @@ export const Contacto = () => {
                             </div>
                         </div>
                                   
-                        {/* --------------------------------------------------------------------------------  */}
+                
                         
                         <div className='contacto-icono-descripcion-container contacto-icono-descripcion-container-linkedin' onClick={handleLinkedinClick}>
                             <div className="contactoTooltip">Abrir Linkedin</div>
@@ -61,7 +72,7 @@ export const Contacto = () => {
                             <div className='contacto-descripcion'>
                                 linkedin
                             </div>
-                        </div>
+                        </div> */}
                                   
                   </div>
             
