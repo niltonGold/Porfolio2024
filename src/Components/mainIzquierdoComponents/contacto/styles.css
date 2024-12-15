@@ -17,76 +17,53 @@
                     color: rgb(49, 49, 245);    
                 }
 
-                        .contacto-enlace-container{
-                            /* background-color: aqua; */
-                            position: relative;
-                            cursor: pointer;
-                            display: flex;
-                            align-items: center;
-                            border: solid 0.5px rgba(252, 252, 252, 0.8);
-
-                            width: 150px;
-                            padding: 7px;
-                            border-radius: 15px;
-                            gap: 0.5rem;
-
-
-    
-               
-                       
-                            user-select: none; /* Evita selección del texto */
-                        }
-
-                        .contacto-enlace-container:hover {
-                            background-color: rgba(168, 150, 150, 0.5);
-
-                            border-radius: 10px;
-                            border: solid 0.5px rgba(0, 0, 0, 1);
-                            padding: 7px;
-                        }
-
-                        .contacto-enlace-container:active {
-                            background-color: rgba(98, 92, 92, 0.5);
-                        }
-
-                        .contacto-enlace-container::after {
-                            content: attr(data-tooltip);
-                            position: absolute;
-                            transform: translateX(-50%);
-                            background-color: rgba(0, 0, 0, 0.8);
-                            color: #fff;
-                            white-space: nowrap;
-                            opacity: 0;
-                            pointer-events: none;
-                            transition: opacity 0.2s ease-in-out;
-
-                            padding: 5px 8px;
-                            border-radius: 5px;
-                            font-size: 15px;
-                            top: -30px; /* Ajusta según la posición deseada */
-                            left: 50%;
-                        }
-                        
-                        .contacto-enlace-container[data-tooltip]:hover::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    top: -30px; /* Ajusta la posición */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 5px 8px;
-    border-radius: 5px;
-    font-size: 12px;
-    white-space: nowrap;
-    opacity: 1;
-    pointer-events: none;
-    transition: opacity 0.2s ease-in-out;
-}
-
-.contacto-enlace-container[data-tooltip=""]::after {
-    content: none; /* Oculta el tooltip si no hay texto */
-}
+                .contacto-enlace-container {
+                    position: relative;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    border: solid 0.5px rgba(252, 252, 252, 0.8);
+                    width: 150px;
+                    padding: 7px;
+                    border-radius: 15px;
+                    gap: 0.5rem;
+                    user-select: none; /* Evita selección del texto */
+                  }
+                  
+                  .contacto-enlace-container:hover {
+                    background-color: rgba(168, 150, 150, 0.5);
+                    border-radius: 10px;
+                    border: solid 0.5px rgba(0, 0, 0, 1);
+                  }
+                  
+                  .contacto-enlace-container:active {
+                    background-color: rgba(98, 92, 92, 0.5);
+                  }
+                  
+                  .contacto-enlace-container::after {
+                    content: attr(data-tooltip);
+                    position: absolute;
+                    top: -30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: #fff;
+                    white-space: nowrap;
+                    opacity: 0;
+                    pointer-events: none;
+                    transition: opacity 0.2s ease-in-out;
+                    padding: 5px 8px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                  }
+                  
+                  .contacto-enlace-container[data-tooltip]:hover::after {
+                    opacity: 1;
+                  }
+                  
+                  .contacto-enlace-container[data-tooltip=""]::after {
+                    content: none; /* Oculta el tooltip si no hay texto */
+                  }
 
                                 .contacto-icono {
                                     background-repeat: no-repeat;
