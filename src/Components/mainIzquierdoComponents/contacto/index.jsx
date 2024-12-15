@@ -55,18 +55,23 @@ import React, { useState } from "react";
 import "./styles.css";
 
 export const Contacto = () => {
-       const phoneNumber = "34650347741"; 
-    const message = "Hola Nilton me gustaría ponerme en contacto contigo";
-    const email = "niltonenrique3000@hotmail.com";
-  const [showTooltip, setShowTooltip] = useState(true); // Estado del tooltip
+  const phoneNumber = "34650347741";
+  const message = "Hola Nilton me gustaría ponerme en contacto contigo";
+  const [showTooltip, setShowTooltip] = useState(true);
 
   const handleClick = (event) => {
     event.preventDefault(); // Previene comportamientos predeterminados
     event.stopPropagation(); // Detiene la propagación del evento
     setShowTooltip(false); // Oculta el tooltip al hacer clic
-    setTimeout(() => setShowTooltip(true), 300); // Restablece el estado del tooltip tras 300ms
-    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-       window.open(whatsappURL, "_blank");
+
+    // Espera brevemente para permitir que el tooltip desaparezca antes de abrir WhatsApp
+    setTimeout(() => {
+      const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+        message
+      )}`;
+      window.open(whatsappURL, "_blank");
+      setShowTooltip(true); // Vuelve a habilitar el tooltip después
+    }, 300); // Tiempo en ms para esperar antes de redirigir
   };
 
   return (
