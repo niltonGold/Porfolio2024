@@ -10,6 +10,7 @@
         }
 
                 .contacto-parrafo-container {
+                    /* background-color: rgb(124, 164, 164, 0.5); */
                     display: flex;
                     flex-direction: column;
                     font-weight: bold;
@@ -17,153 +18,101 @@
                     color: rgb(49, 49, 245);    
                 }
 
-                .contacto-enlace-container {
-                    position: relative;
-                    cursor: pointer;
-                    display: flex;
-                    align-items: center;
-                    border: solid 0.5px rgba(252, 252, 252, 0.8);
-                    width: 150px;
-                    padding: 7px;
-                    border-radius: 15px;
-                    gap: 0.5rem;
-                    user-select: none; /* Evita selección del texto */
-                  }
-                  
-                  .contacto-enlace-container:hover {
-                    background-color: rgba(168, 150, 150, 0.5);
-                    border-radius: 10px;
-                    border: solid 0.5px rgba(0, 0, 0, 1);
-                  }
-                  
-                  .contacto-enlace-container:active {
-                    background-color: rgba(98, 92, 92, 0.5);
-                  }
-                  
-                  .contacto-enlace-container::after {
-                    content: attr(data-tooltip);
-                    position: absolute;
-                    top: -30px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    background-color: rgba(0, 0, 0, 0.8);
-                    color: #fff;
-                    white-space: nowrap;
-                    opacity: 0;
-                    pointer-events: none;
-                    transition: opacity 0.2s ease-in-out;
-                    padding: 5px 8px;
-                    border-radius: 5px;
-                    font-size: 15px;
-                  }
-                  
-                  .contacto-enlace-container[data-tooltip]:hover::after,
-                  .contacto-enlace-container[data-tooltip]:active::after {
-                    opacity: 1;
-                  }
-                  
-                  .contacto-enlace-container[data-tooltip=""]::after {
-                    content: none; /* Oculta el tooltip si no hay texto */
-                  }
-
-                                .contacto-icono {
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                    background-size: 100% 100%;
-                                }
-                                
-                                .contacto-telefono{
-                                    background-image: url('../../../images/contacto/telefono.png');
-
-                                    width: 2rem;
-                                    height: 2rem;
-                                }
-
-                                .contacto-enlace{
-                                    user-select: none; /* Evita la selección del texto */
-                                }
-
-                                
-
-                        /* .contacto-icono-descripcion-container {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            cursor: pointer;
+                        .contacto-enlace-container {
                             position: relative;
-                            transition: transform 0.3s ease, box-shadow 0.3s ease;
-                           
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            border: solid 0.5px rgba(252, 252, 252, 0.8);
+
+                            /* padding: 7px;
+                            border-radius: 15px;
+                            gap: 0.5rem; */
+                            user-select: none; /* Evita selección del texto */
                         }
 
-                        .contacto-icono-descripcion-container-telefono:hover,
-                        .contacto-icono-descripcion-container-mail:hover,
-                        .contacto-icono-descripcion-container-linkedin:hover {
+                        .contacto-enlace-container1{
+                            /* width: 150px; */
                         }
 
-                              
-                                .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-
-                               
-                                .contactoTooltip {
-                                    position: absolute;
-                                    background-color: rgba(0, 0, 0, 0.7);
-                                    color: #fff;
-                                    white-space: nowrap;
-                                    opacity: 0;
-                                    visibility: hidden;
-                                    transition: opacity 0.3s ease, transform 0.3s ease;
-                                    z-index: 10;
-                                }
-
+                        .contacto-enlace-container2{
+                            /* width: 300px; */
+                        }
                         
-                        .contacto-icono-descripcion-container-telefono {
+                        .contacto-enlace-container:hover {
+                            background-color: rgba(168, 150, 150, 0.5);
+                            border: solid 0.5px rgba(0, 0, 0, 1);
+                            /* border-radius: 10px; */
+                        }
+                        
+                        .contacto-enlace-container:active {
+                            background-color: rgba(98, 92, 92, 0.5);
+                        }
+                        
+                        .contacto-enlace-container::after {
+                            content: attr(data-tooltip);
+                            position: absolute;
+                            top: -30px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background-color: rgba(0, 0, 0, 0.8);
+                            color: #fff;
+                            white-space: nowrap;
+                            opacity: 0;
+                            pointer-events: none;
+                            transition: opacity 0.2s ease-in-out;
+                            /* padding: 5px 8px;
+                            border-radius: 5px;
+                            font-size: 15px; */
+                        }
+                        
+                        .contacto-enlace-container[data-tooltip]:hover::after,
+                        .contacto-enlace-container[data-tooltip]:active::after {
+                            opacity: 1;
+                        }
+                        
+                        .contacto-enlace-container[data-tooltip=""]::after {
+                            content: none; /* Oculta el tooltip si no hay texto */
                         }
 
-                   
-                        .contacto-icono-descripcion-container-mail {
-                        }
+                                        .contacto-icono {
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: 100% 100%;
+                                        }
+                                        
+                                        .contacto-telefono{
+                                            background-image: url('../../../images/contacto/telefono.png');
 
-                      
-                        .contacto-icono-descripcion-container-linkedin{
-                        }
-        
-                                .contactoTooltip {                               
-                                }
+                                            /* width: 2rem;
+                                            height: 2rem; */
+                                        }
 
-                    .contacto-icono {
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-size: 100% 100%;
-                    }
+                                        .contacto-email{
+                                            background-image: url('../../../images/contacto/email.png');
 
-                    .contacto-telefono{
-                        background-image: url('../../../images/contacto/telefono.png');
-                    }
-                    .contacto-correo{
-                        background-image: url('../../../images/contacto/email.png');
-                    }
-                    .contacto-linkedin{
-                        background-image: url('../../../images/contacto/linkedin.png');
-                    }
+                                            /* width: 2rem;
+                                            height: 2rem; */
+                                        }
 
-                    .contacto-descripcion {
-                        display: flex;
-                        overflow-wrap: break-word;
-                        white-space: normal;
-                        justify-content: left;
-                       
-                    } */
+                                        .contacto-linkedin{
+                                            background-image: url('../../../images/contacto/linkedin.png');
 
+                                            /* width: 2rem;
+                                            height: 2rem; */
+                                        }
 
+                                        .contacto-enlace{
+                                            user-select: none; /* Evita la selección del texto */
+                                        }
+
+                                    .contacto-email-lineaTexto{
+                                        display: flex;
+                                    }
 
 
 
-
+                                        
 /* Móviles Pequeños */
 @media only screen and (min-width: 350px) and (max-width: 480px) {
 
@@ -180,78 +129,70 @@
                         gap: 0.6rem;
                     }
 
-                            /* .contacto-icono-descripcion-container {
+                            .contacto-enlace-container {
+                                padding: 3px;
+                                border-radius: 7px;
                                 gap: 0.2rem;
-                                padding: 0.1rem;
-                                border-radius: 6px;
+                                user-select: none; /* Evita selección del texto */
                             }
 
-                            .contacto-icono-descripcion-container-telefono:hover,
-                            .contacto-icono-descripcion-container-mail:hover,
-                            .contacto-icono-descripcion-container-linkedin:hover {
-                                border: solid 0.5px rgba(0, 0, 0, 1);
-                                transform: translateY(-2px);
-                                box-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+                            .contacto-enlace-container1{
+                                width: 50px;
                             }
 
-                                    
-                                    .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                        transform: translateY(-10px);
+                            .contacto-enlace-container2{
+                                width: 70px;
+                            }
+                            
+                            .contacto-enlace-container:hover {
+                                border-radius: 7px;
+                            }
+                            
+                            .contacto-enlace-container:active {
+                            }
+                            
+                            .contacto-enlace-container::after {
+                                padding: 5px 8px;
+                                border-radius: 5px;
+                                font-size: 6px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip]:hover::after,
+                            .contacto-enlace-container[data-tooltip]:active::after {
+                                top: -18px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip=""]::after {
+                            }
+
+                                            .contacto-icono {
+                                            }
+                                            
+                                            .contacto-telefono{
+                                                width: 0.8rem;
+                                                height: 0.8rem;
+                                            }
+
+                                            .contacto-email{
+                                                width: 0.8rem;
+                                                height: 0.8rem;
+                                            }
+
+                                            .contacto-linkedin{
+                                                width: 0.8rem;
+                                                height: 0.8rem;
+                                            }
+
+                                            .contacto-enlace{
+                                                font-size: 6px;
+                                            }
+
+                                    .contacto-email-lineaTexto{
+                                        flex-direction: column;
                                     }
-
-                                    
-                                    .contactoTooltip {
-                                        transform: translateX(-20%);
-                                    }
-                            
-                            
-                            .contacto-icono-descripcion-container-telefono {
-                                width: 4rem;
-                            }
-
-                            
-                            .contacto-icono-descripcion-container-mail {
-                                width: 4.8rem;
-                            }
-
-                            
-                            .contacto-icono-descripcion-container-linkedin{
-                                width: 3.5rem;
-                            }
-            
-                                    .contactoTooltip {  
-                                        transform: translateX(-20%);
-                                        padding: 5px;
-                                        border-radius: 6px;
-                                        font-size: 8px;
-                                        top: -12px;
-                                        left: 0%;
-                                    }
-
-                        .contacto-icono {
-                            width: 0.8rem;
-                            height: 0.8rem;
-                            margin-left: 0.3rem;
-                        }
-
-                        .contacto-telefono{
-                            background-image: url('../../../images/contacto/telefono.png');
-                        }
-                        .contacto-correo{
-                            background-image: url('../../../images/contacto/email.png');
-                        }
-                        .contacto-linkedin{
-                            background-image: url('../../../images/contacto/linkedin.png');
-                        }
-
-                        .contacto-descripcion {
-                            flex-direction: column;
-                            font-size: 6px;
-                        } */
 
 }
+
 
 
 /* Móviles Medianos a Grandes */
@@ -270,79 +211,69 @@
                         gap: 0.8rem;
                     }
 
-                            /* .contacto-icono-descripcion-container {
-                                gap: 0.3rem;
-                                padding: 0.1rem;
+                            .contacto-enlace-container {
+                                padding: 6px;
+                                border-radius: 11px;
+                                gap: 0.5rem;
+                                user-select: none; /* Evita selección del texto */
                             }
 
-                            .contacto-icono-descripcion-container-telefono:hover,
-                            .contacto-icono-descripcion-container-mail:hover,
-                            .contacto-icono-descripcion-container-linkedin:hover {
-                                border: solid 0.5px rgba(0, 0, 0, 1);
-                                transform: translateY(-5px);
-                                box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+                            .contacto-enlace-container1{
+                                width: 80px;
                             }
 
-                                    
-                                    .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                        transform: translateY(-10px);
-                                    }
-
-                                    
-                                    .contactoTooltip {
-                                        transform: translateX(-20%);
-                                    }
-
+                            .contacto-enlace-container2{
+                                width: 100px;
+                            }
                             
-                            .contacto-icono-descripcion-container-telefono {
-                                width: 5rem;
-                                border-radius: 7px;
+                            .contacto-enlace-container:hover {
+                                border-radius: 10px;
+                            }
+                            
+                            .contacto-enlace-container:active {
+                            }
+                            
+                            .contacto-enlace-container::after {
+                                padding: 5px 8px;
+                                border-radius: 5px;
+                                font-size: 8px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip]:hover::after,
+                            .contacto-enlace-container[data-tooltip]:active::after {
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip=""]::after {
                             }
 
-                            
-                            .contacto-icono-descripcion-container-mail {
-                                width: 7rem;
-                                border-radius: 7px;
-                            }
+                                            .contacto-icono {
+                                            }
+                                            
+                                            .contacto-telefono{
+                                                width: 1.2rem;
+                                                height: 1.2rem;
+                                            }
 
-                            
-                            .contacto-icono-descripcion-container-linkedin{
-                                width: 4.5rem;
-                                border-radius: 7px;
-                            }
-            
-                                    .contactoTooltip {                               
-                                        padding: 5px;
-                                        border-radius: 7px;
-                                        font-size: 10px;
-                                        top: -16px;
-                                        left: 0%;
+                                            .contacto-email{
+                                                width: 1.2rem;
+                                                height: 1.2rem;
+                                            }
+
+                                            .contacto-linkedin{
+                                                width: 1.2rem;
+                                                height: 1.2rem;
+                                            }
+
+                                            .contacto-enlace{
+                                                font-size: 8px;
+                                            }
+
+                                    .contacto-email-lineaTexto{
+                                        flex-direction: column;
                                     }
-
-                        .contacto-icono {
-                            width: 1.3rem;
-                            height: 1.3rem;
-                            margin-left: 0.5rem;
-                        }
-
-                        .contacto-telefono{
-                            background-image: url('../../../images/contacto/telefono.png');
-                        }
-                        .contacto-correo{
-                            background-image: url('../../../images/contacto/email.png');
-                        }
-                        .contacto-linkedin{
-                            background-image: url('../../../images/contacto/linkedin.png');
-                        }
-
-                        .contacto-descripcion {
-                            flex-direction: column;
-                            font-size: 8px;
-                        } */
 
 }
+
 
 
 /* Tabletas Pequeñas */
@@ -361,79 +292,69 @@
                         gap: 0.8rem;
                     }
 
-                            /* .contacto-icono-descripcion-container {
-                                gap: 0.3rem;
-                                padding: 0.2rem;
+                            .contacto-enlace-container {
+                                padding: 7px;
+                                border-radius: 12px;
+                                gap: 0.5rem;
+                                user-select: none; /* Evita selección del texto */
                             }
 
-                            .contacto-icono-descripcion-container-telefono:hover,
-                            .contacto-icono-descripcion-container-mail:hover,
-                            .contacto-icono-descripcion-container-linkedin:hover {
-                                border: solid 0.5px rgba(0, 0, 0, 1);
-                                transform: translateY(-8px);
-                                box-shadow: 6px 6px 6px rgba(0, 0, 0, 1);
+                            .contacto-enlace-container1{
+                                width: 101px;
                             }
 
-                                    
-                                    .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                        transform: translateY(-10px);
-                                    }
-
-                                    
-                                    .contactoTooltip{
-                                        transform: translateX(-20%);
-                                    }
-
+                            .contacto-enlace-container2{
+                                width: 150px;
+                            }
                             
-                            .contacto-icono-descripcion-container-telefono {
-                                width: 6.5rem;
-                                border-radius: 9px;
+                            .contacto-enlace-container:hover {
+                                border-radius: 10px;
+                            }
+                            
+                            .contacto-enlace-container:active {
+                            }
+                            
+                            .contacto-enlace-container::after {
+                                padding: 5px 8px;
+                                border-radius: 5px;
+                                font-size: 13px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip]:hover::after,
+                            .contacto-enlace-container[data-tooltip]:active::after {
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip=""]::after {
                             }
 
-                            
-                            .contacto-icono-descripcion-container-mail {
-                                width: 13rem;
-                                border-radius: 9px;
-                            }
+                                            .contacto-icono {
+                                            }
+                                            
+                                            .contacto-telefono{
+                                                width: 1.3rem;
+                                                height: 1.3rem;
+                                            }
 
-                            
-                            .contacto-icono-descripcion-container-linkedin{
-                                width: 5.5rem;
-                                border-radius: 9px;
-                            }
-            
-                                    .contactoTooltip {                               
-                                        padding: 8px;
-                                        border-radius: 9px;
-                                        font-size: 13px;
-                                        top: -25px;
-                                        left: 0%;
+                                            .contacto-email{
+                                                width: 1.3rem;
+                                                height: 1.3rem;
+                                            }
+
+                                            .contacto-linkedin{
+                                                width: 1.3rem;
+                                                height: 1.3rem;
+                                            }
+
+                                            .contacto-enlace{
+                                                font-size: 13px;
+                                            }
+
+                                    .contacto-email-lineaTexto{
+                                        flex-direction: column;
                                     }
-
-                        .contacto-icono {
-                            width: 1.5rem;
-                            height: 1.5rem;
-                            margin-left: 0.6rem;
-                        }
-
-                        .contacto-telefono{
-                            background-image: url('../../../images/contacto/telefono.png');
-                        }
-                        .contacto-correo{
-                            background-image: url('../../../images/contacto/email.png');
-                        }
-                        .contacto-linkedin{
-                            background-image: url('../../../images/contacto/linkedin.png');
-                        }
-
-                        .contacto-descripcion {
-                            flex-direction: row;
-                            font-size: 11px;
-                        } */
-
+        
 }
+
 
 
 /* Tabletas Grandes */
@@ -452,79 +373,69 @@
                         gap: 0.8rem;
                     }
 
-                            /* .contacto-icono-descripcion-container {
-                                gap: 0.4rem;
-                                padding: 0.2rem;
+                            .contacto-enlace-container {
+                                padding: 7px;
+                                border-radius: 13px;
+                                gap: 0.5rem;
+                                user-select: none; /* Evita selección del texto */
                             }
 
-                            .contacto-icono-descripcion-container-telefono:hover,
-                            .contacto-icono-descripcion-container-mail:hover,
-                            .contacto-icono-descripcion-container-linkedin:hover {
-                                border: solid 0.5px rgba(0, 0, 0, 1);
-                                transform: translateY(-10px);
-                                box-shadow: 7px 7px 7px rgba(0, 0, 0, 1);
+                            .contacto-enlace-container1{
+                                width: 110px;
                             }
 
-                                    
-                                    .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                        transform: translateY(-10px);
-                                    }
-
-                                    
-                                    .contactoTooltip{
-                                        transform: translateX(-20%);
-                                    }
-
+                            .contacto-enlace-container2{
+                                width: 160px;
+                            }
                             
-                            .contacto-icono-descripcion-container-telefono {
-                                width: 7.5rem;
+                            .contacto-enlace-container:hover {
                                 border-radius: 10px;
                             }
-
                             
-                            .contacto-icono-descripcion-container-mail {
-                                width: 15rem;
-                                border-radius: 10px;
+                            .contacto-enlace-container:active {
+                            }
+                            
+                            .contacto-enlace-container::after {
+                                padding: 5px 8px;
+                                border-radius: 5px;
+                                font-size: 14px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip]:hover::after,
+                            .contacto-enlace-container[data-tooltip]:active::after {
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip=""]::after {
                             }
 
-                            
-                            .contacto-icono-descripcion-container-linkedin{
-                                width: 6rem;
-                                border-radius: 10px;
-                            }
-            
-                                    .contactoTooltip {                               
-                                        padding: 8px;
-                                        border-radius: 10px;
-                                        font-size: 14.5px;
-                                        top: -28px;
-                                        left: 0%;
+                                            .contacto-icono {
+                                            }
+                                            
+                                            .contacto-telefono{
+                                                width: 1.4rem;
+                                                height: 1.4rem;
+                                            }
+
+                                            .contacto-email{
+                                                width: 1.4rem;
+                                                height: 1.4rem;
+                                            }
+
+                                            .contacto-linkedin{
+                                                width: 1.4rem;
+                                                height: 1.4rem;
+                                            }
+
+                                            .contacto-enlace{
+                                                font-size: 14px;
+                                            }
+
+                                    .contacto-email-lineaTexto{
+                                        flex-direction: column;
                                     }
-
-                        .contacto-icono {
-                            width: 1.7rem;
-                            height: 1.7rem;
-                            margin-left: 0.6rem;
-                        }
-
-                        .contacto-telefono{
-                            background-image: url('../../../images/contacto/telefono.png');
-                        }
-                        .contacto-correo{
-                            background-image: url('../../../images/contacto/email.png');
-                        }
-                        .contacto-linkedin{
-                            background-image: url('../../../images/contacto/linkedin.png');
-                        }
-
-                        .contacto-descripcion {
-                            flex-direction: row;
-                            font-size: 12.5px;
-                        } */
-
+                        
 }
+
 
 
 /* Laptops y Desktops Pequeños */
@@ -543,79 +454,70 @@
                         gap: 1rem;
                     }
 
-                            /* .contacto-icono-descripcion-container {
-                                gap: 0.4rem;
-                                padding: 0.4rem;
-                            }
-
-                            .contacto-icono-descripcion-container-telefono:hover,
-                            .contacto-icono-descripcion-container-mail:hover,
-                            .contacto-icono-descripcion-container-linkedin:hover {
-                                border: solid 0.5px rgba(0, 0, 0, 1);
-                                transform: translateY(-12px);
-                                box-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
-                            }
-
-                                    
-                                    .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                        transform: translateY(-10px);
-                                    }
-
-                                    
-                                    .contactoTooltip{
-                                        transform: translateX(-20%);
-                                    }
-
-                            
-                            .contacto-icono-descripcion-container-telefono {
-                                width: 9.5rem;
+                            .contacto-enlace-container {
+                                padding: 7px;
                                 border-radius: 15px;
+                                gap: 0.5rem;
+                                user-select: none; /* Evita selección del texto */
                             }
 
-                            
-                            .contacto-icono-descripcion-container-mail {
-                                width: 18rem;
-                                border-radius: 15px;
+                            .contacto-enlace-container1{
+                                width: 115px;
                             }
 
-                            
-                            .contacto-icono-descripcion-container-linkedin{
-                                width: 7.5rem;
-                                border-radius: 15px;
+                            .contacto-enlace-container2{
+                                width: 260px;
                             }
-            
-                                    .contactoTooltip {                               
-                                        padding: 10px;
-                                        border-radius: 10px;
-                                        font-size: 17px;
-                                        top: -35px;
-                                        left: 0%;
+                            
+                            .contacto-enlace-container:hover {
+                                border-radius: 10px;
+                            }
+                            
+                            .contacto-enlace-container:active {
+                            }
+                            
+                            .contacto-enlace-container::after {
+                                padding: 5px 8px;
+                                border-radius: 5px;
+                                font-size: 15px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip]:hover::after,
+                            .contacto-enlace-container[data-tooltip]:active::after {
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip=""]::after {
+                            }
+
+                                            .contacto-icono {
+                                            }
+                                            
+                                            .contacto-telefono{
+                                                width: 1.5rem;
+                                                height: 1.5rem;
+                                            }
+
+                                            .contacto-email{
+                                                width: 1.5rem;
+                                                height: 1.5rem;
+                                            }
+
+                                            .contacto-linkedin{
+                                                width: 1.5rem;
+                                                height: 1.5rem;
+                                            }
+
+                                            .contacto-enlace{
+                                                font-size: 15px;
+                                            }
+
+                                    .contacto-email-lineaTexto{
+                                        
                                     }
-
-                        .contacto-icono {
-                            width: 1.9rem;
-                            height: 1.9rem;
-                            margin-left: 1rem;
-                        }
-
-                        .contacto-telefono{
-                            background-image: url('../../../images/contacto/telefono.png');
-                        }
-                        .contacto-correo{
-                            background-image: url('../../../images/contacto/email.png');
-                        }
-                        .contacto-linkedin{
-                            background-image: url('../../../images/contacto/linkedin.png');
-                        }
-
-                        .contacto-descripcion {
-                            flex-direction: row;
-                            font-size: 15px;
-                        } */
-
+        
+                  
 }
+
 
 
 /* Desktops Grandes */
@@ -634,76 +536,66 @@
                         gap: 1rem;
                     }
 
-                            /* .contacto-icono-descripcion-container {
-                                gap: 0.4rem;
-                                padding: 0.4rem;
+                            .contacto-enlace-container {
+                                padding: 7px;
+                                border-radius: 15px;
+                                gap: 0.5rem;
+                                user-select: none; /* Evita selección del texto */
                             }
 
-                            .contacto-icono-descripcion-container-telefono:hover,
-                            .contacto-icono-descripcion-container-mail:hover,
-                            .contacto-icono-descripcion-container-linkedin:hover {
-                                border: solid 0.5px rgba(0, 0, 0, 1);
-                                transform: translateY(-14px);
-                                box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+                            .contacto-enlace-container1{
+                                width: 150px;
                             }
 
-                                    
-                                    .contacto-icono-descripcion-container-telefono:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-mail:hover .contactoTooltip,
-                                    .contacto-icono-descripcion-container-linkedin:hover .contactoTooltip {
-                                        transform: translateY(-10px);
+                            .contacto-enlace-container2{
+                                width: 300px;
+                            }
+                            
+                            .contacto-enlace-container:hover {
+                                border-radius: 10px;
+                            }
+                            
+                            .contacto-enlace-container:active {
+                            }
+                            
+                            .contacto-enlace-container::after {
+                                padding: 5px 8px;
+                                border-radius: 5px;
+                                font-size: 16px;
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip]:hover::after,
+                            .contacto-enlace-container[data-tooltip]:active::after {
+                            }
+                            
+                            .contacto-enlace-container[data-tooltip=""]::after {
+                            }
+
+                                            .contacto-icono {
+                                            }
+                                            
+                                            .contacto-telefono{
+                                                width: 2rem;
+                                                height: 2rem;
+                                            }
+
+                                            .contacto-email{
+                                                width: 2rem;
+                                                height: 2rem;
+                                            }
+
+                                            .contacto-linkedin{
+                                                width: 2rem;
+                                                height: 2rem;
+                                            }
+
+                                            .contacto-enlace{
+                                                font-size: 16px;
+                                            }
+
+                                    .contacto-email-lineaTexto{
+                                        
                                     }
 
-                                    
-                                    .contactoTooltip{
-                                        transform: translateX(-20%);
-                                    }
-
-                            
-                            .contacto-icono-descripcion-container-telefono {
-                                width: 9.5rem;
-                                border-radius: 15px;
-                            }
-
-                            
-                            .contacto-icono-descripcion-container-mail {
-                                width: 19.5rem;
-                                border-radius: 15px;
-                            }
-
-                            
-                            .contacto-icono-descripcion-container-linkedin{
-                                width: 8rem;
-                                border-radius: 15px;
-                            }
-            
-                                    .contactoTooltip {                               
-                                        padding: 10px;
-                                        border-radius: 10px;
-                                        font-size: 18px;
-                                        top: -37px;
-                                        left: 0%;
-                                    }
-
-                        .contacto-icono {
-                            width: 2rem;
-                            height: 2rem;
-                            margin-left: 1rem;
-                        }
-
-                        .contacto-telefono{
-                            background-image: url('../../../images/contacto/telefono.png');
-                        }
-                        .contacto-correo{
-                            background-image: url('../../../images/contacto/email.png');
-                        }
-                        .contacto-linkedin{
-                            background-image: url('../../../images/contacto/linkedin.png');
-                        }
-
-                        .contacto-descripcion {
-                            flex-direction: row;
-                            font-size: 16px;
-                        } */
 
 }
