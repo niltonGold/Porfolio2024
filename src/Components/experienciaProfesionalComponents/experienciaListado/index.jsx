@@ -39,11 +39,11 @@ const experiencias = [
   // FULL STACK WEB DEVELOPER(ESCUELA LULLABY)
   {
     iconoEmpresa: Caldi,
-    puestoExperiencia: 'Full Stack Developer',
+    puestoExperiencia: 'FULL STACK WEB DEVELOPER',
     description: (
 
       <ExperienciaDescripcion
-        empresa={'CALDI INGENIEROS CONSULTORES SL'}
+        empresa={'Caldi Ingenieros Consultores S.L.'}
         tiempo={'Abril 2024 - Julio 2024'}
         calle={'Calle Salónica 43, 28232, Las Rozas Madrid'}
 
@@ -94,11 +94,11 @@ const experiencias = [
   // DESARROLLADOR Y CONSULTOR DE SAGE 200
   {
     iconoEmpresa: andalus,
-    puestoExperiencia: 'Desarrollador y Consultor de Sage 200 ',
+    puestoExperiencia: 'DESARROLLADOR Y CONSULTOR DE SAGE 200',
     description: (
       
       <ExperienciaDescripcion
-        empresa={'AL-ANDALUS FEELING'}
+        empresa={'Al-Andalus Feeling'}
         tiempo={'Julio 2023 - Octubre 2024'}
         calle={'Granada, Andalucía, España'}
 
@@ -144,11 +144,11 @@ const experiencias = [
   // HACKATON BARCELONA
   {
     iconoEmpresa: jobinplanet,
-    puestoExperiencia: 'Programador full stack',
+    puestoExperiencia: 'PROGRAMADOR FULL STACK',
     description: (
       
       <ExperienciaConcurso
-        empresa={'JOBINPLANET BY TALENT POINT HR'}
+        empresa={'Jobinplanet By Talent Point Hr'}
         tiempo={'Abril 2023'}
         calle={'Recinto Spotify Camp Nou'}
 
@@ -199,11 +199,11 @@ const experiencias = [
   // HACKATON MADRID
   {
     iconoEmpresa: jobinplanet,
-    puestoExperiencia: 'Programador full stack',
+    puestoExperiencia: 'PROGRAMADOR FULL STACK',
     description: (
         
       <ExperienciaConcurso
-        empresa={'JOBINPLANET BY TALENT POINT HR'}
+        empresa={'Jobinplanet By Talent Point Hr'}
         tiempo={'Noviembre 2022'}
         calle={'WiZink Center Madrid'}
 

@@ -100,7 +100,7 @@
 
         /* CONTAINER PRINCIPAL */
         .OtrosEstudiosDescripcion_principal_container {
-            gap: 0.3rem;
+            gap: 0.5rem;
         }
 
         /* Tamaño de todos los iconos */
@@ -116,18 +116,17 @@
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .otrosEstudiosDescripcion_descripcion_del_trabajo_container {
-                    padding-left: 0.8rem;
-                    /* width: 10rem; */
+                    padding-left: 0.4rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .otrosEstudiosDescripcion_titulo_descripcion_container {
-                                    /* width: 8.5rem; */
-                                    gap: 1rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .otrosEstudiosDescripcion_titulo_descripcion_fila_container {
+                                    gap: 0.1rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -158,7 +157,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .otrosEstudiosDescripcion_icono_descripcion_parrafo_container {
                                             padding-left: 0.7rem;
-                                            gap: 0.3rem;
+                                            gap: 0.1rem;
                                         }
 
                                                 .otrosEstudiosDescripcion_parrafo {
@@ -168,6 +167,7 @@
                                                 }
 
                                                 .otrosEstudiosDescripcion_parrafo::before {
+                                                    padding-right: 1px;
                                                 }  
 
 }
@@ -189,23 +189,22 @@
 
         /* Tamaño de todos los subtitulos */                                                
         .otrosEstudiosDescripcion_dato {
-            font-size: 10px;
+            font-size: 9px;
         }
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .otrosEstudiosDescripcion_descripcion_del_trabajo_container {
-                    padding-left: 1.5rem;
-                    /* width: 10rem; */
+                    padding-left: 0.5rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .otrosEstudiosDescripcion_titulo_descripcion_container {
-                                    /* width: 10rem; */
-                                    gap: 1.5rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .otrosEstudiosDescripcion_titulo_descripcion_fila_container {
+                                    gap: 0.1rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -236,7 +235,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .otrosEstudiosDescripcion_icono_descripcion_parrafo_container {
                                             padding-left: 1rem;
-                                            gap: 0.5rem;
+                                            gap: 0.3rem;
                                         }
 
                                                 .otrosEstudiosDescripcion_parrafo {
@@ -244,6 +243,7 @@
                                                 }
 
                                                 .otrosEstudiosDescripcion_parrafo::before {
+                                                    padding-right: 2px;
                                                 } 
 
 }
@@ -275,11 +275,12 @@
 
                         /* Sub-Container2 de Descripciones */
                         .otrosEstudiosDescripcion_titulo_descripcion_container {
-                            gap: 2rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .otrosEstudiosDescripcion_titulo_descripcion_fila_container {
+                                    gap: 0.4rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -310,7 +311,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .otrosEstudiosDescripcion_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 0.7rem;
+                                            gap: 0.4rem;
                                         }
 
                                                 .otrosEstudiosDescripcion_parrafo {
@@ -318,6 +319,7 @@
                                                 }
 
                                                 .otrosEstudiosDescripcion_parrafo::before {
+                                                    padding-right: 5px;
                                                 } 
 
 }
@@ -344,16 +346,17 @@
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .otrosEstudiosDescripcion_descripcion_del_trabajo_container {
-                    padding-left: 2rem;
+                    padding-left: 1rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .otrosEstudiosDescripcion_titulo_descripcion_container {
-                            gap: 2.5rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .otrosEstudiosDescripcion_titulo_descripcion_fila_container {
+                                    gap: 0.3rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -384,7 +387,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .otrosEstudiosDescripcion_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 1rem;
+                                            gap: 0.4rem;
                                         }
 
                                                 .otrosEstudiosDescripcion_parrafo {
@@ -392,6 +395,7 @@
                                                 }
 
                                                 .otrosEstudiosDescripcion_parrafo::before {
+                                                    padding-right: 6px;
                                                 } 
 
 }
@@ -402,7 +406,7 @@
 
         /* CONTAINER PRINCIPAL */
         .oOtrosEstudiosDescripcion_principal_container {
-            gap: 0.5rem;
+            gap: 0.9rem;
         }
 
         /* Tamaño de todos los iconos */
@@ -418,16 +422,17 @@
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .otrosEstudiosDescripcion_descripcion_del_trabajo_container {
-                    padding-left: 2.2rem;
+                    padding-left: 1.5rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .otrosEstudiosDescripcion_titulo_descripcion_container {
-                            gap: 3rem;
+                            gap: 2rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .otrosEstudiosDescripcion_titulo_descripcion_fila_container {
+                                    gap: 0.5rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -458,7 +463,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .otrosEstudiosDescripcion_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 1rem;
+                                            gap: 0.5rem;
                                         }
 
                                                 .otrosEstudiosDescripcion_parrafo {
@@ -466,6 +471,7 @@
                                                 }
 
                                                 .otrosEstudiosDescripcion_parrafo::before {
+                                                    padding-right: 9px;
                                                 } 
 
 }
@@ -476,7 +482,7 @@
 
         /* CONTAINER PRINCIPAL */
         .OtrosEstudiosDescripcion_principal_container {
-            gap: 0.5rem;
+            gap: 1rem;
         }
 
         /* Tamaño de todos los iconos */
@@ -492,16 +498,17 @@
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .otrosEstudiosDescripcion_descripcion_del_trabajo_container {
-                    padding-left: 2.5rem;
+                    padding-left: 2rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .otrosEstudiosDescripcion_titulo_descripcion_container {
-                            gap: 3.5rem;
+                            gap: 2rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .otrosEstudiosDescripcion_titulo_descripcion_fila_container {
+                                    gap: 0.5rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -532,7 +539,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .otrosEstudiosDescripcion_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 1.2rem;
+                                            gap: 0.5rem;
                                         }
 
                                                 .otrosEstudiosDescripcion_parrafo {
@@ -540,6 +547,7 @@
                                                 }
 
                                                 .otrosEstudiosDescripcion_parrafo::before {
+                                                    padding-right: 10px;
                                                 } 
 
 }

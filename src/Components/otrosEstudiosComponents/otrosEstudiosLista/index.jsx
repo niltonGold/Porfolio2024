@@ -67,7 +67,7 @@ const otrosEstudios = [
   // UDEMY REACT: DE CER A EXPERTO (HOOKS Y MERN) 
   {
     iconoOtrosEstudios: udemy,
-    tituloDelEstudio: 'REACT: DE 0 A EXPERTO ( HOKKS Y MERN )',
+    tituloDelEstudio: 'REACT: DE 0 A EXPERTO ( HOOKS Y MERN )',
     otrosEstudiosDescripcion: (
       
       <OtrosEstudiosDescripcion

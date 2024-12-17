@@ -17,7 +17,6 @@ export const ExperienciaDescripcion = ( props ) => {
 
                                             {/*  SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */}
                                             <div className='experienciaprofecional_icono_dato_principal_container'>
-                                                    
                                                     <div className='experienciaprofecional_icono experienciaprofecional_empresa' />
 
                                                     <div className='experienciaprofecional_dato experienciaprofesional_fontweith1'>

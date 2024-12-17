@@ -151,7 +151,7 @@
 
         /* CONTAINER PRINCIPAL */
         .Experienciaprofecional_principal_container {
-            gap: 0.3rem;
+            gap: 0.5rem;
         }
 
                 /* Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
@@ -161,7 +161,7 @@
 
                         /* Sub-Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                         .experienciaprofecional_empresa_tiempo_calle_container {
-                            gap: 0.3rem;
+                            gap: 0.4rem;
                         }
 
                                 /* SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */
@@ -195,23 +195,22 @@
                             
         /* Tamaño de todos los subtitulos */
         .experienciaprofecional_dato {
-            font-size: 8px;
+            font-size: 7px;
         }
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .experienciaprofecional_descripcion_del_trabajo_container {
                     padding-left: 0.8rem;
-                    /* width: 10rem; */
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .experienciaprofecional_titulo_descripcion_container {
-                                    /* width: 8.5rem; */
-                                    gap: 1rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .experienciaprofecional_titulo_descripcion_fila_container {
+                                    gap: 0.1rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -227,7 +226,7 @@
                                         
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                        width: 7rem;
+                                                        width: 5rem;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {
@@ -242,7 +241,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .experienciaprofecional_icono_descripcion_parrafo_container {
                                             padding-left: 0.7rem;
-                                            gap: 0.3rem;
+                                            gap: 0.1rem;
                                         }
 
                                                 .experienciaprofecional_parrafo {
@@ -252,6 +251,7 @@
                                                 }
                                                                                                 
                                                 .experienciaprofecional_parrafo::before {
+                                                    padding-right: 1px;
                                                 }                                                                       
 
 }
@@ -262,17 +262,17 @@
 
         /* CONTAINER PRINCIPAL */
         .Experienciaprofecional_principal_container {
-            gap: 0.5rem;
+            gap: 0.6rem;
         }
 
                 /* Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                 .experienciaprofecional_datos_principales_de_la_empresa {
-                    padding-left: 0.6rem;
+                    padding-left: 0rem;
                 }
 
                         /* Sub-Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                         .experienciaprofecional_empresa_tiempo_calle_container {
-                            gap: 0.3rem;
+                            gap: 0.5rem;
                         }
 
                                 /* SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */
@@ -306,28 +306,27 @@
 
         /* Tamaño de todos los subtitulos */                                                
         .experienciaprofecional_dato {
-            font-size: 10px;
+            font-size: 9px;
         }
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .experienciaprofecional_descripcion_del_trabajo_container {
-                    padding-left: 1.5rem;
-                    /* width: 10rem; */
+                    padding-left: 0.5rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .experienciaprofecional_titulo_descripcion_container {
-                                    /* width: 10rem; */
-                                    gap: 1.5rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .experienciaprofecional_titulo_descripcion_fila_container {
+                                    gap: 0.2rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
                                         .experienciaprofecional_icono_titulo_descripcion_icono_container {
-                                            gap: 0.1rem;
+                                            gap: 0.2rem;
                                         }
 
                                                 .experienciaprofecional-icono-descripcion {
@@ -338,7 +337,7 @@
 
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                        width: 8rem;
+                                                        width: 7rem;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {
@@ -353,7 +352,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .experienciaprofecional_icono_descripcion_parrafo_container {
                                             padding-left: 1rem;
-                                            gap: 0.5rem;
+                                            gap: 0.3rem;
                                         }
 
                                                 .experienciaprofecional_parrafo {
@@ -361,6 +360,7 @@
                                                 }
 
                                                 .experienciaprofecional_parrafo::before {
+                                                    padding-right: 2px;
                                                 }    
 
 }
@@ -371,7 +371,7 @@
 
         /* CONTAINER PRINCIPAL */
         .Experienciaprofecional_principal_container {
-            gap: 0.5rem;
+            gap: 1rem;
         }
 
                 /* Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
@@ -381,7 +381,7 @@
 
                         /* Sub-Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                         .experienciaprofecional_empresa_tiempo_calle_container {
-                            gap: 0.5rem;
+                            gap: 0.7rem;
                         }
 
                                 /* SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */
@@ -425,11 +425,12 @@
 
                         /* Sub-Container2 de Descripciones */
                         .experienciaprofecional_titulo_descripcion_container {
-                            gap: 2rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .experienciaprofecional_titulo_descripcion_fila_container {
+                                    gap: 0.4rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -460,7 +461,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .experienciaprofecional_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 0.7rem;
+                                            gap: 0.4rem;
                                         }
 
                                                 .experienciaprofecional_parrafo {
@@ -468,6 +469,7 @@
                                                 }
 
                                                 .experienciaprofecional_parrafo::before {
+                                                    padding-right: 5px;
                                                 }     
 
 }
@@ -488,7 +490,7 @@
 
                         /* Sub-Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                         .experienciaprofecional_empresa_tiempo_calle_container {
-                            gap: 0.5rem;
+                            gap: 0.6rem;
                         }
 
                                 /* SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */
@@ -532,11 +534,12 @@
 
                         /* Sub-Container2 de Descripciones */
                         .experienciaprofecional_titulo_descripcion_container {
-                            gap: 2.5rem;
+                            gap: 1.5rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .experienciaprofecional_titulo_descripcion_fila_container {
+                                    gap: 0.3rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -567,7 +570,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .experienciaprofecional_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 1rem;
+                                            gap: 0.4rem;
                                         }
 
                                                 .experienciaprofecional_parrafo {
@@ -575,6 +578,7 @@
                                                 }
 
                                                 .experienciaprofecional_parrafo::before {
+                                                    padding-right: 6px;
                                                 }   
 
 }
@@ -585,7 +589,7 @@
 
         /* CONTAINER PRINCIPAL */
         .Experienciaprofecional_principal_container {
-            gap: 0.5rem;
+            gap: 0.9rem;
         }
 
                 /* Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
@@ -595,7 +599,7 @@
 
                         /* Sub-Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                         .experienciaprofecional_empresa_tiempo_calle_container {
-                            gap: 0.6rem;
+                            gap: 0.9rem;
                         }
 
                                 /* SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */
@@ -634,16 +638,17 @@
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .experienciaprofecional_descripcion_del_trabajo_container {
-                    padding-left: 2.2rem;
+                    padding-left: 2.8rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .experienciaprofecional_titulo_descripcion_container {
-                            gap: 3rem;
+                            gap: 2rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .experienciaprofecional_titulo_descripcion_fila_container {
+                                    gap: 0.5rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -674,7 +679,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .experienciaprofecional_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 1rem;
+                                            gap: 0.5rem;
                                         }
 
                                                 .experienciaprofecional_parrafo {
@@ -682,6 +687,7 @@
                                                 }
 
                                                 .experienciaprofecional_parrafo::before {
+                                                    padding-right: 9px;
                                                 }  
 
 }
@@ -692,7 +698,7 @@
 
         /* CONTAINER PRINCIPAL */
         .Experienciaprofecional_principal_container {
-            gap: 0.5rem;
+            gap: 1rem;
         }
 
                 /* Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
@@ -702,7 +708,7 @@
 
                         /* Sub-Container1 de nombre de la empresa, tiempo que trabaje en la empresa y localizacion de la empresa */
                         .experienciaprofecional_empresa_tiempo_calle_container {
-                            gap: 0.5rem;
+                            gap: 1rem;
                         }
 
                                 /* SubSub-Container1 icono empresa, tiempo, localizacion + dato de cada icono */
@@ -741,16 +747,17 @@
                         
                 /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
                 .experienciaprofecional_descripcion_del_trabajo_container {
-                    padding-left: 2.5rem;
+                    padding-left: 3rem;
                 }
 
                         /* Sub-Container2 de Descripciones */
                         .experienciaprofecional_titulo_descripcion_container {
-                            gap: 3.5rem;
+                            gap: 2rem;
                         }
 
                                 /* SubSub-Container2 de icono titulo y descripcion */
                                 .experienciaprofecional_titulo_descripcion_fila_container {
+                                    gap: 0.5rem;
                                 }
 
                                         /* SubSubSub-Container2 de icono titulo icono */
@@ -781,7 +788,7 @@
                                         /* SubSubSub-Container2 del parrafo de las descripciones */  
                                         .experienciaprofecional_icono_descripcion_parrafo_container {
                                             padding-left: 1.5rem;
-                                            gap: 1.2rem;
+                                            gap: 0.5rem;
                                         }
 
                                                 .experienciaprofecional_parrafo {
@@ -789,6 +796,7 @@
                                                 }
 
                                                 .experienciaprofecional_parrafo::before {
+                                                    padding-right: 10px;
                                                 }   
 
 }
