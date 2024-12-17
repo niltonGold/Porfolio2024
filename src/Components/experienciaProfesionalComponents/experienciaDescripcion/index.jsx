@@ -131,7 +131,7 @@ export const ExperienciaDescripcion = ( props ) => {
                                                                     <div className='experienciaprofecional_icono experienciaprofecional-icono-competencias experienciaprofecional_icono-competencias' />
                                                                     
                                                                     <div className='experienciaprofecional_dato experienciaprofesional_descripcion_titulo_fontweith experienciaprofesional_descripcion_competencias'>
-                                                                        Competencias potenciadas o desarrolladas: 
+                                                                        Competencias potenciadas o desarrolladas:
                                                                     </div>
                                                                     
                                                                     <div className='experienciaprofecional_icono experienciaprofecional-icono-competencias experienciaprofecional_icono-competencias' />

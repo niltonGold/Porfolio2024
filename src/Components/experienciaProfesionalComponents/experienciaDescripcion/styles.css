@@ -57,26 +57,16 @@
                                         }
 
 /* Tamaño de todos los subtitulos */
-/* .experienciaprofecional_dato{
+.experienciaprofecional_dato{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     align-self: center;
     font-family: Mangal;
     background-color: rgb(89, 89, 98);
+    text-align: center;
+    width: auto;
+} 
 
-} */
- 
-.experienciaprofecional_dato {
-    display: inline-flex;         /* Flexbox ajustado al contenido */
-    align-items: center;          /* Centrado vertical */
-    background-color: rgb(89, 89, 98);
-    font-family: Mangal;
-    width: max-content;           /* Ajusta el ancho al tamaño exacto del contenido */
-    white-space: normal;          /* Permite el salto de línea natural */
-    padding: 0;                   /* Sin espacio extra */
-    margin: 0;                    /* Sin márgenes */
-}
         /* Container2 de Descripcion del puesto, Competencias potenciadas o desarrolladas, Logros, Lo que aprendí */                      
         .experienciaprofecional_descripcion_del_trabajo_container {
             display: flex;
@@ -160,7 +150,6 @@
 }
 
 
-
 @media only screen and (min-width: 350px) and (max-width: 480px) {
 
         /* CONTAINER PRINCIPAL */
@@ -240,8 +229,7 @@
                                         
                                                     /* Descripción de Competencias potenciadas o desarrolladas */
                                                     .experienciaprofesional_descripcion_competencias {
-                                                       
-
+                                                       width: 7rem;
                                                     }
 
                                                 .experienciaprofecional-icono-logros {
