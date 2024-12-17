@@ -38,6 +38,7 @@ const experiencias = [
 
   // FULL STACK WEB DEVELOPER(ESCUELA LULLABY)
   {
+    id: 1,
     iconoEmpresa: Caldi,
     puestoExperiencia: 'FULL STACK WEB DEVELOPER',
     description: (
@@ -93,6 +94,7 @@ const experiencias = [
 
   // DESARROLLADOR Y CONSULTOR DE SAGE 200
   {
+    id: 2,
     iconoEmpresa: andalus,
     puestoExperiencia: 'DESARROLLADOR Y CONSULTOR DE SAGE 200',
     description: (
@@ -143,6 +145,7 @@ const experiencias = [
 
   // HACKATON BARCELONA
   {
+    id: 3,
     iconoEmpresa: jobinplanet,
     puestoExperiencia: 'PROGRAMADOR FULL STACK',
     description: (
@@ -198,6 +201,7 @@ const experiencias = [
 
   // HACKATON MADRID
   {
+    id: 4,
     iconoEmpresa: jobinplanet,
     puestoExperiencia: 'PROGRAMADOR FULL STACK',
     description: (
@@ -282,7 +286,7 @@ export default function ExperienciaListado() {
             
             {experiencias.map( ( step, index ) => (
                   
-              <Step key={step.puestoExperiencia} expanded>
+              <Step key={step.id} expanded>
 
                         {/* posicion del circulo */}
                         <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />} 

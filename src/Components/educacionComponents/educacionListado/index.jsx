@@ -37,6 +37,7 @@ const educaciones = [
 
     // NEOLAND
     {
+        id: 1,
         iconoAcademia: neoland,
         centroEducativo: 'NEOLAND',
         centroEducativoDescripcion: (
@@ -75,6 +76,7 @@ const educaciones = [
 
     // DABO FORMACIÓN
     {
+        id: 2,
         iconoAcademia: dabo,
         centroEducativo: 'DABO FORMACIÓN',
         centroEducativoDescripcion: (
@@ -111,6 +113,7 @@ const educaciones = [
 
     // IBM SKILLSBUILD Y BEJOB SQL
     {
+        id: 3,
         iconoAcademia: ibm,
         centroEducativo: 'IBM SKILLSBUILD Y BEJOB',
         centroEducativoDescripcion: (
@@ -156,6 +159,7 @@ const educaciones = [
 
     // IBM SKILLSBUILD Y BEJOB PYTHON
     {
+        id: 4,
         iconoAcademia: ibm,
         centroEducativo: 'IBM SKILLSBUILD Y BEJOB',
         centroEducativoDescripcion: (
@@ -194,6 +198,7 @@ const educaciones = [
 
     // CICLO FORMATIVO DE GRADO SUPERIOR
     {
+        id: 5,
         iconoAcademia: gradoSuperior,
         centroEducativo: 'CICLO FORMATIVO DE GRADO SUPERIOR',
         centroEducativoDescripcion: (
@@ -233,6 +238,7 @@ const educaciones = [
 
     // TM INSTITUTE OF TALENT MANAGEMENT
     {
+        id: 6,
         iconoAcademia: tm,
         centroEducativo: 'TM INSTITUTE OF TALENT MANAGEMENT',
         centroEducativoDescripcion: (
@@ -299,7 +305,7 @@ export default function EducacionListado() {
             
             {educaciones.map( ( step, index ) => (
                   
-              <Step key={step.centroEducativo} expanded >
+              <Step key={step.id} expanded >
 
                         {/* posicion del circulo */}
                         <StepLabel StepIconComponent={( props ) => <StepIcon {...props} {...stepIconProps} />} 
