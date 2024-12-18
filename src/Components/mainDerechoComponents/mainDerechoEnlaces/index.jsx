@@ -19,7 +19,7 @@ export const MainDerechoEnlaces = ( { experienciaRef, educacionRef, otrosEstudio
                       </div>
                       
                       <div className='HREF-boton' onClick={() => scrollToSection(educacionRef)}>
-                        EDUCACION
+                        EDUCACIÓN
                       </div>
                   </div>
                   

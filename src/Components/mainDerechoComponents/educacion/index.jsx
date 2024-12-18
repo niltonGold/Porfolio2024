@@ -8,7 +8,7 @@ export const Educacion = () => {
           <div className='Educacion-container'>
             
             <div className='educacion-titulo'>
-                EDUCACÍON
+                EDUCACIÓN
             </div>
 
             <EducacionListado/>
