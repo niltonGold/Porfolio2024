@@ -11,6 +11,7 @@ import { ExperienciaConcurso } from '../experienciaConcurso';
 import Caldi from '../../../images/experienciaProfesional/empresasIconos/caldiIngenierosConsultoresSL.png';
 import andalus from '../../../images/experienciaProfesional/empresasIconos/alAndaluzFeeling.jpeg';
 import jobinplanet from '../../../images/experienciaProfesional/empresasIconos/jobinplanet.png';
+import servi from '../../../images/experienciaProfesional/empresasIconos/serviform.png';
 
 
 
@@ -52,11 +53,11 @@ const experiencias = [
         descripcionFila1={`Como desarrollador full stack, diseñé y desarrollé una landing page eficiente, escalable y orientada a resultados, 
                            mejorando la experiencia de usuario y el rendimiento del sitio. Además, optimicé la estructura de la web de la 
                            empresa, facilitando su modificación, personalización y adaptación a nuevas necesidades y objetivos.`}
-        descripcionFila2={''}
-        descripcionFila3={''}
-        descripcionFila4={''}
-        descripcionFila5={''}
-        descripcionFila6={''}
+        descripcionFila2={``}
+        descripcionFila3={``}
+        descripcionFila4={``}
+        descripcionFila5={``}
+        descripcionFila6={``}
         
         // Competencias potenciadas o desarrolladas
         competenciaFila1={`ReactJS, HTML y CSS: Amplié mis conocimientos en ReactJS, HTML y CSS para crear componentes reutilizables y 
@@ -64,8 +65,8 @@ const experiencias = [
         competenciaFila2={`Gestión de Proyectos en GitHub: Mejoré mis habilidades de gestión de proyectos y colaboración en GitHub.`}
         competenciaFila3={`Responsive Design: Desarrollé habilidades en diseño responsive para asegurar accesibilidad en múltiples dispositivos.`}
         competenciaFila4={`Publicación en Netlify: Adquirí experiencia en el despliegue y actualización de proyectos web.`}
-        competenciaFila5={''}
-        competenciaFila6={''}
+        competenciaFila5={``}
+        competenciaFila6={``}
 
         // Logros
         logrosFila1={`Diseñé y desarrollé una landing page dinámica para la empresa, implementando React y separando componentes,
@@ -92,16 +93,69 @@ const experiencias = [
 
 
 
-  // DESARROLLADOR Y CONSULTOR DE SAGE 200
+  // TECNICO EN SISTEMAS MICROINFORMÁTICOS
   {
     id: 2,
+    iconoEmpresa: servi,
+    puestoExperiencia: 'TÉCNICO EN SISTEMAS MICROINFORMÁTICOS',
+    description: (
+
+      <ExperienciaDescripcion
+        empresa={'Telefónica'}
+        tiempo={'Abril 2024 - Abril 2024'}
+        calle={'Ronda de la Comunicación, Fuencarral-El Pardo, 28050 Madrid'}
+
+        // Descripcion del puesto
+        descripcionFila1={`Gestión de usuarios, supervisión del correcto funcionamiento de los equipos informáticos, 
+                           digitalización y registro de documentos en el sistema, y creación de copias de seguridad 
+                           para garantizar la protección de los datos.`}
+        descripcionFila2={''}
+        descripcionFila3={''}
+        descripcionFila4={''}
+        descripcionFila5={''}
+        descripcionFila6={''}
+        
+        // Competencias potenciadas o desarrolladas
+        competenciaFila1={`Gestión de usuarios mediante programas especializados, asegurando un control eficiente de accesos y permisos.`}
+        competenciaFila2={`Manejo de sistemas de digitalización de documentos mediante escáneres, optimizando la organización y almacenamiento de información.`}
+        competenciaFila3={`Implementación y administración de procesos de copia de seguridad para garantizar la protección y recuperación de datos.`}
+        competenciaFila4={``}
+        competenciaFila5={``}
+        competenciaFila6={``}
+
+        // Logros
+        logrosFila1={`Aseguré la realización de copias de seguridad completas y confiables, garantizando la protección y 
+                      disponibilidad de los datos en todo momento.`}
+        logrosFila2={`Mantuve el funcionamiento óptimo de los sistemas durante todo el proceso, minimizando interrupciones 
+                      y fallos operativos.`}
+        logrosFila3={``}
+        logrosFila4={``}
+        logrosFila5={``}
+        logrosFila6={``}
+
+        // Lo que aprendí
+        aprendiFila1={`Creación de copias de seguridad para proteger datos.`}
+        aprendiFila2={`Gestión de usuarios y control de accesos.`}
+        aprendiFila3={`Uso de sistemas de digitalización y registro con escáneres.`}
+        aprendiFila4={``}
+        aprendiFila5={``}
+        aprendiFila6={``}
+
+      />  
+    
+    ),
+  },
+
+  // DESARROLLADOR Y CONSULTOR DE SAGE 200
+  {
+    id: 3,
     iconoEmpresa: andalus,
     puestoExperiencia: 'DESARROLLADOR Y CONSULTOR DE SAGE 200',
     description: (
       
       <ExperienciaDescripcion
         empresa={'Al-Andalus Feeling'}
-        tiempo={'Julio 2023 - Octubre 2024'}
+        tiempo={'Julio 2023 - Octubre 2023'}
         calle={'Granada, Andalucía, España'}
 
         // Descripcion del puesto
@@ -145,7 +199,7 @@ const experiencias = [
 
   // HACKATON BARCELONA
   {
-    id: 3,
+    id: 4,
     iconoEmpresa: jobinplanet,
     puestoExperiencia: 'PROGRAMADOR FULL STACK',
     description: (
@@ -201,7 +255,7 @@ const experiencias = [
 
   // HACKATON MADRID
   {
-    id: 4,
+    id: 5,
     iconoEmpresa: jobinplanet,
     puestoExperiencia: 'PROGRAMADOR FULL STACK',
     description: (
