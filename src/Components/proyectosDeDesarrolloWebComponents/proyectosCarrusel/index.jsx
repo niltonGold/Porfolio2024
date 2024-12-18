@@ -92,7 +92,7 @@ export default function ProyectosCarrusel() {
           <SwiperSlide className='swiper-card'>
 
               <CardProyecto
-                titulocard='ESCUELA LULLABY'
+                titulocard='LANDINGPAGE'
                 tecnologias='(React, Html, Css, JavaScript)'
                 imagen={landingpage}
                 descripcion='Landing page desarrollada con React, que incluye tarjetas reutilizables para mostrar información 
