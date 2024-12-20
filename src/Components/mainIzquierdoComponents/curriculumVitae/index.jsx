@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import CurriculumVitaeDocument from '../../../documents/Curriculum-vitae-2024_v5.pdf';
+import CurriculumVitaeDocument from '../../../documents/Curriculum2024.pdf';
 
 export const CurriculumVitae = () => {
 

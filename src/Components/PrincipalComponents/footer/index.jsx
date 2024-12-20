@@ -1,6 +1,6 @@
 import './styles.css';
 import React, { forwardRef } from 'react';
-import CurriculumVitae from '../../../documents/Curriculum-vitae-2024_v5.pdf'
+import CurriculumVitae from '../../../documents/Curriculum2024.pdf'
 
 // Exportar el componente Footer utilizando forwardRef y export const
 export const Footer = forwardRef((props, ref) => {
