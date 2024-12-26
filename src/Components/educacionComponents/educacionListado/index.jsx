@@ -10,7 +10,6 @@ import { EducacionDescripcion } from '../educacionDescripcion';
 // Logotipos de las centroEducativos
 import neoland from '../../../images/educacion/academiasLogos/neoland.png';
 import dabo from '../../../images/educacion/academiasLogos/dabo_logo.jpeg';
-import ibm from '../../../images/educacion/academiasLogos/Ibm_logo.jpg';
 import gradoSuperior from '../../../images/educacion/academiasLogos/rosa_chacel_logo.jpeg';
 import tm from '../../../images/educacion/academiasLogos/tm_logo.jpeg';
 
@@ -35,9 +34,84 @@ const educaciones = [
 
 
 
-    // NEOLAND
+    // DABO FORMACIÓN
     {
         id: 1,
+        iconoAcademia: dabo,
+        centroEducativo: 'DABO FORMACIÓN',
+        centroEducativoDescripcion: (
+        
+        <EducacionDescripcion
+            tituloDelCurso={'Sistemas Microinformáticos'}
+            fechaDelCurso={'Abril 2024 - Noviembre 2024'}
+            
+            // Horas de clases impartidas
+            horasDeClasesImpartidasFila1={`560h (535h online + 25h presencial)`}
+            
+            // Tecnologías aprendidas
+            tecnologiasAprendidasFila1={`Sistemas operativos, entonces de windows, microsoft office, instalación de programas, backups del sistema, etc.`}
+            tecnologiasAprendidasFila2={``}
+            tecnologiasAprendidasFila3={``}
+            tecnologiasAprendidasFila4={``}
+            tecnologiasAprendidasFila5={``}
+            tecnologiasAprendidasFila6={``}
+
+            // Contenido del curso
+            contenidoDelCursoFila1={`Instalación y configuración de sistemas operativos.`}
+            contenidoDelCursoFila2={`Implantación de los elementos de la red.`}
+            contenidoDelCursoFila3={`Instalación y configuración de aplicaciones informáticas.`}
+            contenidoDelCursoFila4={`Aplicaciones microinformáticas.`}
+            contenidoDelCursoFila5={``}
+            contenidoDelCursoFila6={``}
+            
+        />  
+
+        ),
+    },
+
+
+
+    // TM INSTITUTE OF TALENT MANAGEMENT
+    {
+        id: 4,
+        iconoAcademia: tm,
+        centroEducativo: 'TM INSTITUTE OF TALENT MANAGEMENT',
+        centroEducativoDescripcion: (
+        
+        <EducacionDescripcion
+            tituloDelCurso={'TÉCNICO EN SAGE 200'}
+            fechaDelCurso={'Mayo 2023 - Agosto 2023'}
+            
+            // Horas de clases impartidas
+            horasDeClasesImpartidasFila1={`2 años`}
+            
+            // Tecnologías aprendidas
+            tecnologiasAprendidasFila1={`Sage 200, SQL, SQL Management Studio`}
+            tecnologiasAprendidasFila2={``}
+            tecnologiasAprendidasFila3={``}
+            tecnologiasAprendidasFila4={``}
+            tecnologiasAprendidasFila5={``}
+            tecnologiasAprendidasFila6={``}
+
+            // Contenido del curso
+            contenidoDelCursoFila1={`Módulo 1 (Gestión de Tarifas en Sage): Manejo y personalización de tarifas en Sage 200.`}
+            contenidoDelCursoFila2={`Módulo 2 (Creación de Ofertas en Sage): Desarrollo y gestión de ofertas comerciales.`}
+            contenidoDelCursoFila3={`Módulo 3 (Consultoría Funcional en Finanzas y Gestión): Enfoque en módulos de Finanzas y Gestión.`}
+            contenidoDelCursoFila4={`Módulo 4 (Desarrollo Básico en Sage): Personalización y extensión de funcionalidades.`}
+            contenidoDelCursoFila5={`Módulo 5 (Demos Comerciales y Funcionales): Preparación y presentación de demostraciones de Sage 200.`}
+            contenidoDelCursoFila6={`Módulo 6: (Estrategias de Marketing): Promoción de productos y servicios relacionados con Sage 200.`}
+            contenidoDelCursoFila7={`Módulo 7: (Habilidades para Consultoría): Competencias básicas y avanzadas para profesionales de consultoría.`}
+            
+        />  
+
+        ),
+    },
+
+
+
+    // NEOLAND
+    {
+        id: 5,
         iconoAcademia: neoland,
         centroEducativo: 'NEOLAND',
         centroEducativoDescripcion: (
@@ -74,131 +148,9 @@ const educaciones = [
 
 
 
-    // DABO FORMACIÓN
-    {
-        id: 2,
-        iconoAcademia: dabo,
-        centroEducativo: 'DABO FORMACIÓN',
-        centroEducativoDescripcion: (
-        
-        <EducacionDescripcion
-            tituloDelCurso={'Sistemas Microinformáticos'}
-            fechaDelCurso={'Abril 2024 - Noviembre 2024'}
-            
-            // Horas de clases impartidas
-            horasDeClasesImpartidasFila1={`560h (535h online + 25h presencial)`}
-            
-            // Tecnologías aprendidas
-            tecnologiasAprendidasFila1={`Sistemas operativos, entonces de windows, microsoft office, instalación de programas, backups del sistema, etc.`}
-            tecnologiasAprendidasFila2={``}
-            tecnologiasAprendidasFila3={``}
-            tecnologiasAprendidasFila4={``}
-            tecnologiasAprendidasFila5={``}
-            tecnologiasAprendidasFila6={``}
-
-            // Contenido del curso
-            contenidoDelCursoFila1={`Instalación y configuración de sistemas operativos.`}
-            contenidoDelCursoFila2={`Implantación de los elementos de la red.`}
-            contenidoDelCursoFila3={`Instalación y configuración de aplicaciones informáticas.`}
-            contenidoDelCursoFila4={`Aplicaciones microinformáticas.`}
-            contenidoDelCursoFila5={``}
-            contenidoDelCursoFila6={``}
-            
-        />  
-
-        ),
-    },
-
-
-
-    // IBM SKILLSBUILD Y BEJOB SQL
-    {
-        id: 3,
-        iconoAcademia: ibm,
-        centroEducativo: 'IBM SKILLSBUILD Y BEJOB',
-        centroEducativoDescripcion: (
-        
-        <EducacionDescripcion
-            tituloDelCurso={'SQL IBM SkillsBuil - DataHack'}
-            fechaDelCurso={'Mayo 2024 - Julio 2024'}
-            
-            // Horas de clases impartidas
-            horasDeClasesImpartidasFila1={`40 Horas`}
-            
-            // Tecnologías aprendidas
-            tecnologiasAprendidasFila1={`SQL, SQL Management Studio`}
-            tecnologiasAprendidasFila2={``}
-            tecnologiasAprendidasFila3={``}
-            tecnologiasAprendidasFila4={``}
-            tecnologiasAprendidasFila5={``}
-            tecnologiasAprendidasFila6={``}
-
-            // Contenido del curso
-            contenidoDelCursoFila1={`Introducción e instalación de recursos SQL.`}
-            contenidoDelCursoFila2={`Fundamento y estructura de BBDD.`}
-            contenidoDelCursoFila3={`Relaciones y Restricciones entre tablas.`}
-            contenidoDelCursoFila4={`Manipulación de registros DML cons insert y select y Funciones de agregado.`}
-            contenidoDelCursoFila5={`Operadores lógicos y , Stored Procedures, Variables y Subconsultas.`}
-            contenidoDelCursoFila6={`Estructuras de control y operadores Aritméticos y de Comparación.`}
-            contenidoDelCursoFila7={`Herramientas extras y sentencias DDL.`}
-            contenidoDelCursoFila8={`Funciones de conversión y texto y Transacciones.`}
-            contenidoDelCursoFila9={`Joins y Unions.`}
-            contenidoDelCursoFila10={`Funciones definidas por el usuario.`}
-            contenidoDelCursoFila11={`Tablas temporales.`}
-            contenidoDelCursoFila12={`Vistas.`}
-            contenidoDelCursoFila13={`Triggers.`}
-            contenidoDelCursoFila14={`Backup y Restored Database.`}
-            contenidoDelCursoFila15={`Scheduled JOBS.`}
-            
-        />  
-
-        ),
-    },
-
-
-
-    // IBM SKILLSBUILD Y BEJOB PYTHON
-    {
-        id: 4,
-        iconoAcademia: ibm,
-        centroEducativo: 'IBM SKILLSBUILD Y BEJOB',
-        centroEducativoDescripcion: (
-            
-            <EducacionDescripcion
-            tituloDelCurso={'PYTHON FULL STACK'}
-            fechaDelCurso={'Abril 2024 - Mayo 2024'}
-            
-            // Horas de clases impartidas
-            horasDeClasesImpartidasFila1={`20 horas`}
-            
-            // Tecnologías aprendidas
-            tecnologiasAprendidasFila1={`Pyhton, Git, Github`}
-            tecnologiasAprendidasFila2={``}
-            tecnologiasAprendidasFila3={``}
-            tecnologiasAprendidasFila4={``}
-            tecnologiasAprendidasFila5={``}
-            tecnologiasAprendidasFila6={``}
-
-            // Contenido del curso
-            contenidoDelCursoFila1={`Modulo 1: Fundamentos de internet.`}
-            contenidoDelCursoFila2={`Modulo 2: Fundamentos de Programacion.`}
-            contenidoDelCursoFila3={`Modulo 3: Fundamentos de Git GitHub.`}
-            contenidoDelCursoFila4={`Modulo 4: Fundamentos de Desarrollo Web.`}
-            contenidoDelCursoFila5={`Modulo 5: Conceptos Básicos de Python.`}
-            contenidoDelCursoFila6={`Modulo 6: Programación en Python, Algoritmos.`}
-            contenidoDelCursoFila7={`Modulo 7: Pruebas con Python.`}
-            contenidoDelCursoFila8={`Modulo 8: Programación orientada a objetos de Python.`}
-            
-            />  
-
-        ),
-    },
-
-
-
     // CICLO FORMATIVO DE GRADO SUPERIOR
     {
-        id: 5,
+        id: 6,
         iconoAcademia: gradoSuperior,
         centroEducativo: 'CICLO FORMATIVO DE GRADO SUPERIOR',
         centroEducativoDescripcion: (
@@ -236,41 +188,6 @@ const educaciones = [
     },
 
 
-    // TM INSTITUTE OF TALENT MANAGEMENT
-    {
-        id: 6,
-        iconoAcademia: tm,
-        centroEducativo: 'TM INSTITUTE OF TALENT MANAGEMENT',
-        centroEducativoDescripcion: (
-        
-        <EducacionDescripcion
-            tituloDelCurso={'TÉCNICO EN SAGE 200'}
-            fechaDelCurso={'Mayo 2023 - Agosto 2023'}
-            
-            // Horas de clases impartidas
-            horasDeClasesImpartidasFila1={`2 años`}
-            
-            // Tecnologías aprendidas
-            tecnologiasAprendidasFila1={`Sage 200, SQL, SQL Management Studio`}
-            tecnologiasAprendidasFila2={``}
-            tecnologiasAprendidasFila3={``}
-            tecnologiasAprendidasFila4={``}
-            tecnologiasAprendidasFila5={``}
-            tecnologiasAprendidasFila6={``}
-
-            // Contenido del curso
-            contenidoDelCursoFila1={`Módulo 1 (Gestión de Tarifas en Sage): Manejo y personalización de tarifas en Sage 200.`}
-            contenidoDelCursoFila2={`Módulo 2 (Creación de Ofertas en Sage): Desarrollo y gestión de ofertas comerciales.`}
-            contenidoDelCursoFila3={`Módulo 3 (Consultoría Funcional en Finanzas y Gestión): Enfoque en módulos de Finanzas y Gestión.`}
-            contenidoDelCursoFila4={`Módulo 4 (Desarrollo Básico en Sage): Personalización y extensión de funcionalidades.`}
-            contenidoDelCursoFila5={`Módulo 5 (Demos Comerciales y Funcionales): Preparación y presentación de demostraciones de Sage 200.`}
-            contenidoDelCursoFila6={`Módulo 6: (Estrategias de Marketing): Promoción de productos y servicios relacionados con Sage 200.`}
-            contenidoDelCursoFila7={`Módulo 7: (Habilidades para Consultoría): Competencias básicas y avanzadas para profesionales de consultoría.`}
-            
-        />  
-
-        ),
-    },
 
 ];
 
