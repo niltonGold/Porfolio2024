@@ -12,22 +12,22 @@ export const SoftSkills = () => {
                       
           
                             <div className='softskills-titulo-descripcion-container'> 
-                                <div className='softskills-icono-titulo-container'>
-                                    <div className='softskills-icono sofskill-organizacion' />
-                                    <div className='softskill-titulo-descripcion softskill-titulo-descripcion-organizacionYgestion'>
-                                        ORGANIZACIÓN Y GESTIÓN :
-                                    </div>
-                                    <div className='softskills-icono sofskill-organizacion' />
-                                </div>
-                                <div className='softskills-parrafo'>
+                                {/* <div className='softskills-icono-titulo-container'> */}
+                                    {/* <div className='softskills-icono sofskill-organizacion' /> */}
+                                    {/* <div className='softskill-titulo-descripcion softskill-titulo-descripcion-organizacionYgestion'> */}
+                                        Gestión eficiente de tareas
+                                    {/* </div> */}
+                                    {/* <div className='softskills-icono sofskill-organizacion' /> */}
+                                {/* </div> */}
+                                {/* <div className='softskills-parrafo'>
                                     Excelentes habilidades para organizar y gestionar tareas y proyectos de manera eficiente.
-                                </div>
+                                </div> */}
                             </div>
                             
                             {/* --------------------------------------------------------------------------------  */}
                             
                             <div className='softskills-titulo-descripcion-container'>
-                                <div className='softskills-icono-titulo-container'>
+                                {/* <div className='softskills-icono-titulo-container'>
                                     <div className='softskills-icono sofskill-puntualidad' />
                                     <div className='softskill-titulo-descripcion softskill-titulo-descripcion-puntualidadAbsoluta'>
                                         PUNTUALIDAD ABSOLUTA:
@@ -36,13 +36,14 @@ export const SoftSkills = () => {
                                 </div>
                                 <div className='softskills-parrafo'>
                                     Siempre puntual y comprometido con la responsabilidad en todas las actividades.
-                                </div>
+                                </div> */}
+                                Responsabilidad y puntualidad
                             </div>
               
                             {/* --------------------------------------------------------------------------------  */}
                             
                             <div className='softskills-titulo-descripcion-container'> 
-                                <div className='softskills-icono-titulo-container'>
+                                {/* <div className='softskills-icono-titulo-container'>
                                     <div className='softskills-icono sofskill-adaptabilidad' />
                                     <div className='softskill-titulo-descripcion softskill-titulo-descripcion-adaptabilidad_y_flexibilidad'>
                                         ADAPTABILIDAD Y FLEXIBILIDAD :
@@ -51,8 +52,39 @@ export const SoftSkills = () => {
                                 </div>
                                 <div className='softskills-parrafo'>
                                     Capacidad para adaptarme fácilmente a diferentes situaciones y entornos.
+                                </div> */}
+                                Capacidad de adaptación
+                            </div>
+
+                            {/* --------------------------------------------------------------------------------  */}
+                            
+                            <div className='softskills-titulo-descripcion-container'> 
+                                {/* <div className='softskills-icono-titulo-container'>
+                                    <div className='softskills-icono sofskill-adaptabilidad' />
+                                    <div className='softskill-titulo-descripcion softskill-titulo-descripcion-adaptabilidad_y_flexibilidad'>
+                                        ADAPTABILIDAD Y FLEXIBILIDAD :
+                                    </div>
+                                    <div className='softskills-icono sofskill-adaptabilidad' />
                                 </div>
-                            </div> 
+                                <div className='softskills-parrafo'>
+                                    Capacidad para adaptarme fácilmente a diferentes situaciones y entornos.
+                                </div> */}
+                                Trabajo colaborativo e individual
+                            </div>
+
+                            <div className='softskills-titulo-descripcion-container'> 
+                                {/* <div className='softskills-icono-titulo-container'>
+                                    <div className='softskills-icono sofskill-adaptabilidad' />
+                                    <div className='softskill-titulo-descripcion softskill-titulo-descripcion-adaptabilidad_y_flexibilidad'>
+                                        ADAPTABILIDAD Y FLEXIBILIDAD :
+                                    </div>
+                                    <div className='softskills-icono sofskill-adaptabilidad' />
+                                </div>
+                                <div className='softskills-parrafo'>
+                                    Capacidad para adaptarme fácilmente a diferentes situaciones y entornos.
+                                </div> */}
+                                Solución estratégica de problemas
+                            </div>  
               
           
                   </div>
