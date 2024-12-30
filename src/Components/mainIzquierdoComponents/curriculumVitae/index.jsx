@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles.css';
-import CurriculumVitaeDocument from '../../../documents/Curriculum2024.pdf';
+import CurriculumVitaeDocument from '../../../documents/NiltonMedinaCV.pdf';
 
 export const CurriculumVitae = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = CurriculumVitaeDocument; // La ruta al archivo que quieres descargar
-        link.setAttribute('download', 'CurriculumVitae.pdf'); // El nombre con el que quieres que se descargue el archivo
+        link.setAttribute('download', 'NiltonMedinaCV.pdf'); // El nombre con el que quieres que se descargue el archivo
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
