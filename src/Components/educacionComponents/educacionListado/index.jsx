@@ -83,7 +83,7 @@ const educaciones = [
             fechaDelCurso={'Mayo 2023 - Agosto 2023'}
             
             // Horas de clases impartidas
-            horasDeClasesImpartidasFila1={`2 años`}
+            horasDeClasesImpartidasFila1={`248 horas`}
             
             // Tecnologías aprendidas
             tecnologiasAprendidasFila1={`Sage 200, SQL, SQL Management Studio`}
